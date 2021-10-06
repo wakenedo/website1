@@ -1,0 +1,46 @@
+.content {
+    margin: 0 auto 25px;
+    display: flex;
+    max-width: 1190px;
+    justify-content: space-between;
+
+    img {
+        width: 415px;
+        height: 300px;
+        border-radius: 5px 0 0 5px;
+    }
+
+    div{
+        background: var(--gray300);
+        border-radius: 5px 5px 5px 5px;
+        div{
+            border: 0.5px solid var(--gray700);
+                        
+        }        
+    }
+    
+    .section {
+        max-width: 770px;
+        padding: 1rem;
+    
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        h4 {
+            display: flex;
+            flex-direction: column;
+        }    
+    }
+
+    .section2{
+        max-width:1180px;
+    }
+    
+}
+
+
+
+
+

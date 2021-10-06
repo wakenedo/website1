@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  :root {
+    --white: #ffffff;
+    --gray100: #f4f6fc;
+    --gray300: #a8a8b3;
+    --gray700: #323238;
+    --gray800: #29292e;
+    --gray850: #1f2729;
+    --gray900: #121214;
+    --secondary: #fe8cab;
+    --primary: #8b96ff;
+  }
+  
+  @media (min-width: 1080px) {
+    html{
+      font-size: 87.5%;
+    }
+  }
+  
+  body {
+    background: linear-gradient(rgb(77, 107, 189), rgb(196, 194, 194));
+    color: var(--gray700);
+    
+  }
+  
+  body, input, textarea, select, button {
+    font: 400 1rem "Roboto", sans-serif;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .skillbar-percent {
+    color: var(--gray700) !important;
+}
+  .skillbar-bar {
+    background: var(--gray300) !important;
+}
+  

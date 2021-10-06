@@ -1,0 +1,28 @@
+.contact {
+    background: var(--gray700);
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+       
+    div{
+        a {
+            cursor: default;
+        }
+        
+        p{
+            color: var(--gray300);
+            width: 600px;
+            cursor: pointer;
+            width: 250px;
+        
+            span {
+                margin-top: 2px;
+                margin-left: 5px;
+            }
+
+            svg{                
+                margin-left: 2px;
+            }
+        }
+    }
+}
