@@ -7,11 +7,10 @@ import projects from '../../constants/projects'
 
 
 function ProjectsPage() {
-    const renderProjects = /*async*/ () => {
+    const renderProjects = () => {
     let arr = []
-
     let projectsArr = projects
-    //let catalogoArr = await getCatalgo() : 
+
     projectsArr.forEach(
         project => {
             arr.push(<Project key={project.Id} data={project}/>)  
@@ -19,8 +18,6 @@ function ProjectsPage() {
     )
     return arr 
 }
-
-
   
     return (
     <>

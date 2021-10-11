@@ -99,16 +99,16 @@ const  projects = [
         "Id" : "5",
         "Image" : "https://miro.medium.com/max/5120/1*mp91A9RzagntGGjBnwu4Yw.png",
         "Name" : "Node.js Express Project",
-        "Date" : "05/2020 to 08/2020 ",
-        "Description" : "Desenvolvimento de portal de imóveis. Trabalhei em um grupo de 4 desenvolvedores, meu  foco foi o  desenvolvimento das páginas dos imóveis e parte do sistema de autenticação de usuários. Daily tasks, depois de prontas enviava o código para ser testado. ",
+        "Date" : "10/2020 to 01/2021 ",
+        "Description" : "esenvolvimento  de  páginas  e  integração  de  rotas  para site de conteúdo adulto, em desenvolvimento.Trabalhei  com  2  desenvolvedores,  foco  em  testes,  e  em  debugging  /  correção  de  erros.  Participei  um  pouco  da  implementação  do  Backend.  Daily  tasks,  com testes e análise de performance.",
             
             "projectTech" : {
                 "tech1" : "Design | Adobe XD",
                 "tech2" : "Database | Node.js - Express",
-                "tech3" : "Workscope | React.js - Frontend "
+                "tech3" : "Workscope | React.js - Frontend, Node.js - Backend", 
             },
             "projectTools" : {
-                "tool1" : "- MERN Stack",
+                "tool1" : "- Node.js - Express",
                 "tool2" : "- React Hooks - UseState | UseEffect",
                 "tool3" : "- PostMan | DevTools - Testing  ",
                 "tool4" : "- Axios - API fetching",
