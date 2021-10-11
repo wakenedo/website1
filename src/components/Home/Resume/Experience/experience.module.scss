@@ -3,9 +3,9 @@
     padding: 0 2rem;
     font-size: 1.6rem;
     margin: 0 24rem 2rem;
-    background: var(--gray300);
+    background: var(--gray700);
     border-radius: 5px;
-    
+    color: var(--gray100);
 
     h3 {
         font-size: 3.2rem;
@@ -13,7 +13,8 @@
         font-weight: 900;
         margin-top: 2rem;
         font-weight: lighter;
-        padding-top: 15px;    
+        padding-top: 15px;
+        border-bottom: 1px solid;    
     }
 
     p {

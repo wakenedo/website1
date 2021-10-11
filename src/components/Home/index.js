@@ -39,19 +39,19 @@ export default function Home() {
                     Auto didata, dedicado e apaixonado por técnologias,
                     desde 2017 trabalho como desenvolvedor frontend, freelancer. Começei trabalhando
                     com JavaScript, CSS e HTML puro e com o tempo migrei para a biblioteca React me especializado
-                    cada vez mais nas stacks, técnologias e ferramen-tas que contemplam a biblioteca.
+                    cada vez mais nas stacks, técnologias e ferramentas que contemplam a biblioteca.
                   <br/>
                     Com o passar do tempo desenvolvi uma curuosidade sobre os processos, ferramentas e técnologias
-                    do backend, principalmente no Node.js, Express e Mongo. O que me fez estudar, apliando meu entendimento
-                    e visão do processo de desenvolvimento.
+                    do backend, principalmente em relação ao Node.js, Express e MongoDB. O que me fez estudar, apliando meu entendimento
+                    e visão dos processos do desenvolvimento.
                   <br/>
                     Já tive a oprotunidade de trabalhar com diversos clientes de diferentes países e com demandas diversificadas. 
                     Focado no desenvolvimento web frontend, compus algumas pequenas equipes adquirindo experiência com a metodôlogia
                     ágil e versionamento.
                   <br/>
                     Atualmente busco oportunidades em desenvolvimento web, utilizando técnologias como React.js, Node.js,  
-                    MERN Stack, TypeScript, Next.js, SASS, Styled-Components para ampliar minhas experiências e conhecimentos 
-                    e conhecer projetos incríveis e equipes excepcionais.                  
+                    MERN Stack, TypeScript, Next.js, SASS, Styled-Components para ampliar minhas experiências e conhecimentos. 
+                    Conhecer projetos incríveis e equipes excepcionais.                  
                 </p>
          </section>
                                                                            

@@ -34,6 +34,7 @@ export default function Experience() {
                 <span>- GitHub, BitBucket (Versioning) </span>
                 <span>- Figma (Prototyping) </span>
                 <span>- Agile, Kanban & Scrum </span>
+                <span>- Node.js, Express, MongoDB </span>
          </section>
          <h4>Freelancer | June 2017 until Date</h4>  
          </div>                                                
