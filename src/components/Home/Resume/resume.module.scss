@@ -12,14 +12,32 @@
         font-weight: 900;
         margin-top: 1.5rem;
         font-weight: lighter;
-        border-bottom: 1px solid;         
+        border-bottom: 1px solid;
+        color: var(--primary);         
+    }
+
+    h4 {
+        color: var(--primary);
     }
 
     p {
         font-size: 1.2rem;
+        font-weight: 900;
     }
-       
+    
+    div {
+        margin-bottom: 1.5rem;
+        
+        a {
+            font-size: 1.5rem;
+            color: var(--primary);
 
+            svg{
+                margin-right: 5px;
+            }
+            
+        }
+    }
 }
 
 .section {
@@ -32,40 +50,9 @@
         font-size: 1.2rem;
         font-weight: lighter;
         display: flex;
-    }
-
-   
-    div {
-        margin-top: 1.5rem;
-        margin-left: none !important;
-        
-        a {
-            font-size: 1.5rem;
-            color: var(--primary);
-
-            svg{
-                margin-right: 5px;
-            }
-            
-        }
-    }
-    
+    }   
 }
 
-div {
-    margin-bottom: 1.5rem;
-    
-    a {
-        font-size: 1.5rem;
-        color: var(--primary);
-
-
-        svg{
-            margin-right: 5px;
-        }
-        
-    }
-}
 
 
 

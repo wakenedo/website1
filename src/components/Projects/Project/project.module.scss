@@ -3,7 +3,7 @@
     display: flex;
     max-width: 1190px;
     justify-content: space-between;
-    color: var(--gray100);
+    color: var(--gray700);
 
     img {
         width: 415px;
@@ -12,12 +12,9 @@
     }
 
     div{
-        background: var(--gray700);
-        border-radius: 5px 5px 5px 5px;
-        div{
-            border: 0.5px solid var(--gray700);
-                        
-        }        
+        background: var(--gray100);
+        border-radius: 5px;
+   
     }
     
     .section {
@@ -33,7 +30,12 @@
         h4 {
             display: flex;
             flex-direction: column;
-        }    
+        }
+        
+        h3{
+            color: var(--primary)
+        }
+        
     }
 
     .section2{

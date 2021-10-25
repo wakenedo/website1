@@ -20,7 +20,7 @@ export default function Experience() {
                 <>
                 <p>Desenvlvimento  front  end  de  algumas  interfaces  para  web  apps,  atualização  de  conteúdo,  integração  de  api  existente,
                    integração  e  manutenção  de  sistema  de  pagamentos,  debug-ging e pequenos reparos, atualização de linguagem,
-                   Desenvol-vimento front de interfaces clean e intuitivas.</p>
+                   Desenvolvimento front de interfaces clean e intuitivas.</p>
                 </>                      
          </div>
          <div className="intro">
