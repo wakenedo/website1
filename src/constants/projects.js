@@ -2,6 +2,28 @@ const  projects = [
     {
         "Id" : "1",
         "Image" : "https://res.cloudinary.com/practicaldev/image/fetch/s--54ca_F2q--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/1wwdyw5de8avrdkgtz5n.png",
+        "Images" : {
+            "img1" : {
+                    "original" : 'https://via.placeholder.com/1450x1000',       
+                    "thumbnail" : 'https://via.placeholder.com/106x81'
+            },
+            "img2" : {
+                    "original" : 'https://via.placeholder.com/1450x1000',       
+                    "thumbnail" : 'https://via.placeholder.com/106x81'
+            },
+            "img3" : {
+                    "original" : 'https://via.placeholder.com/1450x1000',       
+                    "thumbnail" : 'https://via.placeholder.com/106x81'
+            },
+            "img4" : {
+                    "original" : 'https://via.placeholder.com/1450x1000',       
+                    "thumbnail" : 'https://via.placeholder.com/106x81'
+            },
+            "img5" : {
+                    "original" : 'https://via.placeholder.com/1450x1000',       
+                    "thumbnail" : 'https://via.placeholder.com/106x81'
+            },
+        },
         "Name" : "React.js Project",
         "Date" : "02/2018 to 05/2018",
         "Description" : "Update de conteúdo para site institucional, de venda de cursos.Desenvolvimento de algumas páginas e rotas com o conteúdo atualizado.Sem a necessidade de deploy, apenas desenvolvimento.Entrega via BitBucket com código testado. Entregas  semanais a partir dos designs providos.",
