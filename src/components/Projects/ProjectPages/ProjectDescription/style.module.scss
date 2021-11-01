@@ -1,0 +1,17 @@
+.content {
+    text-align: justify;
+    margin: 0rem 0 1.5rem 0;
+    background: var(--primary);
+    padding: 0.75rem;
+    border-radius: 5px;
+    color: var(--gray100);
+    font-size: 12px;
+    height: 205px;
+    max-height: 205px;
+
+    h3 {
+        color: var(--gray100) !important;
+        margin-bottom: 0.5rem;
+        font-size: 20px;
+     }
+}
