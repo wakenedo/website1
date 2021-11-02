@@ -1,12 +1,13 @@
 import React from 'react'
 import styles from './resume.module.scss';
 import GitHubIcon from '@material-ui/icons/GitHub';
+import { SiBookstack } from 'react-icons/si';
 
 
 export default function Resume() {
     return (
         <main className ={styles.content}>        
-          <h3>Education</h3>                    
+          <h3><SiBookstack/>Education</h3>                    
           <div className="intro">
                 <br/>
                 <h4>Microcamp | Web Design</h4> 

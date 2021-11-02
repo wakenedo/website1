@@ -1,5 +1,8 @@
 import React from 'react'
 import styles from './project.module.scss'
+import LibraryBooksIcon from '@material-ui/icons/LibraryBooks';
+import DateRangeIcon from '@material-ui/icons/DateRange';
+import { Link } from 'react-router-dom';
 
 
 
@@ -12,18 +15,16 @@ function Project({data}) {
             </div>
             <div >
                 <section  className={styles.section}>                     
-                    <h3>{data.Name}</h3>
-                    <p>{data.Date}</p>
+                    <h3>
+                        {data.Name} | 
+                        <Link to={'./Project_Page'} key={data.Id}>
+                            <LibraryBooksIcon /> Read More  
+                        </Link> 
+                    </h3>
+                    <p>{data.Date} <DateRangeIcon/></p>
                     <p>
                         {data.Description}                       
-                    </p>
-                    <h4 key={data.Id}>
-                        {data.projectTech.tech1}
-                        <br/>
-                        {data.projectTech.tech2}
-                        <br/>
-                        {data.projectTech.tech3}
-                    </h4>
+                    </p>                    
                     <p >
                         {data.projectTools.tool1}
                         <br/>
@@ -38,6 +39,13 @@ function Project({data}) {
                         {data.projectTools.tool6}
                         <br/>
                     </p>
+                    <h4 key={data.Id}>
+                        {data.projectTech.tech3}
+                        <br/>
+                        {data.projectTech.tech2}
+                        <br/>
+                        {data.projectTech.tech1}
+                    </h4>
                     {/*<h3 >
                         What I've learned?
                     </h3>

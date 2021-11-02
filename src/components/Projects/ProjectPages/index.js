@@ -27,7 +27,7 @@ function ProjectPages( data ) {
         <>
         <main className={styles.content}>
             <section className={styles.section}>                     
-                    <h3>{projects[0].Name}</h3>                                
+                    <h3>{projects[0].Icon}{projects[0].Name}</h3>                                
             </section>
                           
         </main>

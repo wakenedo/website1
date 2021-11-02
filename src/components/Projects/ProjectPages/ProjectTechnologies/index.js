@@ -1,10 +1,12 @@
 import React from 'react'
 import styles from './style.module.scss'
+import { FiHardDrive } from "react-icons/fi";
+
 
 function ProjectTechnologies() {
     return (
         <main className={styles.content}>
-            <h3>Technologies Used</h3>
+            <h3><FiHardDrive/>Technologies Used</h3>
             
         </main>
     )

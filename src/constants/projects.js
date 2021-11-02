@@ -1,3 +1,5 @@
+import { FaReact } from 'react-icons/fa';
+
 const  projects = [
     {
         "Id" : "1",
@@ -24,7 +26,8 @@ const  projects = [
                     "thumbnail" : 'https://via.placeholder.com/106x81'
             },
         },
-        "Name" : "React.js Project",
+        "Name" :  "React.js Project | Courses.edu",
+        "Icon" : <FaReact/>,
         "Date" : "02/2018 to 05/2018",
         "Description" : "Update de conteúdo para site institucional, de venda de cursos.Desenvolvimento de algumas páginas e rotas com o conteúdo atualizado.Sem a necessidade de deploy, apenas desenvolvimento.Entrega via BitBucket com código testado. Entregas  semanais a partir dos designs providos.",
             

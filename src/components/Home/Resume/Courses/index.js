@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from './courses.module.scss';
+import { IoIosPaperPlane } from 'react-icons/io';
 
 
 export default function Courses() {
     return (
         <main className ={styles.content}>
-          <h3>Courses</h3> 
+          <h3><IoIosPaperPlane/>Courses</h3> 
           <div className="intro">
                 <br/>
                 <h4>Faculdade Impacta  

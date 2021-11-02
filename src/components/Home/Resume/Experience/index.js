@@ -1,11 +1,13 @@
 import React from 'react'
 import styles from './experience.module.scss';
+import { GiDiploma } from 'react-icons/gi';
 
 
 export default function Experience() {
     return (
-        <main className ={styles.content}>
-          <h3>Experience</h3> 
+        <main className ={styles.section}>
+            <section className ={styles.content}>
+            <h3><GiDiploma/>Experience</h3> 
           <div className="intro">
                 <br/>
                 <h4>Frontend Dev</h4> 
@@ -37,7 +39,10 @@ export default function Experience() {
                 <span>- Node.js, Express, MongoDB </span>
          </section>
          <h4>Freelancer | June 2017 until Date</h4>  
-         </div>                                                
+         </div>
+
+            </section>
+                                                          
         </main>
     )
 }

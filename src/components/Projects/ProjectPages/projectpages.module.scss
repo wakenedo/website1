@@ -4,15 +4,21 @@
             
     .section {
         max-width: 1220px;
-        margin: 0 auto 25px;
-        padding: 0 2rem;    
+        margin: 0 auto 25px;    
 
         h3 {
             font-size: 3.2rem;
             line-height: 3.2rem;
             font-weight: 900;
             font-weight: lighter;
-            margin-bottom: 25px;        
+            margin-top: 1.5rem;
+            margin-bottom: 25px;
+            display: flex;
+
+            
+            svg {
+                margin-right: 15px;
+            }
         }
 
         
