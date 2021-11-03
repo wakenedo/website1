@@ -1,29 +1,34 @@
 import { FaReact } from 'react-icons/fa';
+import Course1 from '../Assets/Projects/Project1/Courses1.PNG'
+import Course2 from '../Assets/Projects/Project1/Courses2.PNG'
+import Course3 from '../Assets/Projects/Project1/Courses3.PNG'
+import Course4 from '../Assets/Projects/Project1/Courses4.PNG'
+import Course5 from '../Assets/Projects/Project1/Courses5.png'
 
 const  projects = [
     {
         "Id" : "1",
-        "Image" : "https://res.cloudinary.com/practicaldev/image/fetch/s--54ca_F2q--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/1wwdyw5de8avrdkgtz5n.png",
+        "Image" : Course5,
         "Images" : {
             "img1" : {
-                    "original" : 'https://via.placeholder.com/1450x1000',       
-                    "thumbnail" : 'https://via.placeholder.com/106x81'
+                    "original" : Course1,       
+                    "thumbnail" : Course1
             },
             "img2" : {
-                    "original" : 'https://via.placeholder.com/1450x1000',       
-                    "thumbnail" : 'https://via.placeholder.com/106x81'
+                    "original" : Course2,       
+                    "thumbnail" : Course2
             },
             "img3" : {
-                    "original" : 'https://via.placeholder.com/1450x1000',       
-                    "thumbnail" : 'https://via.placeholder.com/106x81'
+                    "original" : Course3,       
+                    "thumbnail" : Course3
             },
             "img4" : {
-                    "original" : 'https://via.placeholder.com/1450x1000',       
-                    "thumbnail" : 'https://via.placeholder.com/106x81'
+                    "original" : Course4,       
+                    "thumbnail" : Course4
             },
             "img5" : {
-                    "original" : 'https://via.placeholder.com/1450x1000',       
-                    "thumbnail" : 'https://via.placeholder.com/106x81'
+                    "original" : Course5,       
+                    "thumbnail" : Course5
             },
         },
         "Name" :  "React.js Project | Courses.edu",

@@ -8,7 +8,7 @@ import ProjectPage from './ProjectPage'
 
 function ProjectPages( data ) {
     const renderProject = () => {
-    let arr = []
+    let arr = [ ]
     var projectsArr = projects
 
     projectsArr.forEach(
@@ -21,7 +21,7 @@ function ProjectPages( data ) {
             )
         }          
     )
-    return arr[0]
+    return arr
 }
     return (
         <>

@@ -68,7 +68,12 @@ export default function Resume() {
                 <span>- REST API with Node,js & MongoDB</span>
                 <span>- Postman</span>
                 <span>- Video Codification & Compress with FFMPE</span>
-         </section>           
+         </section>  
+
+         <div className="resume__Links">
+              <a href='https://github.com/wakenedo/upload-express'> <GitHubIcon/> wakenedo/upload-express</a>
+              <a href='https://github.com/wakenedo/api-node-coleta-seletiva-main'><GitHubIcon/> wakenedo/api-node-coleta-seletiva-main</a>
+         </div>         
 
           <div className="intro">
                 
