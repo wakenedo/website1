@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from "react-dom";
 
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
@@ -7,12 +6,34 @@ import "react-image-gallery/styles/css/image-gallery.css";
 import projects from '../../../../constants/projects';
 
 class MyGallery extends React.Component {
-  render( project ) {
+  render() {
     const defaultImage = 'https://via.placeholder.com/850x600'
 
+    console.log(this.props, 'my gallery log' )
+    
+    
+
+
+    return (
+      <ImageGallery
+        key={projects.Id}
+        items={this.props.images}
+        defaultImage={defaultImage}
+        showBullets={true}
+        showIndex={false}
+        showThumbnails={true}
+        lazyLoad={true}
+        showPlayButton={false}
+      />
+    );
+  }
+}
+
+function ProjectImage({ data, index }) {
+    console.log(index, 'project image debug')
     const images = [
       {
-        original: projects[0].Images.img1.original,
+        original: projects[index].Images.img1.original,
         thumbnail: projects[0].Images.img1.thumbnail
       },
       {
@@ -32,34 +53,9 @@ class MyGallery extends React.Component {
         thumbnail: projects[0].Images.img5.thumbnail
       }
     ];
-
-    const someComponent = props => {
-      // console.log(props.someProps.objectKey)
-      return <div>{/* {props.someProps.objectKey} */}</div>;
-    };
-
-    return (
-      <ImageGallery
-        key={projects.Id}
-        items={images}
-        defaultImage={defaultImage}
-        showBullets={true}
-        showIndex={false}
-        showThumbnails={true}
-        lazyLoad={true}
-        showPlayButton={false}
-        renderCustomControls={someComponent} 
-      />
-    );
-  }
-}
-const rootElement = document.getElementById("root");
-ReactDOM.render(<MyGallery />, rootElement);
-
-function ProjectImage({ data }) {
     return (
         <>
-            <MyGallery key={data.Id} data={data}/>
+            <MyGallery key={data.Id} data={data} index={index} images={images}/>
         </>
     )
 }

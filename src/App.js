@@ -12,7 +12,7 @@ function App() {
           <Route path="/Projects">
             <Projects />
           </Route>
-          <Route path="/Project_Page">
+          <Route path="/:project/Project_Page">
             <ProjectPages />
           </Route>         
           <Route path="/">

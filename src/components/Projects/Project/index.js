@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 
 
-function Project({data}) {
+function Project({data, index}) {
     return (
         <main className={styles.content}>
             <img src={data.Image} alt='No Input' />
@@ -17,7 +17,7 @@ function Project({data}) {
                 <section  className={styles.section}>                     
                     <h3>
                         {data.Name} | 
-                        <Link to={'./Project_Page'} key={data.Id}>
+                        <Link to={`./${index}/Project_Page`} key={data.Id}>
                             <LibraryBooksIcon /> Read More  
                         </Link> 
                     </h3>

@@ -7,22 +7,22 @@ import ProjectMyRole from '../ProjectMyRole'
 import ProjectTechnologies from '../ProjectTechnologies'
 import styles from './projectpage.module.scss'
 
-function ProjectPage({ data }) {
+function ProjectPage({ data, index }) {
     return (
         <main className={styles.main}>
             <section className={styles.content}>
-                <ProjectImage key={data.Id} data={data}/>                       
+                <ProjectImage key={data.Id} data={data} index={index}/>                       
                 <section  className={styles.section}>                                        
                     <ProjectDescription key={data.Id} data={data}/>                    
                     <ProjectMyRole/>  
                 </section>                
             </section>
             <section className={styles.section2}>
-                <ProjectDayToDay />
-                <ProjectLearn /> 
+                <ProjectDayToDay index={index}/>
+                <ProjectLearn index={index} /> 
             </section>
             <section className={styles.section3}>
-                <ProjectTechnologies />
+                <ProjectTechnologies index={index}/>
             </section>
                                             
         </main>

@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './style.module.scss'
 import { ImUser } from "react-icons/im";
+import projects from '../../../../constants/projects';
 
 
 
