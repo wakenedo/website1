@@ -5,21 +5,18 @@
     z-index: 100;
        
     div{
-        padding: 5px;
-        a {
-            cursor: default;
-        }
-        
+        padding: 5px;        
         p{
             color: var(--gray300);
             width: 600px;
-            cursor: pointer;
+            cursor: pointer !important;
             width: 250px;
             font-size: 14px !important;
         
             span {
                 margin-top: 2px;
                 margin-left: 5px;
+                cursor: pointer !important;          
             }
 
             svg{                

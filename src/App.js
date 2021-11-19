@@ -4,6 +4,7 @@ import Home from './components/Home';
 import Projects from './components/Projects';
 import ProjectPages from './components/Projects/ProjectPages';
 
+
 function App() {
   return (  
     <div className="App">

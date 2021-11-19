@@ -9,9 +9,9 @@ class MyGallery extends React.Component {
   render() {
     const defaultImage = 'https://via.placeholder.com/850x600'
 
-    console.log(this.props, 'my gallery log' )
-    
-    
+    console.log(this.props, 'my gallery log')
+
+
 
 
     return (
@@ -29,35 +29,35 @@ class MyGallery extends React.Component {
   }
 }
 
-function ProjectImage({ data, index }) {
-    console.log(index, 'project image debug')
-    const images = [
-      {
-        original: projects[index].Images.img1.original,
-        thumbnail: projects[0].Images.img1.thumbnail
-      },
-      {
-        original: projects[0].Images.img2.original,
-        thumbnail: projects[0].Images.img2.thumbnail
-      },
-      {
-        original: projects[0].Images.img3.original,
-        thumbnail: projects[0].Images.img3.thumbnail
-      },
-      {
-        original: projects[0].Images.img4.original,
-        thumbnail: projects[0].Images.img4.thumbnail
-      },
-      {
-        original: projects[0].Images.img5.original,
-        thumbnail: projects[0].Images.img5.thumbnail
-      }
-    ];
-    return (
-        <>
-            <MyGallery key={data.Id} data={data} index={index} images={images}/>
-        </>
-    )
+function ProjectImage({ index }) {
+  console.log(index, 'project image debug')
+  const images = [
+    {
+      original: projects[index].Images.img1.original,
+      thumbnail: projects[index].Images.img1.thumbnail
+    },
+    {
+      original: projects[index].Images.img2.original,
+      thumbnail: projects[index].Images.img2.thumbnail
+    },
+    {
+      original: projects[index].Images.img3.original,
+      thumbnail: projects[index].Images.img3.thumbnail
+    },
+    {
+      original: projects[index].Images.img4.original,
+      thumbnail: projects[index].Images.img4.thumbnail
+    },
+    {
+      original: projects[index].Images.img5.original,
+      thumbnail: projects[index].Images.img5.thumbnail
+    }
+  ];
+  return (
+    <>
+      <MyGallery index={index} images={images} />
+    </>
+  )
 }
 
 export default ProjectImage

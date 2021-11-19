@@ -35,7 +35,7 @@ function ProjectsPage() {
             <div key={projects.Id}>
                 {renderProjects()}
             </div>
-            <Contact />
+        <Contact />    
         </>
     )
 }

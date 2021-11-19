@@ -23,7 +23,7 @@ function Project({data, index}) {
                     </h3>
                     <p>{data.Date} <DateRangeIcon/></p>
                     <p>
-                        {data.Description}                       
+                        {data.shortDescription}                       
                     </p>                    
                     <p >
                         {data.projectTools.tool1}
