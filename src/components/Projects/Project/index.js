@@ -6,60 +6,44 @@ import { Link } from 'react-router-dom';
 
 
 
-function Project({data, index}) {
+function Project({ data, index }) {
     return (
         <main className={styles.content}>
             <img src={data.Image} alt='No Input' />
             <div>
-                
+
             </div>
             <div >
-                <section  className={styles.section}>                     
+                <section className={styles.section}>
                     <h3>
-                        {data.Name} | 
+                        {data.Name} |
                         <Link to={`./${index}/Project_Page`} key={data.Id}>
-                            <LibraryBooksIcon /> Read More  
-                        </Link> 
+                            <LibraryBooksIcon /> Read More
+                        </Link>
                     </h3>
-                    <p>{data.Date} <DateRangeIcon/></p>
+                    <p>{data.Date} <DateRangeIcon /></p>
                     <p>
-                        {data.shortDescription}                       
-                    </p>                    
-                    <p >
-                        {data.projectTools.tool1}
-                        <br/>
-                        {data.projectTools.tool2}
-                        <br/>
-                        {data.projectTools.tool3}
-                        <br/>
-                        {data.projectTools.tool4}
-                        <br/>
-                        {data.projectTools.tool5}
-                        <br/>
-                        {data.projectTools.tool6}
-                        <br/>
+                        {data.shortDescription}
                     </p>
+
+                    <span >
+                        <span >{data.projectTools.tool1}</span>
+                        <span >{data.projectTools.tool2}</span>
+                        <span >{data.projectTools.tool3}</span>
+                        <span >{data.projectTools.tool4}</span>
+                        <span >{data.projectTools.tool5}</span>
+                        <span >{data.projectTools.tool6}</span>
+                    </span>
+
                     <h4 key={data.Id}>
                         {data.projectTech.tech3}
-                        <br/>
+                        <br />
                         {data.projectTech.tech2}
-                        <br/>
+                        <br />
                         {data.projectTech.tech1}
                     </h4>
-                    {/*<h3 >
-                        What I've learned?
-                    </h3>
-                    <p>
-                        {data.projectLearn}
-                    </p>
-                    <h3>
-                        Daily Routines & Challenges
-                    </h3>
-                    <p>
-                        {data.projectRoutine}
-                    </p>*/}
                 </section>
-            </div>            
+            </div>
         </main>
     )
 }

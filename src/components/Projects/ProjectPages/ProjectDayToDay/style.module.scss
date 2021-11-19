@@ -8,16 +8,20 @@
     font-size: 12px;
     height: 265px;
     max-height: 265px;
-    width: 605px;
-    max-width: 605px;
+    min-width: 605px ;
+    max-width: 605px ;
 
     
      h3 {
         color: var(--primary) !important;
         margin-bottom: 0.5rem;
-        font-size: 20px;
+        font-size: 24px;
         border-bottom: 1px solid;
         display: flex;
+     }
+
+     span {
+        font-size: 16px;
      }
     
     

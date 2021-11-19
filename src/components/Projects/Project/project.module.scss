@@ -30,6 +30,8 @@
     
         span {
             text-align: justify;
+            display: flex ;
+            flex-direction: column;
         }
         
         p {
@@ -37,6 +39,7 @@
             text-align: justify;
             display: flex;
             width: 750px;
+
 
             svg {
                 font-size: 1.15rem;
