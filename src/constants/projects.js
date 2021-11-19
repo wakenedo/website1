@@ -43,7 +43,7 @@ const projects = [
                 "Icon": <FaReact />,
                 "Date": "02/2018 to 05/2018",
                 "shortDescription": "Update de conteúdo para site institucional, de venda de cursos.Desenvolvimento de algumas páginas e rotas com o conteúdo atualizado.Sem a necessidade de deploy, apenas desenvolvimento.Entrega via BitBucket com código testado. Entregas  semanais a partir dos designs providos.",
-
+                "Description" : "",
                 "projectTech": {
                         "tech1": "Design | Figma",
                         "tech2": "Database | Node.js - Express",
@@ -91,7 +91,7 @@ const projects = [
                 "Icon": <><SiMongodb /> <FaNodeJs /> <FaReact /></>,
                 "Date": "02/2018 to 05/2018",
                 "shortDescription": "Update de conteúdo para site institucional, de venda de cursos.Desenvolvimento de algumas páginas e rotas com o conteúdo atualizado.Sem a necessidade de deploy, apenas desenvolvimento.Entrega via BitBucket com código testado. Entregas  semanais a partir dos designs providos.",
-
+                "Description" : "Update de conteúdo para site institucional, de venda de cursos.Desenvolvimento de algumas páginas e rotas com o conteúdo atualizado.Sem a necessidade de deploy, apenas desenvolvimento.Entrega via BitBucket com código testado. Entregas  semanais a partir dos designs providos.",
                 "projectTech": {
                         "tech1": "Design | Figma",
                         "tech2": "Database | Node.js - Express",
@@ -111,7 +111,7 @@ const projects = [
                 "projectMyRole": "teste MyRole"
         },
         {
-                "Id": "2",
+                "Id": "3",
                 "Image": Pizza5,
                 "Images": {
                         "img1": {
@@ -139,7 +139,7 @@ const projects = [
                 "Icon": <><SiMongodb /> <FaNodeJs /> <FaReact /></>,
                 "Date": "02/2018 to 05/2018",
                 "shortDescription": "Update de conteúdo para site institucional, de venda de cursos.Desenvolvimento de algumas páginas e rotas com o conteúdo atualizado.Sem a necessidade de deploy, apenas desenvolvimento.Entrega via BitBucket com código testado. Entregas  semanais a partir dos designs providos.",
-
+                "Description" : "Update de conteúdo para site institucional, de venda de cursos.Desenvolvimento de algumas páginas e rotas com o conteúdo atualizado.Sem a necessidade de deploy, apenas desenvolvimento.Entrega via BitBucket com código testado. Entregas  semanais a partir dos designs providos.",
                 "projectTech": {
                         "tech1": "Design | Figma",
                         "tech2": "Database | Node.js - Express",
