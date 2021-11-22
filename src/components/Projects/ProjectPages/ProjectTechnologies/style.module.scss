@@ -22,12 +22,18 @@
          justify-content: space-around;
          align-items: center;
 
+         div {
+             text-align: center;
+         }
+         
+
          svg {
              width: 150px;
              font-size: 150px;
              display: flex;
              align-items: center;
              margin-top: 1.75rem;
+             margin-bottom: 1rem;
          }
      }
 

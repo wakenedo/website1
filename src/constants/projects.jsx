@@ -65,9 +65,9 @@ const projects = [
                         "tool6": " GitHub - Versioning"
                 },
 
-                "projectLearn": "O que eu aprendi com esse projeto, foi principalmente a habilidade de trabalhar em equipe e as qualidades da biblioteca Axios em chamadas HTTP, e sua   ",
-                "projectDayToDay": "O que eu aprendi com esse projeto, foi principalmente a habilidade de trabalhar em equipe e as qualidades da biblioteca Axios em chamadas HTTP,   ",
-                "projectMyRole": "O que eu aprendi com esse projeto, foi principalmente a habilidade de trabalhar em equipe e as qualidades da biblioteca Axios em chamadas HTTP,   ",
+                "projectLearn": "O que eu aprendi com esse projeto, foi principalmente a habilidade de trabalhar em equipe utilizando metodologias agile além de aprender na prática as qualidades da biblioteca Axios em chamadas HTTP para APIs, e sua integração com o ReactJS, além de desenvolver um sitema de autenticação utilizando o JWT token, que me permitiu entender na prática as vantagens e desafios da técnologia em questão, com esse projeto pude aprimorar minhas habilidades de frontend e programação além de softskills, como organização e trabalho em equipe.",
+                "projectDayToDay": "Minha rotina no projeto era de entrar no programa que foi escolhido para organizar o workflow, ver as tasks designadas a mim, e começar a trabalhar no código usando estratégias de commit e branching, depois de completa a task, era necessário enviar o código via repositório no Github. Que então era testado, pela equipe de teste para ser testado. Caso o código não cumprisse os requisitos era reaberta a task. Caso o código funcionasse, era só esperar a próxima task ser designada.",
+                "projectMyRole": "Meu papel no projeto, era de integrar o time de kanban e desenvolver o frontend, com endpoints e páginas autenticadas como a página de usuários e sistema de autenticação para login, utilizando token JWT, o protótipo das páginas foi disponibilizado no inicio do projeto aos desenvolvedores através de documento no Figma.",
                 "Technologies": {
                         "tool1": {
                                 "Badge": <SiJavascript/>,
