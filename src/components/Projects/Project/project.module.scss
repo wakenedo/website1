@@ -54,7 +54,15 @@
         
         h3{
             color: var(--primary);
-            display: flex;
+            display: flex !important;
+            align-items: center;
+
+            span {
+                display: flex !important;
+                flex-direction: row;
+                text-decoration: none;
+                cursor: pointer;
+            }
             
             svg {
                 margin-left: 5px;

@@ -1,10 +1,10 @@
-.content{
+.content {
     max-width: 1220px;
     padding: 0 2rem;
     font-size: 1.6rem;
     background: var(--gray100);
-    border-radius: 5px; 
-    
+    border-radius: 5px;
+    width: 580px;
 
     h3 {
         font-size: 3.2rem;
@@ -14,11 +14,12 @@
         font-weight: lighter;
         border-bottom: 1px solid;
         color: var(--primary);
-        
+
         svg {
             margin-right: 5px;
         }
     }
+
 
     h4 {
         color: var(--primary);
@@ -28,18 +29,19 @@
         font-size: 1.2rem;
         font-weight: 900;
     }
-    
+
     div {
         margin-bottom: 1.5rem;
-        
+        display: flex;
+        flex-direction: column;
+
         a {
             font-size: 1.5rem;
             color: var(--primary);
 
-            svg{
+            svg {
                 margin-right: 5px;
             }
-            
         }
     }
 }
@@ -48,15 +50,13 @@
     max-width: 1220px;
     margin: 2rem;
     display: flex;
-    flex-direction: column;      
-    
+    flex-direction: column;
+
     span {
         font-size: 1.2rem;
         font-weight: lighter;
         display: flex;
-    }   
+    }
 }
-
-
 
 

@@ -8,7 +8,7 @@
 .image-gallery-right-nav .image-gallery-svg {
   height: 60px !important;
   width: 30px !important;
-  color: var(--primary) !important;
+  color: var(--gray100) !important;
 }
 
 .image-gallery-bullets .image-gallery-bullet {
@@ -59,8 +59,7 @@
   }
   
   a {
-    color: inherit;
-    display: flex;   
+    color: inherit;       
   }
 
   h3 {

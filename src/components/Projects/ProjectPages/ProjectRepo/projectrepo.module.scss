@@ -1,15 +1,16 @@
 .content {
     text-align: justify;
-    background: var(--primary);
+    background: var(--gray100);
     padding: 0.75rem;
     border-radius: 5px;
-    color: var(--gray100);
+    color: var(--primary);
     font-size: 12px;
-    max-height: 295px;
+    height: 175px;
+    max-height: 265px;
     width: 1220px;
 
     h3 {
-        color: var(--gray100) !important;
+        color: var(--primary) !important;
         margin-bottom: 0.5rem;
         font-size: 24px;
         border-bottom: 1px solid;
@@ -24,19 +25,20 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        margin: 1.5rem;
 
         div {
             text-align: center;
-
         }
 
-        svg {
-            width: 150px;
-            font-size: 150px;
+        a {
+            font-size: 2.25rem;
+            display: flex;
             align-items: center;
-            margin-top: 1.75rem;
-            margin-bottom: 1rem;
+            margin-top: 1.5rem;
+
+            svg {
+                margin-right: 0.5rem;
+            }
         }
     }
 }

@@ -25,10 +25,12 @@ function ProjectsPage() {
             <main className={styles.content}>
                 <section className={styles.section}>
                     <h3><FaProjectDiagram /> Projects</h3>
-                    <span>Let's check some of my projects.
-                        What technology and tools, were used and why.
-                        Plus description of the projects and my role as a
-                        developer.</span>
+                    <span>
+                        Aqui estão alguns dos meus projetos com mais detalhes 
+                        listando as tecnologias e ferramentas usadas, descrevendo minha participação
+                        nos projetos e minhas conclusões sobre os aprendizados que adquiri 
+                        no curso de cada um. 
+                        </span>
                 </section>
 
             </main>

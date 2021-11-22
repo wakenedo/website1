@@ -18,7 +18,7 @@ function Project({ data, index }) {
                     <h3>
                         {data.Name} |
                         <Link to={`./${index}/Project_Page`} key={data.Id}>
-                            <LibraryBooksIcon /> Read More
+                            <span><LibraryBooksIcon /> Read More </span>
                         </Link>
                     </h3>
                     <p>{data.Date} <DateRangeIcon /></p>

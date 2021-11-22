@@ -68,31 +68,38 @@ const projects = [
                 "projectLearn": "O que eu aprendi com esse projeto, foi principalmente a habilidade de trabalhar em equipe utilizando metodologias agile além de aprender na prática as qualidades da biblioteca Axios em chamadas HTTP para APIs, e sua integração com o ReactJS, além de desenvolver um sitema de autenticação utilizando o JWT token, que me permitiu entender na prática as vantagens e desafios da técnologia em questão, com esse projeto pude aprimorar minhas habilidades de frontend e programação além de softskills, como organização pessoal e trabalho em equipe.",
                 "projectDayToDay": "Minha rotina no projeto era de entrar no programa que foi escolhido para organizar o workflow, ver as tasks designadas a mim, e começar a trabalhar no código usando estratégias de commit e branching, depois de completa a task, era necessário enviar o código via repositório no Github. Que então era testado, pela equipe de teste para ser testado. Caso o código não cumprisse os requisitos era reaberta a task. Caso o código funcionasse, era só esperar a próxima task ser designada.",
                 "projectMyRole": "Meu papel no projeto, era de integrar o time de kanban e desenvolver o frontend, com endpoints e páginas autenticadas como a página de usuários e sistema de autenticação para login, utilizando token JWT, o protótipo das páginas foi disponibilizado no inicio do projeto aos desenvolvedores através de documento no Figma.",
+                "projectRepo": "https://github.com/wakenedo/courses-project",
                 "Technologies": {
                         "tool1": {
                                 "Badge": <SiJavascript/>,
-                                "Text":  "JavaScript"
+                                "Text":  "JavaScript",
+                                "Link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
                         },              
                         "tool2": {
                                 "Badge" : <SiHtml5 />,
-                                "Text"  : "HTML 5"
+                                "Text"  : "HTML 5",
+                                "Link": "https://developer.mozilla.org/pt-BR/docs/Web/HTML",
                         },
                         "tool3": {
                                 "Badge" : <DiCss3 />,
-                                "Text"  : "CSS 3"
+                                "Text"  : "CSS 3",
+                                "Link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS",
                         },
                         "tool4": {
                                 "Badge" : <DiReact />,
-                                "Text"  : "React JS"
+                                "Text"  : "React JS",
+                                "Link": "https://pt-br.reactjs.org/",
 
                         },
                         "tool5":{
                                 "Badge" : <SiRedux />,
-                                "Text"  : "Redux"
+                                "Text"  : "Redux",
+                                "Link": "https://redux.js.org/",
                         },
                         "tool6": {
                                 "Badge" : <DiGithubBadge />,
-                                "Text"  : "GitHub"
+                                "Text"  : "GitHub",
+                                "Link": "https://github.com/",
                         }
                          
                 },
