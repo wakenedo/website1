@@ -44,7 +44,7 @@ export default function Home() {
                 ReactJS devido às análises e recursos da ferramenta. Após alguns meses de estudo e prática. 
                 Entrei em pequenos projetos ReactJS, participando de ambientes de desenvolvimento mais dinâmicos. 
                 Nesses projetos, aprendi a trabalhar como membro da equipe lado a lado com outros desenvolvedores, 
-                marketing, QAs, PMOs. Lá eu tive contato com agile como Scrum e Kanban e Git para versio-ning. 
+                marketing, QAs, PMOs. Lá eu tive contato com agile como Scrum e Kanban e Git para versionamento. 
                 Já trabalhei em mais alguns projetos, com clientes locais e estrangeiros como desenvolvedor 
                 front end com foco em web. Onde consolidei o que aprendi com meus primeiros projetos, 
                 e comecei a aprender TypeScript, Redux, Axios e junto com outras das principais tecnologias 
