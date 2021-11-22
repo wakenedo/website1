@@ -125,7 +125,7 @@ const projects = [
                 "Name": "Mern Stack Project | Pizza.com",
                 "Icon": <><SiMongodb /> <FaNodeJs /> <FaReact /></>,
                 "Date": "02/2018 to 05/2018",
-                "shortDescription": "Update de conteúdo para site institucional, de venda de cursos.Desenvolvimento de algumas páginas e rotas com o conteúdo atualizado.Sem a necessidade de deploy, apenas desenvolvimento.Entrega via BitBucket com código testado. Entregas  semanais a partir dos designs providos.",
+                "shortDescription": "(EM DESENVOLVIMENTO)",
                 "Description": "Update de conteúdo para site institucional, de venda de cursos.Desenvolvimento de algumas páginas e rotas com o conteúdo atualizado.Sem a necessidade de deploy, apenas desenvolvimento.Entrega via BitBucket com código testado. Entregas  semanais a partir dos designs providos.",
                 "projectTech": {
                         "tech1": "Design | Figma",
@@ -174,7 +174,7 @@ const projects = [
                 "Name": "TypeScript Project | StarWars Fan Site",
                 "Icon": <><SiMongodb /> <FaNodeJs /> <FaReact /></>,
                 "Date": "02/2018 to 05/2018",
-                "shortDescription": "Update de conteúdo para site institucional, de venda de cursos.Desenvolvimento de algumas páginas e rotas com o conteúdo atualizado.Sem a necessidade de deploy, apenas desenvolvimento.Entrega via BitBucket com código testado. Entregas  semanais a partir dos designs providos.",
+                "shortDescription": "(EM DESENVOLVIMENTO)",
                 "Description": "Update de conteúdo para site institucional, de venda de cursos.Desenvolvimento de algumas páginas e rotas com o conteúdo atualizado.Sem a necessidade de deploy, apenas desenvolvimento.Entrega via BitBucket com código testado. Entregas  semanais a partir dos designs providos.",
                 "projectTech": {
                         "tech1": "Design | Figma",
