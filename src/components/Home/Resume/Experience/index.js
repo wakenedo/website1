@@ -5,8 +5,8 @@ import { GiDiploma } from 'react-icons/gi';
 
 export default function Experience() {
     return (
-        <main className={styles.section}>
-            <section className={styles.content}>
+        <main className={styles.sectionExperience}>
+            <section className={styles.contentExperience}>
                 <h3><GiDiploma />Experience</h3>
                 <div className="intro">
                     <br />

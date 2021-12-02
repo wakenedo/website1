@@ -1,16 +1,18 @@
-.projects {
-    margin: 2.5rem auto;
-    align-items: center;
-    width: 1220px;
-    display: flex;
+.projectsContainer {
+    border-radius: 5px;
+    width: 1180px; 
+    margin: 0 auto 1.5rem;
+}
 
+.projectsButton {
+    
     img{        
-        height: 400px;
+        height: 415px;
         border-radius: 5px;
         transform: scale(0.9);
         transition: all ease 0.5s;
-        margin: 0 auto;
         align-items: center;
+        width: 1180px;
         
         &:hover{
             cursor: pointer;

@@ -1,11 +1,15 @@
-.content{
+.contentCourses{
     padding: 0 2rem;
+    margin-top: 1.5rem;
     font-size: 1.6rem;
-    margin: 0 auto;
     background: var(--primary);
-    min-width: 580px;
     border-radius: 5px;
     color: var(--gray100);
+    display: flex;
+    flex-direction: column;
+    width: 1170px; 
+    margin: auto;
+   
     
 
     h3 {
@@ -26,11 +30,7 @@
     }
 }
 
-.section {
-    margin: 2rem;
-    display: flex;
-    flex-direction: column;        
-    
+.sectionCourses {          
     span {
         font-size: 1.2rem;
         font-weight: lighter;

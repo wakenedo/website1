@@ -1,6 +1,5 @@
-.content{
+.sectionExperience {
     padding: 0 2rem;
-    margin-top: 1.5rem;
     font-size: 1.6rem;
     background: var(--gray100);
     border-radius: 5px;
@@ -8,6 +7,14 @@
     display: flex;
     flex-direction: column;
     width: 1180px; 
+    margin: 0 auto 1.5rem;        
+ }
+
+.contentExperience{
+    max-width: 1220px;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
 
     h3 {
         font-size: 3.2rem;
@@ -35,9 +42,4 @@
 h4{
     padding: 15px 0 15px 0;
     color: var(--primary);
-}
-.section {
-   margin: auto;
-   max-width: 1220px;
-      
 }

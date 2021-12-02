@@ -1,0 +1,31 @@
+.intro {
+    color: var(--gray100) !important;
+    span {
+        font-size: 1.25rem;
+        padding: 0.5rem   
+    }
+
+    h3 {
+        font-size: 3.2rem;
+        line-height: 3.2rem;
+        font-weight: 900;
+        font-weight: lighter;
+        margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+    }
+
+    p {
+        margin-top: 1.5rem;
+        font-size: 1.105rem;
+        line-height: 2.25rem;
+        font-weight: lighter;
+        text-align: justify;
+        width: 890px;
+        padding: 0.5rem
+        
+    }    
+}
+
+.section {
+    width: 1180px;
+}

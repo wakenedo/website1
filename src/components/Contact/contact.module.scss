@@ -5,14 +5,12 @@
     z-index: 100;
     
        
-    div{
-        padding: 5px;        
+    section {
+        padding: 0.75rem;        
         p{
             color: var(--gray300);
-            width: 600px;
-            cursor: pointer !important;
-            width: 250px;
-            font-size: 14px !important;
+            cursor: default;
+            font-size: 1.25rem !important;
         
             span {
                 margin-top: 2px;

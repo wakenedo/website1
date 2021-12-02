@@ -5,11 +5,13 @@ import styles from './projectslink.module.scss'
 
 function ProjectsLink() {
     return (
-        <section className={styles.projects}>
-        <Link to='/Projects'>
-           <img src ={image1} alt="" />                                  
-        </Link>              
-        </section> 
+        <main className={styles.projectsContainer}>
+            <section className={styles.projectsButton}>
+                <Link to='/Projects'>
+                    <img src={image1} alt="" />
+                </Link>
+            </section>
+        </main>
     )
 }
 

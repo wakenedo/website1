@@ -5,7 +5,7 @@ import { IoIosPaperPlane } from 'react-icons/io';
 
 export default function Courses() {
     return (
-        <main className ={styles.content}>
+        <main className ={styles.contentCourses}>
           <h3><IoIosPaperPlane/>Courses</h3> 
           <div className="intro">
                 <br/>
@@ -16,7 +16,7 @@ export default function Courses() {
                 </>                      
          </div>
          
-         <section className={styles.section}>                                                
+         <section className={styles.sectionCourses}>                                                
                 <span>-Basics & Binds</span>
          </section>                                                          
           <div className="intro">
@@ -28,7 +28,7 @@ export default function Courses() {
                 </>                      
          </div>
          
-         <section className={styles.section}>                                                
+         <section className={styles.sectionCourses}>                                                
                 <span>-Brushes & Selections</span>
                 <span>-Tools & Advanced Binds</span>
                 
@@ -41,7 +41,7 @@ export default function Courses() {
                 <p>04/2012-05/2012</p>
                 </>                      
          </div>
-         <section className={styles.section}>                                                
+         <section className={styles.sectionCourses}>                                                
                 <span>-Basics & Binds</span>
 
          </section>                                                          
@@ -53,7 +53,7 @@ export default function Courses() {
                 <p>05/2012-06/2012</p>
                 </>                      
          </div>
-         <section className={styles.section}>                                                
+         <section className={styles.sectionCourses}>                                                
                 <span>-Brushes & Selection</span>
                 <span>-Advanced Binds & Tools</span>
          </section>                                                          

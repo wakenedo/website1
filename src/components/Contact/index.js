@@ -8,8 +8,8 @@ import styles from './contact.module.scss'
 function Contact() {
     return (
         <>
-           <section className={styles.contact}>            
-                <div>
+           <main className={styles.contact}>            
+                <section>
                 <a href="https://www.linkedin.com/in/alexandre-alvarenga-86841b1b8/">
                     <p><LinkedInIcon /> <span>LinkedIn : @alexandre-alvarenga</span></p>
                 </a>
@@ -28,10 +28,10 @@ function Contact() {
                 <a href="https://www.skype.com/pt-br/">
                     <p><PhoneAndroidIcon/> <span>+55 (11) 9 6184-8402</span></p>
                 </a>                    
-                </div> 
+                </section> 
                               
                                             
-            </section>                                     
+            </main>                                     
         </>
     )
 }
