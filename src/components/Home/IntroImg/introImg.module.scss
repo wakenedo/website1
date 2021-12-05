@@ -1,3 +1,6 @@
+@import '../../../../node_modules/include-media';
+@import '../../../Styles/breakpoints.scss';
+
 .contentImage {
     padding: 0 2rem;
     font-size: 1.6rem;
@@ -7,6 +10,13 @@
     flex-direction: column;
     width: 1180px; 
     margin: 0.5rem auto 1.5rem;
+
+    @include media(">phone", "<=425px") {
+        width: 735px;
+        margin-left: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+
 }
 
 .contentRow {
@@ -16,10 +26,17 @@
     margin-bottom: 1.5rem;
     width: 1180px;
 
+    @include media(">phone", "<=425px") {
+        flex-direction: column;
+        width: 650px;
+        margin-left: 1rem;
+    }
+
     img {
         margin-bottom: 0.75rem;
         border-radius: 100%;
         height: 450px;
         padding: 1.5rem;
     }
+
 }

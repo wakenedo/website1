@@ -1,28 +1,44 @@
+@import "../../../node_modules/include-media";
+@import "../../Styles/breakpoints.scss";
+
 .contact {
     background: var(--gray700);
     position: sticky;
     bottom: 0;
     z-index: 100;
-    
-       
+
     section {
-        padding: 0.75rem;        
-        p{
+        padding: 0.75rem;
+        p {
             color: var(--gray300);
             cursor: default;
             font-size: 1.25rem !important;
-        
+
+            @include media(">phone", "<=425px") {
+                font-size: 2.25rem !important;
+                font-weight: 300;
+                
+            }
+
             span {
                 margin-top: 2px;
                 margin-left: 5px;
-                cursor: pointer !important;          
+                cursor: pointer !important;
             }
 
-            svg{                
+            svg {
                 margin-left: 2px;
+
+                @include media(">phone", "<=425px") {
+                    font-size: 1.95rem !important;
+                    
+                }
             }
         }
+    }
 
-    }        
-    
+    // if the breakpoint is greater than 360px and less than or equal to 425px
+    @include media(">phone", "<=425px") {
+        width: 750px;
+    }
 }

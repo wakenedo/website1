@@ -1,7 +1,14 @@
+@import '../../../../../node_modules/include-media';
+@import '../../../../Styles/breakpoints.scss';
+
 .projectsContainer {
     border-radius: 5px;
     width: 1180px; 
     margin: 0 auto 1.5rem;
+
+    @include media(">phone", "<=425px") {
+        max-width: 750px;
+    }
 }
 
 .projectsButton {
@@ -13,6 +20,11 @@
         transition: all ease 0.5s;
         align-items: center;
         width: 1180px;
+
+        @include media(">phone", "<=425px") {
+            max-width: 750px;
+            height: 250px;
+        }
         
         &:hover{
             cursor: pointer;

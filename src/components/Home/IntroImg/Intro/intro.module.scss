@@ -1,8 +1,22 @@
+@import "../../../../../node_modules/include-media";
+@import "../../../../Styles/breakpoints.scss";
+
 .intro {
     color: var(--gray100) !important;
+
+    @include media(">phone", "<=425px") {
+        width: 650px;
+    }
+
     span {
         font-size: 1.25rem;
-        padding: 0.5rem   
+        padding: 0.5rem;
+
+        @include media(">phone", "<=425px") {
+            width: 650px;
+            font-size: 1.45rem;
+            font-weight: 100;
+        }
     }
 
     h3 {
@@ -12,6 +26,12 @@
         font-weight: lighter;
         margin-bottom: 0.5rem;
         margin-top: 0.5rem;
+
+        @include media(">phone", "<=425px") {
+            width: 650px;
+            font-size: 3.45rem;
+            font-weight: 300;
+        }
     }
 
     p {
@@ -21,11 +41,21 @@
         font-weight: lighter;
         text-align: justify;
         width: 890px;
-        padding: 0.5rem
+        padding: 0.5rem;
+
+        @include media(">phone", "<=425px") {
+            width: 650px;
+            font-size: 1.45rem;
+            font-weight: 100;
+        }
         
-    }    
+    }
 }
 
 .section {
     width: 1180px;
+
+    @include media(">phone", "<=425px") {
+        width: 750px;
+    }
 }
