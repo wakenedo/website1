@@ -89,9 +89,29 @@ p {
   cursor: default;
 }
 
+.skillbar-title {
+  @include media("<=phone") {
+    font-size: 34px !important;
+    width: 200px !important;
+    font-weight: 300 !important;
+  }
+}
+
 .skillbar-percent {
   color: var(--gray700) !important;
+  @include media("<=phone") {
+   font-size: 34px !important;         
+  }
 }
 .skillbar-bar {
   background: var(--gray300) !important;
+  @include media("<=phone") {
+   left: 200px !important;         
+  }
+}
+.skillbar {
+  @include media("<=phone") {
+   height: 45px !important;       
+   line-height: 45px !important      
+  }
 }

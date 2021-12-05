@@ -4,3 +4,51 @@ $breakpoints: (
   "desktop": 1366px,
   "LGdesktop": 1920px
 ) !default;
+
+ // if the breakpoint is less than or equal to 360px
+// @include media("<=phone") {
+  
+//  &:before {
+//    content: "Phone viewport";
+//  }
+//}
+
+// if the breakpoint is greater than 360px and less than or eqaul to 425px
+//@include media(">phone", "<=425px") {
+  
+//  &:before {
+//    content: "Large phone stops at 420px";
+//  }
+//}
+
+// if the screen is going to be greater than 425px and less than or eqaul to 768px
+// @include media(">425px", "<=tablet") {
+  
+//  &:before {
+//    content: "Large phone to tablet";
+//  }
+//}
+
+// if the screen is going to be greater than 768px and less than 1366px
+// @include media(">tablet", "<desktop") {
+  
+//  &:before {
+//    content: "Tablet to laptop/desktop viewport";
+//  }
+//}
+
+// if the screen is going to be greater than or equal to 1366px
+//@include media(">=desktop") {
+  
+//  &:before {
+//    content: "Desktop viewport only";
+//  }
+//}
+
+// if the screen is going to be greater than or equal to 1920px
+//@include media(">=LGdesktop", "retina2x") {
+  
+//  &:before {
+//    content: "Large desktop screen";
+//  }
+// }

@@ -12,6 +12,11 @@
     width: 1180px;
     margin: 0 auto 1.5rem;
 
+    @include media("<=phone") {
+        width: 375%;
+        margin-left: 3.5%;
+    }
+
     @include media(">phone", "<=425px") {
         width: 110%;
         margin-left: 3.75%;
@@ -26,6 +31,12 @@
         border-bottom: 1px solid;
         color: var(--primary);
 
+        @include media("<=phone") {
+            font-size: 6.25rem;
+            font-weight: 500;
+            border: none;
+        }
+
         @include media(">phone", "<=425px") {
             font-size: 2.25rem;
             font-weight: 500;
@@ -33,13 +44,17 @@
 
         svg {
             margin-right: 5px;
-            
         }
     }
 
     h4 {
         color: var(--primary);
         font-weight: 500;
+
+        @include media("<=phone") {
+            font-size: 3.15rem;
+            font-weight: 700;
+        }
 
         @include media(">phone", "<=425px") {
             font-size: 1.25rem;
@@ -50,6 +65,11 @@
     p {
         font-size: 1.2rem;
         font-weight: 500;
+
+        @include media("<=phone") {
+            font-size: 2.35rem;
+            font-weight: 500;
+        }
 
         @include media(">phone", "<=425px") {
             font-size: 1.05rem;
@@ -68,12 +88,20 @@
             font-size: 1.5rem;
             color: var(--primary);
 
+            @include media("<=phone") {
+                font-size: 3.35rem;
+            }
+
             @include media(">phone", "<=425px") {
                 font-size: 1.05rem;
             }
 
             svg {
                 margin-right: 5px;
+
+                @include media("<=phone") {
+                    font-size: 3.35rem;
+                }
 
                 @include media(">phone", "<=425px") {
                     font-size: 1.05rem;
@@ -95,6 +123,11 @@
 
         &:last-child {
             margin-bottom: 1.5rem;
+        }
+
+        @include media("<=phone") {
+            font-size: 2.35rem;
+            font-weight: 400;
         }
 
         @include media(">phone", "<=425px") {

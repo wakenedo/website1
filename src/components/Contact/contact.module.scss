@@ -14,10 +14,13 @@
             cursor: default;
             font-size: 1.25rem !important;
 
+            @include media("<=phone") {
+                font-size: 4.25rem !important;
+            }
+
             @include media(">phone", "<=425px") {
                 font-size: 1.25rem !important;
                 font-weight: 300;
-                
             }
 
             span {
@@ -29,15 +32,21 @@
             svg {
                 margin-left: 2px;
 
+                @include media("<=phone") {
+                    font-size: 4.25rem !important;
+                }
+                
                 @include media(">phone", "<=425px") {
                     font-size: 1.5rem !important;
-                    
                 }
             }
         }
     }
 
-    // if the breakpoint is greater than 360px and less than or equal to 425px
+    @include media("<=phone") {
+        width: 380%;
+    }
+
     @include media(">phone", "<=425px") {
         width: 118%;
     }
