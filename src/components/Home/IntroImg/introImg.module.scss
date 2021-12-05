@@ -12,9 +12,9 @@
     margin: 0.5rem auto 1.5rem;
 
     @include media(">phone", "<=425px") {
-        width: 735px;
-        margin-left: 0.5rem;
         padding-bottom: 0.5rem;
+        width: 110%;
+        margin-left: 3.75%;
     }
 
 }
@@ -28,8 +28,7 @@
 
     @include media(">phone", "<=425px") {
         flex-direction: column;
-        width: 650px;
-        margin-left: 1rem;
+        width: 95%
     }
 
     img {
@@ -37,6 +36,11 @@
         border-radius: 100%;
         height: 450px;
         padding: 1.5rem;
+
+        @include media(">phone", "<=425px") {
+            height: 385px;           
+            margin-left: 21px;
+        }
     }
 
 }

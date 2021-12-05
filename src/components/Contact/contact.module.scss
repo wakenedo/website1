@@ -15,7 +15,7 @@
             font-size: 1.25rem !important;
 
             @include media(">phone", "<=425px") {
-                font-size: 2.25rem !important;
+                font-size: 1.25rem !important;
                 font-weight: 300;
                 
             }
@@ -30,7 +30,7 @@
                 margin-left: 2px;
 
                 @include media(">phone", "<=425px") {
-                    font-size: 1.95rem !important;
+                    font-size: 1.5rem !important;
                     
                 }
             }
@@ -39,6 +39,6 @@
 
     // if the breakpoint is greater than 360px and less than or equal to 425px
     @include media(">phone", "<=425px") {
-        width: 750px;
+        width: 118%;
     }
 }

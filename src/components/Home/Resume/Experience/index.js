@@ -10,7 +10,7 @@ export default function Experience() {
                 <h3><GiDiploma />Experience</h3>
                 <div className="intro">
                     <br />
-                    <h4>Frontend Dev</h4>
+                    <h4>Frontend Web Developer</h4>
                     <>
                         <p>
                             Desenvolvimento web frontend, utilizando JavaScript / ReactJS / TypeS-cript criando interfaces

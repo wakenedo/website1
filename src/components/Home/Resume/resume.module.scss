@@ -13,21 +13,21 @@
     margin: 0 auto 1.5rem;
 
     @include media(">phone", "<=425px") {
-        width: 735px;
-        margin-left: 0.5rem;
+        width: 110%;
+        margin-left: 3.75%;
     }
 
     h3 {
         font-size: 3.2rem;
         line-height: 3.2rem;
-        font-weight: 900;
+        font-weight: 300 !important;
         margin-top: 1.5rem;
         font-weight: lighter;
         border-bottom: 1px solid;
         color: var(--primary);
 
         @include media(">phone", "<=425px") {
-            font-size: 3.25rem;
+            font-size: 2.25rem;
             font-weight: 500;
         }
 
@@ -39,18 +39,21 @@
 
     h4 {
         color: var(--primary);
+        font-weight: 500;
 
         @include media(">phone", "<=425px") {
-            font-size: 2.25rem;
+            font-size: 1.25rem;
+            font-weight: 700;
         }
     }
 
     p {
         font-size: 1.2rem;
-        font-weight: 900;
+        font-weight: 500;
 
         @include media(">phone", "<=425px") {
-            font-size: 1.55rem;
+            font-size: 1.05rem;
+            font-weight: 500;
         }
     }
 
@@ -66,14 +69,14 @@
             color: var(--primary);
 
             @include media(">phone", "<=425px") {
-                font-size: 2.25rem;
+                font-size: 1.05rem;
             }
 
             svg {
                 margin-right: 5px;
 
                 @include media(">phone", "<=425px") {
-                    font-size: 2.5rem;
+                    font-size: 1.05rem;
                 }
             }
         }
@@ -86,8 +89,8 @@
     flex-direction: column;
 
     span {
-        font-size: 1.2rem;
-        font-weight: lighter;
+        font-size: 1.4rem;
+        font-weight: 300;
         display: flex;
 
         &:last-child {
@@ -96,7 +99,7 @@
 
         @include media(">phone", "<=425px") {
             font-weight: 400;
-            font-size: 1.5rem;
+            font-size: 0.95rem;
 
             &:last-child {
                 margin-bottom: 1.5rem;

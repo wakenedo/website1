@@ -5,7 +5,7 @@
     color: var(--gray100) !important;
 
     @include media(">phone", "<=425px") {
-        width: 650px;
+        width: 100%;
     }
 
     span {
@@ -13,8 +13,8 @@
         padding: 0.5rem;
 
         @include media(">phone", "<=425px") {
-            width: 650px;
-            font-size: 1.45rem;
+            width: 80%;
+            font-size: 0.85rem;
             font-weight: 100;
         }
     }
@@ -28,8 +28,8 @@
         margin-top: 0.5rem;
 
         @include media(">phone", "<=425px") {
-            width: 650px;
-            font-size: 3.45rem;
+            width: 90%;
+            font-size: 1.85rem;
             font-weight: 300;
         }
     }
@@ -44,8 +44,8 @@
         padding: 0.5rem;
 
         @include media(">phone", "<=425px") {
-            width: 650px;
-            font-size: 1.45rem;
+            width: 105%;
+            font-size: 0.85rem;
             font-weight: 100;
         }
         
@@ -56,6 +56,6 @@
     width: 1180px;
 
     @include media(">phone", "<=425px") {
-        width: 750px;
+        width: 100%;
     }
 }

@@ -13,8 +13,8 @@
     margin: 0 auto 1.5rem;
 
     @include media(">phone", "<=425px") {
-        width: 735px;
-        margin-left: 0.5rem;
+        width: 110%;
+        margin-left: 3.75%;
     }
 }
 
@@ -27,14 +27,13 @@
     h3 {
         font-size: 3.2rem;
         line-height: 3.2rem;
-        font-weight: 900;
-        font-weight: lighter;
+        font-weight: 300 !important;
         padding-top: 15px;
         border-bottom: 1px solid;
         color: var(--primary);
 
         @include media(">phone", "<=425px") {
-            font-size: 3.25rem;
+            font-size: 2.25rem;
             font-weight: 500;
         }
     }
@@ -45,18 +44,19 @@
         padding-bottom: 1.5rem;
 
         @include media(">phone", "<=425px") {
-            font-size: 1.45rem;
+            font-size: 1.05rem;
+            font-weight: 500;
         }
     }
 
     span {
-        font-size: 1.2rem;
-        font-weight: lighter;
+        font-size: 1.4rem;
+        font-weight: 300;
         display: flex;
 
         @include media(">phone", "<=425px") {
             font-weight: 400;
-            font-size: 1.5rem;
+            font-size: 0.95rem;
         }
     }
 }
@@ -64,8 +64,10 @@
 h4 {
     padding: 15px 0 15px 0;
     color: var(--primary);
+    font-weight: 500;
 
     @include media(">phone", "<=425px") {
-        font-size: 2.25rem;
+        font-size: 1.25rem;
+        font-weight: 700;
     }
 }
