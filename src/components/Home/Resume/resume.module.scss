@@ -1,5 +1,5 @@
 @import "../../../../node_modules/include-media";
-@import "../../../Styles/breakpoints.scss";
+
 
 .contentResume {
     padding: 0 2rem;
@@ -16,15 +16,20 @@
         width: 375%;
         margin-left: 3.5%;
     }
-
     @include media(">phone", "<=425px") {
         width: 110%;
         margin-left: 3.75%;
     }
-
     @include media(">425px", "<=tablet") {
         width: 250%;
         margin-left: 2.55%;
+    }
+    @include media(">tablet", "<desktop") {
+        width: 181%;
+        margin-left: 2.55%;
+    }
+    @include media(">=desktop") {
+        
     }
 
     h3 {
@@ -41,16 +46,20 @@
             font-weight: 500;
             border: none;
         }
-
         @include media(">phone", "<=425px") {
             font-size: 2.25rem;
             font-weight: 500;
         }
-
         @include media(">425px", "<=tablet") {
             font-size: 4.25rem;
             font-weight: 500;
             border: none;
+        }
+        @include media(">tablet", "<desktop") {
+            
+        }
+        @include media(">=desktop") {
+    
         }
 
         svg {
@@ -66,7 +75,6 @@
             font-size: 3.15rem;
             font-weight: 700;
         }
-
         @include media(">phone", "<=425px") {
             font-size: 1.25rem;
             font-weight: 700;
@@ -74,6 +82,12 @@
         @include media(">425px", "<=tablet") {
             font-size: 2.65rem;
             font-weight: 700;
+        }
+        @include media(">tablet", "<desktop") {
+            
+        }
+        @include media(">=desktop") {
+    
         }
     }
 
@@ -93,6 +107,12 @@
         @include media(">425px", "<=tablet") {
             font-size: 2.05rem;
             font-weight: 500;
+        }
+        @include media(">tablet", "<desktop") {
+            
+        }
+        @include media(">=desktop") {
+    
         }
     }
 
@@ -116,6 +136,12 @@
             @include media(">425px", "<=tablet") {
                 font-size: 2.55rem;
             }
+            @include media(">tablet", "<desktop") {
+                
+            }
+            @include media(">=desktop") {
+        
+            }
 
             svg {
                 margin-right: 5px;
@@ -128,6 +154,12 @@
                 }
                 @include media(">425px", "<=tablet") {
                     font-size: 2.55rem;
+                }
+                @include media(">tablet", "<desktop") {
+                    
+                }
+                @include media(">=desktop") {
+            
                 }
             }
         }
@@ -152,7 +184,6 @@
             font-size: 2.35rem;
             font-weight: 400;
         }
-
         @include media(">phone", "<=425px") {
             font-weight: 400;
             font-size: 0.95rem;
@@ -161,10 +192,15 @@
                 margin-bottom: 1.5rem;
             }
         }
-
         @include media(">425px", "<=tablet") {
             font-weight: 400;
             font-size: 2.15rem;
+        }
+        @include media(">tablet", "<desktop") {
+            
+        }
+        @include media(">=desktop") {
+    
         }
     }
 }
