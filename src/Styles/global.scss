@@ -50,10 +50,6 @@
 body {
   background: linear-gradient(rgb(77, 107, 189), rgb(196, 194, 194));
   color: var(--gray700);
-
-  @include media(">phone", "<=425px") {
-    width: 100%;
-  }
 }
 
 body,
@@ -94,6 +90,11 @@ p {
     width: 200px !important;
     font-weight: 300 !important;
   }
+  @include media(">phone", "<=425px") {
+    font-size: 34px !important;
+    width: 200px !important;
+    font-weight: 300 !important;
+  }
   @include media(">425px", "<=tablet") {
     font-size: 34px !important;
     width: 200px !important;
@@ -111,6 +112,9 @@ p {
   @include media("<=phone") {
     font-size: 34px !important;
   }
+  @include media(">phone", "<=425px") {
+    font-size: 34px !important;
+  }
   @include media(">425px", "<=tablet") {
     font-size: 42px !important;
   }
@@ -123,6 +127,9 @@ p {
   @include media("<=phone") {
     left: 200px !important;
   }
+  @include media(">phone", "<=425px") {
+    left: 200px !important;
+  }
   @include media(">425px", "<=tablet") {
     left: 200px !important;
   }
@@ -132,6 +139,10 @@ p {
 }
 .skillbar {
   @include media("<=phone") {
+    height: 45px !important;
+    line-height: 45px !important;
+  }
+  @include media(">phone", "<=425px") {
     height: 45px !important;
     line-height: 45px !important;
   }

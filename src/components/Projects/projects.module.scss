@@ -17,6 +17,9 @@
             margin-left: 9.5%;
         }
         @include media(">phone", "<=425px") {
+            flex-direction: column;
+            width: 310%;
+            margin-left: 9.5%;
         }
         @include media(">425px", "<=tablet") {
         }
@@ -37,6 +40,7 @@
                     font-size: 6rem;
                 }
                 @include media(">phone", "<=425px") {
+                    font-size: 6.5rem;
                 }
                 @include media(">425px", "<=tablet") {
                 }
@@ -61,6 +65,7 @@
                 margin-top: 1.5rem;
             }
             @include media(">phone", "<=425px") {
+                font-size: 6.5rem;
             }
             @include media(">425px", "<=tablet") {
             }
@@ -97,6 +102,8 @@
                 text-align: justify;
             }
             @include media(">phone", "<=425px") {
+                font-size: 2.55rem;
+                text-align: justify;
             }
             @include media(">425px", "<=tablet") {
             }

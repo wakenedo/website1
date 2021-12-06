@@ -13,6 +13,9 @@
         margin-left: 15.5%;
     }
     @include media(">phone", "<=425px") {
+        flex-direction: column;
+        width: 250%;
+        margin-left: 33.5%;
     }
     @include media(">425px", "<=tablet") {
     }
@@ -32,6 +35,9 @@
             margin-bottom: 1rem;
         }
         @include media(">phone", "<=425px") {
+            width: 100%;
+            height: 100%;
+            margin-bottom: 1rem;
         }
         @include media(">425px", "<=tablet") {
         }
@@ -50,6 +56,7 @@
             height: 815px;
         }
         @include media(">phone", "<=425px") {
+            height: 815px;
         }
         @include media(">425px", "<=tablet") {
         }
@@ -71,6 +78,7 @@
             width: 95%;
         }
         @include media(">phone", "<=425px") {
+            width: 95%;
         }
         @include media(">425px", "<=tablet") {
         }
@@ -89,6 +97,8 @@
                 margin-bottom: 0.25rem;
             }
             @include media(">phone", "<=425px") {
+                font-size: 2.25rem;
+                margin-bottom: 0.25rem;
             }
             @include media(">425px", "<=tablet") {
             }
@@ -109,6 +119,8 @@
                 margin-top: 0.5rem;
             }
             @include media(">phone", "<=425px") {
+                font-size: 2.25rem;
+                margin-top: 0.5rem;
             }
             @include media(">425px", "<=tablet") {
             }
@@ -122,9 +134,10 @@
                 margin-left: 5px;
 
                 @include media("<=phone") {
-                    font-size: 2.25rem
+                    font-size: 2.25rem;
                 }
                 @include media(">phone", "<=425px") {
+                    font-size: 2.25rem;
                 }
                 @include media(">425px", "<=tablet") {
                 }
@@ -143,6 +156,7 @@
                 font-size: 2.95rem;
             }
             @include media(">phone", "<=425px") {
+                font-size: 2.95rem;
             }
             @include media(">425px", "<=tablet") {
             }
@@ -162,6 +176,8 @@
                 width: 110%;
             }
             @include media(">phone", "<=425px") {
+                font-size: 2.95rem;
+                width: 110%;
             }
             @include media(">425px", "<=tablet") {
             }
@@ -180,6 +196,7 @@
                     font-size: 2.55rem;
                 }
                 @include media(">phone", "<=425px") {
+                    font-size: 2.55rem;
                 }
                 @include media(">425px", "<=tablet") {
                 }
@@ -197,6 +214,7 @@
                     font-size: 3.5rem;
                 }
                 @include media(">phone", "<=425px") {
+                    font-size: 3.5rem;
                 }
                 @include media(">425px", "<=tablet") {
                 }
@@ -215,6 +233,7 @@
             width: 100%;
         }
         @include media(">phone", "<=425px") {
+            width: 100%;
         }
         @include media(">425px", "<=tablet") {
         }

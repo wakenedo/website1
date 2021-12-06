@@ -14,12 +14,12 @@
     @include media("<=phone") {
         padding-bottom: 0.5rem;
         width: 375%;
-        margin-left: 3.5%;
+        margin-left: 9.5%;
     }
     @include media(">phone", "<=425px") {
         padding-bottom: 0.5rem;
-        width: 110%;
-        margin-left: 3.75%;
+        width: 275%;
+        margin-left: 15.75%;
     }
     @include media(">425px", "<=tablet") {
         padding-bottom: 0.5rem;
@@ -73,7 +73,7 @@
             height: 600px;
         }
         @include media(">phone", "<=425px") {
-            height: 385px;
+            height: 485px;
             margin-left: 21px;
         }
         @include media(">425px", "<=tablet") {
