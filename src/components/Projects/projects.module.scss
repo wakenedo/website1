@@ -1,35 +1,109 @@
-
+@import "../../../node_modules/include-media";
 
 .content {
     margin: 0 auto 25px;
     color: var(--gray100);
-            
+
     .section {
         max-width: 1220px;
         margin: 0 auto 25px;
         padding: 0 2rem;
         align-items: center;
         justify-content: space-between;
+
+        @include media("<=phone") {
+            flex-direction: column;
+            width: 350%;
+            margin-left: 9.5%;
+        }
+        @include media(">phone", "<=425px") {
+        }
+        @include media(">425px", "<=tablet") {
+        }
+        @include media(">tablet", "<desktop") {
+        }
+        @include media(">=desktop") {
+        }
+
+        div {
+            display: flex;
+            align-items: center;
+            svg {
+                font-size: 4rem;
+                margin-right: 0.75rem;
+                color: var(--primary-dark);
+
+                @include media("<=phone") {
+                    font-size: 6rem;
+                }
+                @include media(">phone", "<=425px") {
+                }
+                @include media(">425px", "<=tablet") {
+                }
+                @include media(">tablet", "<desktop") {
+                }
+                @include media(">=desktop") {
+                }
     
+            }
+        }
         h3 {
             font-size: 3.2rem;
             line-height: 3.2rem;
-            font-weight: 900;
-            font-weight: lighter;
+            font-weight: 500;
             margin-bottom: 25px;
             display: flex;
             margin-top: 1.5rem;
-            
+            color: var(--primary-dark);
+
+            @include media("<=phone") {
+                font-size: 6rem;
+                margin-top: 1.5rem;
+            }
+            @include media(">phone", "<=425px") {
+            }
+            @include media(">425px", "<=tablet") {
+            }
+            @include media(">tablet", "<desktop") {
+            }
+            @include media(">=desktop") {
+            }
+
             svg {
                 margin-right: 5px;
+
+                @include media("<=phone") {
+                }
+                @include media(">phone", "<=425px") {
+                }
+                @include media(">425px", "<=tablet") {
+                }
+                @include media(">tablet", "<desktop") {
+                }
+                @include media(">=desktop") {
+                }
             }
+
         }
 
         span {
             font-size: 1.2rem;
             font-weight: lighter;
             text-align: justify;
+            color: var(--gray100);
+
+            @include media("<=phone") {
+                font-size: 2.5rem;
+                text-align: justify;
+            }
+            @include media(">phone", "<=425px") {
+            }
+            @include media(">425px", "<=tablet") {
+            }
+            @include media(">tablet", "<desktop") {
+            }
+            @include media(">=desktop") {
+            }
         }
     }
 }
-

@@ -10,9 +10,6 @@ function Project({ data, index }) {
     return (
         <main className={styles.content}>
             <img src={data.Image} alt='No Input' />
-            <div>
-
-            </div>
             <div >
                 <section className={styles.section}>
                     <h3>

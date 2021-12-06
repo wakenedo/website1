@@ -1,3 +1,5 @@
+@import '../../../../node_modules/include-media';
+
 .content {
     margin: 0 auto 25px;
     display: flex;
@@ -5,21 +7,58 @@
     justify-content: space-between;
     color: var(--gray700);
 
+    @include media("<=phone") {
+        flex-direction: column;
+        width: 350%;
+        margin-left: 15.5%;
+    }
+    @include media(">phone", "<=425px") {
+    }
+    @include media(">425px", "<=tablet") {
+    }
+    @include media(">tablet", "<desktop") {
+    }
+    @include media(">=desktop") {
+    }
+
     img {
         width: 415px;
         height: 300px;
         border-radius: 5px 0 0 5px;
+
+        @include media("<=phone") {
+            width: 100%;
+            height: 100%;
+            margin-bottom: 1rem;
+        }
+        @include media(">phone", "<=425px") {
+        }
+        @include media(">425px", "<=tablet") {
+        }
+        @include media(">tablet", "<desktop") {
+        }
+        @include media(">=desktop") {
+        }
     }
 
-    div{
+    div {
         background: var(--gray100);
         border-radius: 5px;
         height: 300px;
-   
+
+        @include media("<=phone") {
+            height: 815px;
+        }
+        @include media(">phone", "<=425px") {
+        }
+        @include media(">425px", "<=tablet") {
+        }
+        @include media(">tablet", "<desktop") {
+        }
+        @include media(">=desktop") {
+        }
     }
 
-    
-    
     .section {
         width: 770px;
         height: 300px;
@@ -27,58 +66,161 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    
+
+        @include media("<=phone") {
+            width: 95%;
+        }
+        @include media(">phone", "<=425px") {
+        }
+        @include media(">425px", "<=tablet") {
+        }
+        @include media(">tablet", "<desktop") {
+        }
+        @include media(">=desktop") {
+        }
+
         span {
             text-align: justify;
-            display: flex ;
+            display: flex;
             flex-direction: column;
+
+            @include media("<=phone") {
+                font-size: 2.25rem;
+                margin-bottom: 0.25rem;
+            }
+            @include media(">phone", "<=425px") {
+            }
+            @include media(">425px", "<=tablet") {
+            }
+            @include media(">tablet", "<desktop") {
+            }
+            @include media(">=desktop") {
+            }
         }
-        
+
         p {
             margin-bottom: 15px;
             text-align: justify;
             display: flex;
             width: 750px;
 
+            @include media("<=phone") {
+                font-size: 2.25rem;
+                margin-top: 0.5rem;
+            }
+            @include media(">phone", "<=425px") {
+            }
+            @include media(">425px", "<=tablet") {
+            }
+            @include media(">tablet", "<desktop") {
+            }
+            @include media(">=desktop") {
+            }
 
             svg {
                 font-size: 1.15rem;
-                margin-left: 5px;                
-             }
+                margin-left: 5px;
+
+                @include media("<=phone") {
+                    font-size: 2.25rem
+                }
+                @include media(">phone", "<=425px") {
+                }
+                @include media(">425px", "<=tablet") {
+                }
+                @include media(">tablet", "<desktop") {
+                }
+                @include media(">=desktop") {
+                }
+            }
         }
-        
+
         h4 {
             display: flex;
             flex-direction: column;
+
+            @include media("<=phone") {
+                font-size: 2.95rem;
+            }
+            @include media(">phone", "<=425px") {
+            }
+            @include media(">425px", "<=tablet") {
+            }
+            @include media(">tablet", "<desktop") {
+            }
+            @include media(">=desktop") {
+            }
         }
-        
-        h3{
+
+        h3 {
             color: var(--primary);
             display: flex !important;
             align-items: center;
+
+            @include media("<=phone") {
+                font-size: 2.95rem;
+                width: 110%;
+            }
+            @include media(">phone", "<=425px") {
+            }
+            @include media(">425px", "<=tablet") {
+            }
+            @include media(">tablet", "<desktop") {
+            }
+            @include media(">=desktop") {
+            }
 
             span {
                 display: flex !important;
                 flex-direction: row;
                 text-decoration: none;
                 cursor: pointer;
+
+                @include media("<=phone") {
+                    font-size: 2.55rem;
+                }
+                @include media(">phone", "<=425px") {
+                }
+                @include media(">425px", "<=tablet") {
+                }
+                @include media(">tablet", "<desktop") {
+                }
+                @include media(">=desktop") {
+                }
             }
-            
+
             svg {
                 margin-left: 5px;
                 margin-right: 5px;
+
+                @include media("<=phone") {
+                    font-size: 3.5rem;
+                }
+                @include media(">phone", "<=425px") {
+                }
+                @include media(">425px", "<=tablet") {
+                }
+                @include media(">tablet", "<desktop") {
+                }
+                @include media(">=desktop") {
+                }
             }
         }
-        
     }
 
-    .section2{
-        max-width:1180px;
+    .section2 {
+        max-width: 1180px;
+
+        @include media("<=phone") {
+            width: 100%;
+        }
+        @include media(">phone", "<=425px") {
+        }
+        @include media(">425px", "<=tablet") {
+        }
+        @include media(">tablet", "<desktop") {
+        }
+        @include media(">=desktop") {
+        }
     }
-    
 }
-
-
-
-
-
