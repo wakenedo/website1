@@ -21,6 +21,10 @@
         width: 110%;
         margin-left: 3.75%;
     }
+    @include media(">425px", "<=tablet") {
+        width: 250%;
+        margin-left: 2.55%;
+    }
 }
 
 .contentExperience {
@@ -47,6 +51,11 @@
             font-size: 2.25rem;
             font-weight: 500;
         }
+        @include media(">425px", "<=tablet") {
+            font-size: 4.25rem;
+            font-weight: 500;
+            border: none;
+        }
     }
 
     p {
@@ -63,6 +72,10 @@
             font-size: 1.05rem;
             font-weight: 500;
         }
+        @include media(">425px", "<=tablet") {
+            font-size: 2.05rem;
+            font-weight: 500;
+        }
     }
 
     span {
@@ -74,10 +87,13 @@
             font-size: 2.35rem;
             font-weight: 400;
         }
-
         @include media(">phone", "<=425px") {
             font-weight: 400;
             font-size: 0.95rem;
+        }
+        @include media(">425px", "<=tablet") {
+            font-weight: 400;
+            font-size: 2.15rem;
         }
     }
 }
@@ -94,6 +110,10 @@ h4 {
 
     @include media(">phone", "<=425px") {
         font-size: 1.25rem;
+        font-weight: 700;
+    }
+    @include media(">425px", "<=tablet") {
+        font-size: 2.65rem;
         font-weight: 700;
     }
 }

@@ -23,6 +23,10 @@
                 font-weight: 300;
             }
 
+            @include media(">425px", "<=tablet") {
+                font-size: 2.5rem !important;
+            }
+
             span {
                 margin-top: 2px;
                 margin-left: 5px;
@@ -35,9 +39,13 @@
                 @include media("<=phone") {
                     font-size: 4.25rem !important;
                 }
-                
+
                 @include media(">phone", "<=425px") {
                     font-size: 1.5rem !important;
+                }
+
+                @include media(">425px", "<=tablet") {
+                    font-size: 3.5rem !important;
                 }
             }
         }
@@ -49,5 +57,9 @@
 
     @include media(">phone", "<=425px") {
         width: 118%;
+    }
+
+    @include media(">425px", "<=tablet") {
+        width: 254.5%;
     }
 }

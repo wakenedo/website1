@@ -4,7 +4,7 @@ import Intro from './Intro'
 import styles from './introImg.module.scss';
 
 const skills = [
-    { type: "JavaScript", level: 65 },
+    { type: "JavaScript", level: 60 },
     { type: "React.js", level: 60 },
     { type: "TypeScript", level: 55 },
     { type: "Node.js", level: 55 },

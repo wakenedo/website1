@@ -22,6 +22,11 @@
         margin-left: 3.75%;
     }
 
+    @include media(">425px", "<=tablet") {
+        width: 250%;
+        margin-left: 2.55%;
+    }
+
     h3 {
         font-size: 3.2rem;
         line-height: 3.2rem;
@@ -42,6 +47,12 @@
             font-weight: 500;
         }
 
+        @include media(">425px", "<=tablet") {
+            font-size: 4.25rem;
+            font-weight: 500;
+            border: none;
+        }
+
         svg {
             margin-right: 5px;
         }
@@ -60,6 +71,10 @@
             font-size: 1.25rem;
             font-weight: 700;
         }
+        @include media(">425px", "<=tablet") {
+            font-size: 2.65rem;
+            font-weight: 700;
+        }
     }
 
     p {
@@ -73,6 +88,10 @@
 
         @include media(">phone", "<=425px") {
             font-size: 1.05rem;
+            font-weight: 500;
+        }
+        @include media(">425px", "<=tablet") {
+            font-size: 2.05rem;
             font-weight: 500;
         }
     }
@@ -91,9 +110,11 @@
             @include media("<=phone") {
                 font-size: 3.35rem;
             }
-
             @include media(">phone", "<=425px") {
                 font-size: 1.05rem;
+            }
+            @include media(">425px", "<=tablet") {
+                font-size: 2.55rem;
             }
 
             svg {
@@ -102,9 +123,11 @@
                 @include media("<=phone") {
                     font-size: 3.35rem;
                 }
-
                 @include media(">phone", "<=425px") {
                     font-size: 1.05rem;
+                }
+                @include media(">425px", "<=tablet") {
+                    font-size: 2.55rem;
                 }
             }
         }
@@ -137,6 +160,11 @@
             &:last-child {
                 margin-bottom: 1.5rem;
             }
+        }
+
+        @include media(">425px", "<=tablet") {
+            font-weight: 400;
+            font-size: 2.15rem;
         }
     }
 }

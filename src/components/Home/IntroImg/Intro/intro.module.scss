@@ -5,10 +5,13 @@
     color: var(--gray100) !important;
 
     @include media("<=phone") {
-     width: 100% ;       
+        width: 100%;
     }
 
     @include media(">phone", "<=425px") {
+        width: 100%;
+    }
+    @include media(">425px", "<=tablet") {
         width: 100%;
     }
 
@@ -17,13 +20,18 @@
         padding: 0.5rem;
 
         @include media("<=phone") {
-         width: 90%;
-         font-size: 3.25rem;   
-        }        
+            width: 90%;
+            font-size: 3.25rem;
+        }
 
         @include media(">phone", "<=425px") {
             width: 80%;
             font-size: 0.85rem;
+            font-weight: 100;
+        }
+        @include media(">425px", "<=tablet") {
+            width: 50%;
+            font-size: 1.85rem;
             font-weight: 100;
         }
     }
@@ -37,9 +45,9 @@
         margin-top: 0.5rem;
 
         @include media("<=phone") {
-         width: 90%;
-         font-size: 5.5rem;
-         margin-bottom: 2.5rem;   
+            width: 90%;
+            font-size: 5.5rem;
+            margin-bottom: 2.5rem;
         }
 
         @include media(">phone", "<=425px") {
@@ -47,6 +55,13 @@
             font-size: 1.85rem;
             font-weight: 300;
         }
+        @include media(">425px", "<=tablet") {
+            width: 70%;
+            font-size: 3.85rem;
+            font-weight: 100;
+            margin-bottom: 1.5rem;
+        }
+        
     }
 
     p {
@@ -59,14 +74,18 @@
         padding: 0.5rem;
 
         @include media("<=phone") {
-         width: 92%;
-         font-size: 2.5rem;
-
+            width: 92%;
+            font-size: 2.5rem;
         }
 
         @include media(">phone", "<=425px") {
             width: 105%;
             font-size: 0.85rem;
+            font-weight: 100;
+        }
+        @include media(">425px", "<=tablet") {
+            width: 100%;
+            font-size: 2.25rem;
             font-weight: 100;
         }
     }
@@ -76,10 +95,13 @@
     width: 1180px;
 
     @include media("<=phone") {
-     width: 108%;       
+        width: 108%;
     }
 
     @include media(">phone", "<=425px") {
+        width: 100%;
+    }
+    @include media(">425px", "<=tablet") {
         width: 100%;
     }
 }
