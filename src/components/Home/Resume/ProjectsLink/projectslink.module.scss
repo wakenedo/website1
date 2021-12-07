@@ -46,6 +46,7 @@
         }
         @include media(">425px", "<=tablet") {
             width: 252%;
+            height: 15%;
             font-size: 1.85rem;
             font-weight: 100;
         }
