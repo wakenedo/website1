@@ -10,16 +10,17 @@
         padding: 0 2rem;
         align-items: center;
         justify-content: space-between;
+        text-align: justify;
 
         @include media("<=phone") {
             flex-direction: column;
-            width: 350%;
-            margin-left: 9.5%;
+            width: 105%;
+            margin-left: 1.5%;
         }
         @include media(">phone", "<=425px") {
             flex-direction: column;
-            width: 310%;
-            margin-left: 9.5%;
+            width: 100%;
+            margin-left: 1.5%;
         }
         @include media(">425px", "<=tablet") {
         }
@@ -37,10 +38,10 @@
                 color: var(--primary-dark);
 
                 @include media("<=phone") {
-                    font-size: 6rem;
+                    font-size: 2rem;
                 }
                 @include media(">phone", "<=425px") {
-                    font-size: 6.5rem;
+                    font-size: 1.5rem;
                 }
                 @include media(">425px", "<=tablet") {
                 }
@@ -61,11 +62,11 @@
             color: var(--primary-dark);
 
             @include media("<=phone") {
-                font-size: 6rem;
+                font-size: 2rem;
                 margin-top: 1.5rem;
             }
             @include media(">phone", "<=425px") {
-                font-size: 6.5rem;
+                font-size: 2.5rem;
             }
             @include media(">425px", "<=tablet") {
             }
@@ -98,11 +99,11 @@
             color: var(--gray100);
 
             @include media("<=phone") {
-                font-size: 2.5rem;
+                font-size: 0.85rem;
                 text-align: justify;
             }
             @include media(">phone", "<=425px") {
-                font-size: 2.55rem;
+                font-size: 0.95rem;
                 text-align: justify;
             }
             @include media(">425px", "<=tablet") {

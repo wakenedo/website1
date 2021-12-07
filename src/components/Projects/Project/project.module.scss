@@ -9,13 +9,13 @@
 
     @include media("<=phone") {
         flex-direction: column;
-        width: 350%;
-        margin-left: 15.5%;
+        width: 112%;
+        margin-left: 2.5%;
     }
     @include media(">phone", "<=425px") {
         flex-direction: column;
-        width: 250%;
-        margin-left: 33.5%;
+        width: 100%;
+        margin-left: 0.5%;
     }
     @include media(">425px", "<=tablet") {
     }
@@ -32,12 +32,12 @@
         @include media("<=phone") {
             width: 100%;
             height: 100%;
-            margin-bottom: 1rem;
+            margin-bottom: 0.5rem;
         }
         @include media(">phone", "<=425px") {
             width: 100%;
             height: 100%;
-            margin-bottom: 1rem;
+            margin-bottom: 0.5rem;
         }
         @include media(">425px", "<=tablet") {
         }
@@ -53,10 +53,10 @@
         height: 300px;
 
         @include media("<=phone") {
-            height: 815px;
+            height: 445px;
         }
         @include media(">phone", "<=425px") {
-            height: 815px;
+            height: 405px;
         }
         @include media(">425px", "<=tablet") {
         }
@@ -75,10 +75,10 @@
         justify-content: space-between;
 
         @include media("<=phone") {
-            width: 95%;
+            width: 100%;
         }
         @include media(">phone", "<=425px") {
-            width: 95%;
+            width: 100%;
         }
         @include media(">425px", "<=tablet") {
         }
@@ -93,11 +93,11 @@
             flex-direction: column;
 
             @include media("<=phone") {
-                font-size: 2.25rem;
+                font-size: 0.95rem;
                 margin-bottom: 0.25rem;
             }
             @include media(">phone", "<=425px") {
-                font-size: 2.25rem;
+                font-size: 0.95rem;
                 margin-bottom: 0.25rem;
             }
             @include media(">425px", "<=tablet") {
@@ -115,11 +115,13 @@
             width: 750px;
 
             @include media("<=phone") {
-                font-size: 2.25rem;
+                font-size: 1.15rem;
+                width: 100%;
                 margin-top: 0.5rem;
             }
             @include media(">phone", "<=425px") {
-                font-size: 2.25rem;
+                font-size: 1.15rem;
+                width: 100%;
                 margin-top: 0.5rem;
             }
             @include media(">425px", "<=tablet") {
@@ -134,10 +136,10 @@
                 margin-left: 5px;
 
                 @include media("<=phone") {
-                    font-size: 2.25rem;
+                    font-size: 1.25rem;
                 }
                 @include media(">phone", "<=425px") {
-                    font-size: 2.25rem;
+                    font-size: 1.25rem;
                 }
                 @include media(">425px", "<=tablet") {
                 }
@@ -151,12 +153,13 @@
         h4 {
             display: flex;
             flex-direction: column;
+            color: var(--primary);
 
             @include media("<=phone") {
-                font-size: 2.95rem;
+                font-size: 1rem;
             }
             @include media(">phone", "<=425px") {
-                font-size: 2.95rem;
+                font-size: 1rem;
             }
             @include media(">425px", "<=tablet") {
             }
@@ -172,12 +175,12 @@
             align-items: center;
 
             @include media("<=phone") {
-                font-size: 2.95rem;
-                width: 110%;
+                font-size: 1.2rem;
+                width: 100%;
             }
             @include media(">phone", "<=425px") {
-                font-size: 2.95rem;
-                width: 110%;
+                font-size: 1.2rem;
+                width: 100%;
             }
             @include media(">425px", "<=tablet") {
             }
@@ -193,10 +196,10 @@
                 cursor: pointer;
 
                 @include media("<=phone") {
-                    font-size: 2.55rem;
+                    font-size: 1rem;
                 }
                 @include media(">phone", "<=425px") {
-                    font-size: 2.55rem;
+                    font-size: 1rem;
                 }
                 @include media(">425px", "<=tablet") {
                 }
@@ -211,10 +214,10 @@
                 margin-right: 5px;
 
                 @include media("<=phone") {
-                    font-size: 3.5rem;
+                    font-size: 1rem;
                 }
                 @include media(">phone", "<=425px") {
-                    font-size: 3.5rem;
+                    font-size: 1rem;
                 }
                 @include media(">425px", "<=tablet") {
                 }
