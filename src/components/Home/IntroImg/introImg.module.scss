@@ -13,13 +13,13 @@
 
     @include media("<=phone") {
         padding-bottom: 0.5rem;
-        width: 375%;
-        margin-left: 9.5%;
+        width: 127%;
+        margin-left: 1%;
     }
     @include media(">phone", "<=425px") {
         padding-bottom: 0.5rem;
-        width: 275%;
-        margin-left: 15.75%;
+        width: 96%;
+        margin-left: 2%;
     }
     @include media(">425px", "<=tablet") {
         padding-bottom: 0.5rem;
@@ -52,8 +52,8 @@
         width: 95%;
     }
     @include media(">425px", "<=tablet") {
-        width: 100%;
         flex-direction: column;
+        width: 100%;
     }
     @include media(">tablet", "<desktop") {
         flex-direction: column;
@@ -70,11 +70,11 @@
         padding: 1.5rem;
 
         @include media("<=phone") {
-            height: 600px;
+            height: 300px;
         }
         @include media(">phone", "<=425px") {
-            height: 485px;
-            margin-left: 21px;
+            height: 305px;
+            margin-left: 6%;
         }
         @include media(">425px", "<=tablet") {
             height: 500px    

@@ -12,12 +12,12 @@
     margin: 0 auto 1.5rem;
 
     @include media("<=phone") {
-        width: 375%;
-        margin-left: 9.5%;
+        width: 127%;
+        margin-left: 1%;
     }
     @include media(">phone", "<=425px") {
-        width: 275%;
-        margin-left: 15.75%;
+        width: 96%;
+        margin-left: 2%;
     }
     @include media(">425px", "<=tablet") {
         width: 250%;
@@ -28,7 +28,6 @@
         margin-left: 2.55%;
     }
     @include media(">=desktop") {
-        
     }
 
     h3 {
@@ -41,12 +40,12 @@
         color: var(--primary);
 
         @include media("<=phone") {
-            font-size: 6.25rem;
+            font-size: 2.55rem;
             font-weight: 500;
             border: none;
         }
         @include media(">phone", "<=425px") {
-            font-size: 5.25rem;
+            font-size: 2.25rem;
             font-weight: 500;
             border: none;
         }
@@ -56,10 +55,8 @@
             border: none;
         }
         @include media(">tablet", "<desktop") {
-            
         }
         @include media(">=desktop") {
-    
         }
 
         svg {
@@ -72,11 +69,11 @@
         font-weight: 500;
 
         @include media("<=phone") {
-            font-size: 3.15rem;
+            font-size: 1.25rem;
             font-weight: 700;
         }
         @include media(">phone", "<=425px") {
-            font-size: 3.25rem;
+            font-size: 1.15rem;
             font-weight: 700;
         }
         @include media(">425px", "<=tablet") {
@@ -84,83 +81,8 @@
             font-weight: 700;
         }
         @include media(">tablet", "<desktop") {
-            
         }
         @include media(">=desktop") {
-    
-        }
-    }
-
-    p {
-        font-size: 1.2rem;
-        font-weight: 500;
-
-        @include media("<=phone") {
-            font-size: 2.35rem;
-            font-weight: 500;
-        }
-        @include media(">phone", "<=425px") {
-            font-size: 2.05rem;
-            font-weight: 500;
-        }
-        @include media(">425px", "<=tablet") {
-            font-size: 2.05rem;
-            font-weight: 500;
-        }
-        @include media(">tablet", "<desktop") {
-            
-        }
-        @include media(">=desktop") {
-    
-        }
-    }
-
-    div {
-        margin-bottom: 1.5rem;
-        display: flex;
-        flex-direction: column;
-
-        a {
-            align-items: center;
-            margin-top: 0.5rem;
-            font-size: 1.5rem;
-            color: var(--primary);
-
-            @include media("<=phone") {
-                font-size: 3.35rem;
-            }
-            @include media(">phone", "<=425px") {
-                font-size: 3.05rem;
-            }
-            @include media(">425px", "<=tablet") {
-                font-size: 2.55rem;
-            }
-            @include media(">tablet", "<desktop") {
-                
-            }
-            @include media(">=desktop") {
-        
-            }
-
-            svg {
-                margin-right: 5px;
-
-                @include media("<=phone") {
-                    font-size: 3.35rem;
-                }
-                @include media(">phone", "<=425px") {
-                    font-size: 3.05rem;
-                }
-                @include media(">425px", "<=tablet") {
-                    font-size: 2.55rem;
-                }
-                @include media(">tablet", "<desktop") {
-                    
-                }
-                @include media(">=desktop") {
-            
-                }
-            }
         }
     }
 }
@@ -174,32 +96,31 @@
         font-size: 1.4rem;
         font-weight: 300;
         display: flex;
+        margin-top: 1rem;
+        text-align: justify;
 
+        &:first-child {
+            margin-top: 0.5rem;
+        }
         &:last-child {
             margin-bottom: 1.5rem;
         }
 
         @include media("<=phone") {
-            font-size: 2.35rem;
+            font-size: 1rem;
             font-weight: 400;
         }
         @include media(">phone", "<=425px") {
             font-weight: 400;
-            font-size: 2.25rem;
-
-            &:last-child {
-                margin-bottom: 1.5rem;
-            }
+            font-size: 0.75rem;
         }
         @include media(">425px", "<=tablet") {
             font-weight: 400;
             font-size: 2.15rem;
         }
         @include media(">tablet", "<desktop") {
-            
         }
         @include media(">=desktop") {
-    
         }
     }
 }

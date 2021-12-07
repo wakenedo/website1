@@ -12,13 +12,13 @@ export default function Experience() {
                     <br />
                     <h4>Frontend Web Developer</h4>
                     <>
-                        <p>
+                        <span>
                             Desenvolvimento web frontend, utilizando JavaScript / ReactJS / TypeScript criando interfaces
                             intuitivas, a partir de protótipos elaborados pelos designers.
                             Projetos responsivos, código estático e dinâmico. Código limpo, CSS hierárquico, busca e
                             roteamento de API. Consertando rotas, adicionando novos ou consertando componentes antigos,
                             testes automatizados, análise de desempenho.
-                        </p>
+                        </span>
                     </>
                 </div>
                 <div className="intro">

@@ -26,11 +26,11 @@
 
         @include media("<=phone") {
             width: 90%;
-            font-size: 3.25rem;
+            font-size: 0.95rem;
         }
         @include media(">phone", "<=425px") {
             width: 80%;
-            font-size: 2.85rem;
+            font-size: 0.85rem;
             font-weight: 100;
         }
         @include media(">425px", "<=tablet") {
@@ -60,14 +60,15 @@
 
         @include media("<=phone") {
             width: 90%;
-            font-size: 4.5rem;
-            margin-bottom: 2.5rem;
+            font-size: 2.15rem;
+            font-weight: 300;
+            margin-bottom: 0.5rem;
         }
         @include media(">phone", "<=425px") {
             width: 90%;
-            font-size: 3.85rem;
+            font-size: 1.65rem;
             font-weight: 300;
-            margin-bottom: 2.5rem;
+            margin-bottom: 0.25rem;
         }
         @include media(">425px", "<=tablet") {
             width: 70%;
@@ -100,11 +101,11 @@
 
         @include media("<=phone") {
             width: 92%;
-            font-size: 2.5rem;
+            font-size: 0.95rem;
         }
         @include media(">phone", "<=425px") {
-            width: 105%;
-            font-size: 1.85rem;
+            width: 100%;
+            font-size: 0.75rem;
             font-weight: 100;
         }
         @include media(">425px", "<=tablet") {
