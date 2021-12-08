@@ -6,6 +6,19 @@
   box-sizing: border-box;
 }
 
+:root {
+  --white: #ffffff;
+  --gray100: #f4f6fc;
+  --gray300: #a8a8b3;
+  --gray700: #323238;
+  --gray800: #29292e;
+  --gray850: #1f2729;
+  --gray900: #121214;
+  --secondary: #67e0e0;
+  --primary: #ab45f0;
+  --primary-dark: #7a36a8;
+}
+
 .image-gallery-left-nav .image-gallery-svg,
 .image-gallery-right-nav .image-gallery-svg {
   height: 60px !important;
@@ -26,25 +39,6 @@
   outline: none;
   padding: 5px;
   transition: all 0.2s ease-out;
-}
-
-:root {
-  --white: #ffffff;
-  --gray100: #f4f6fc;
-  --gray300: #a8a8b3;
-  --gray700: #323238;
-  --gray800: #29292e;
-  --gray850: #1f2729;
-  --gray900: #121214;
-  --secondary: #67e0e0;
-  --primary: #ab45f0;
-  --primary-dark: #7a36a8;
-}
-
-@media (min-width: 1080px) {
-  html {
-    font-size: 87.5%;
-  }
 }
 
 body {
@@ -106,7 +100,6 @@ p {
     font-weight: 300 !important;
   }
 }
-
 .skillbar-percent {
   color: var(--gray700) !important;
   @include media("<=phone") {
