@@ -1,3 +1,5 @@
+@import "../../../../../node_modules/include-media";
+
 .content {
     text-align: justify;
     margin: 0rem 0 1.5rem 0;
@@ -8,8 +10,22 @@
     font-size: 12px;
     height: 205px;
     max-height: 205px;
-    width: 594px;
-    max-width: 594px;
+
+    @include media("<=phone") {
+        width: 127%;
+        margin-left: 1%;
+    }
+    @include media(">phone", "<=425px") {
+        width: 100%;
+        height: 270px;
+        max-height: 350px;
+    }
+    @include media(">425px", "<=tablet") {
+    }
+    @include media(">tablet", "<desktop") {
+    }
+    @include media(">=desktop") {
+    }
 
     h3 {
         color: var(--gray100) !important;
@@ -18,6 +34,18 @@
         border-bottom: 1px solid;
         display: flex;
 
+        @include media("<=phone") {
+        }
+        @include media(">phone", "<=425px") {
+            font-size: 1.15rem;
+        }
+        @include media(">425px", "<=tablet") {
+        }
+        @include media(">tablet", "<desktop") {
+        }
+        @include media(">=desktop") {
+        }
+
         svg {
             margin-right: 0.5rem;
         }
@@ -25,5 +53,17 @@
 
     span {
         font-size: 1.05rem;
+
+        @include media("<=phone") {
+        }
+        @include media(">phone", "<=425px") {
+            font-size: 0.9rem;
+        }
+        @include media(">425px", "<=tablet") {
+        }
+        @include media(">tablet", "<desktop") {
+        }
+        @include media(">=desktop") {
+        }
     }
 }

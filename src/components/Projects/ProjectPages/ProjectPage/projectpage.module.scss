@@ -1,7 +1,8 @@
-@import '../../../../../node_modules/include-media';
+@import "../../../../../node_modules/include-media";
 
 .content {
     display: flex;
+    flex-direction: column;
     width: 1220px;
     margin: 0 auto 25px;
 
@@ -9,6 +10,7 @@
     }
     @include media(">phone", "<=425px") {
         flex-direction: column;
+        width: 96%;
     }
     @include media(">425px", "<=tablet") {
     }
@@ -19,22 +21,77 @@
 }
 
 .section {
+    margin-top: 1.5rem;
     flex-direction: column;
-    margin-left: 1.5rem;
+
+    @include media("<=phone") {
+        width: 127%;
+        margin-left: 1%;
+    }
+    @include media(">phone", "<=425px") {
+        margin-left: 0.25%;
+    }
+    @include media(">425px", "<=tablet") {
+    }
+    @include media(">tablet", "<desktop") {
+    }
+    @include media(">=desktop") {
+    }
 
     h3 {
         color: var(--gray100);
     }
-}
 
-.section2 {
-    display: flex;
-    width: 1220px;
-    margin: 0 auto 1.5rem;
-}
+    .section2 {
+        display: flex;
+        width: 1220px;
+        margin: 0 auto 1.5rem;
 
-.section3 {
-    display: flex;
-    width: 1220px;
-    margin: 0 auto 1.5rem;
+        @include media("<=phone") {
+        }
+        @include media(">phone", "<=425px") {
+            flex-direction: column;
+            width: 96%;
+        }
+        @include media(">425px", "<=tablet") {
+        }
+        @include media(">tablet", "<desktop") {
+        }
+        @include media(">=desktop") {
+        }
+    }
+
+    .section3 {
+        display: flex;
+        margin: 0 auto 1.5rem;
+
+        @include media("<=phone") {
+        }
+        @include media(">phone", "<=425px") {
+            width: 96%;
+        }
+        @include media(">425px", "<=tablet") {
+        }
+        @include media(">tablet", "<desktop") {
+        }
+        @include media(">=desktop") {
+        }
+    }
+
+    .section4 {
+        display: flex;
+        margin: 0 auto 1.5rem;
+
+        @include media("<=phone") {
+        }
+        @include media(">phone", "<=425px") {
+            width: 96%;
+        }
+        @include media(">425px", "<=tablet") {
+        }
+        @include media(">tablet", "<desktop") {
+        }
+        @include media(">=desktop") {
+        }
+    }
 }

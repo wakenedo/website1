@@ -1,3 +1,5 @@
+@import '../../../../../node_modules/include-media';
+
 .content {
     text-align: justify;
     background: var(--primary);
@@ -7,6 +9,23 @@
     font-size: 12px;
     max-height: 295px;
     width: 1220px;
+    margin-bottom: 1.5rem;
+
+    @include media("<=phone") {
+        width: 127%;
+        margin-left: 1%;
+     }
+     @include media(">phone", "<=425px") {
+        width: 100%;        
+        max-height: 1350px;
+        margin-bottom: 1.5rem;
+     }
+     @include media(">425px", "<=tablet") {
+     }
+     @include media(">tablet", "<desktop") {
+     }
+     @include media(">=desktop") {
+     }
 
     h3 {
         color: var(--gray100) !important;
@@ -26,6 +45,20 @@
         align-items: center;
         margin: 1.5rem;
 
+        @include media("<=phone") {
+            width: 127%;
+            margin-left: 1%;
+         }
+         @include media(">phone", "<=425px") {
+            flex-direction: column;
+         }
+         @include media(">425px", "<=tablet") {
+         }
+         @include media(">tablet", "<desktop") {
+         }
+         @include media(">=desktop") {
+         }
+
         div {
             text-align: center;
 
@@ -37,6 +70,20 @@
             align-items: center;
             margin-top: 1.75rem;
             margin-bottom: 1rem;
+
+            @include media("<=phone") {
+                width: 127%;
+                margin-left: 1%;
+             }
+             @include media(">phone", "<=425px") {
+                font-size: 5rem;
+             }
+             @include media(">425px", "<=tablet") {
+             }
+             @include media(">tablet", "<desktop") {
+             }
+             @include media(">=desktop") {
+             }
         }
     }
 }

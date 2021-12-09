@@ -1,3 +1,5 @@
+@import "../../../../../node_modules/include-media";
+
 .content {
     text-align: justify;
     background: var(--gray100);
@@ -9,35 +11,85 @@
     max-height: 265px;
     width: 1220px;
 
-    h3 {
-        color: var(--primary) !important;
-        margin-bottom: 0.5rem;
-        font-size: 24px;
-        border-bottom: 1px solid;
+    @include media("<=phone") {
+    }
+    @include media(">phone", "<=425px") {
+        width: 100%;
+        height: 125px;
+    }
+    @include media(">425px", "<=tablet") {
+    }
+    @include media(">tablet", "<desktop") {
+    }
+    @include media(">=desktop") {
+    }
+}
+
+h3 {
+    color: var(--primary) !important;
+    margin-bottom: 0.5rem;
+    font-size: 24px;
+    border-bottom: 1px solid;
+    display: flex;
+
+    svg {
+        margin-right: 0.5rem;
+    }
+}
+
+.section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    @include media("<=phone") {
+    }
+    @include media(">phone", "<=425px") {
+        width: 100%;
+    }
+    @include media(">425px", "<=tablet") {
+    }
+    @include media(">tablet", "<desktop") {
+    }
+    @include media(">=desktop") {
+    }
+
+    div {
+        text-align: center;
+    }
+
+    a {
+        font-size: 2.25rem;
         display: flex;
+        align-items: center;
+        margin-top: 1.5rem;
+
+        @include media("<=phone") {
+        }
+        @include media(">phone", "<=425px") {
+            font-size:0.85rem;
+        }
+        @include media(">425px", "<=tablet") {
+        }
+        @include media(">tablet", "<desktop") {
+        }
+        @include media(">=desktop") {
+        }
 
         svg {
             margin-right: 0.5rem;
-        }
-    }
 
-    .section {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-
-        div {
-            text-align: center;
-        }
-
-        a {
-            font-size: 2.25rem;
-            display: flex;
-            align-items: center;
-            margin-top: 1.5rem;
-
-            svg {
-                margin-right: 0.5rem;
+            @include media("<=phone") {
+            }
+            @include media(">phone", "<=425px") {
+                font-size: 1.5rem;
+                margin-right: 0.15rem;
+            }
+            @include media(">425px", "<=tablet") {
+            }
+            @include media(">tablet", "<desktop") {
+            }
+            @include media(">=desktop") {
             }
         }
     }
