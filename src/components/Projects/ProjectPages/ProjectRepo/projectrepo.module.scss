@@ -32,6 +32,20 @@ h3 {
     border-bottom: 1px solid;
     display: flex;
 
+    @include media("<=phone") {
+        width: 127%;
+        margin-left: 1%;
+     }
+     @include media(">phone", "<=425px") {
+        font-size: 1.15rem;
+     }
+     @include media(">425px", "<=tablet") {
+     }
+     @include media(">tablet", "<desktop") {
+     }
+     @include media(">=desktop") {
+     }
+
     svg {
         margin-right: 0.5rem;
     }
