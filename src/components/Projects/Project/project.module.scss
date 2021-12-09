@@ -120,7 +120,7 @@
         }
 
         p {
-            margin-bottom: 15px;
+            margin-bottom: 5px;
             text-align: justify;
             display: flex;
             width: 750px;
@@ -190,6 +190,7 @@
             color: var(--primary);
             display: flex !important;
             align-items: center;
+            border: none;
 
             @include media("<=phone") {
                 font-size: 1.2rem;
