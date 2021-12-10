@@ -21,6 +21,9 @@
         margin-bottom: 1.5rem;
     }
     @include media(">425px", "<=tablet") {
+        width: 100%;
+        height: 350px;
+        max-height: 450px;
     }
     @include media(">tablet", "<desktop") {
     }
@@ -40,6 +43,8 @@
            font-size: 1.15rem;
         }
         @include media(">425px", "<=tablet") {
+            font-size: 4.25rem;
+            font-weight: 500;
         }
         @include media(">tablet", "<desktop") {
         }
@@ -60,6 +65,8 @@
            font-size: 0.9rem;
         }
         @include media(">425px", "<=tablet") {
+            font-weight: 400;
+            font-size: 2.15rem;
         }
         @include media(">tablet", "<desktop") {
         }
