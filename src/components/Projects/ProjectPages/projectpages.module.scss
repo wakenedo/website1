@@ -41,7 +41,7 @@
                 font-weight: 500;
             }
             @include media(">425px", "<=tablet") {
-                font-size: 4.5rem;
+                font-size: 5rem;
                 font-weight: 500;
             }
             @include media(">tablet", "<desktop") {
@@ -60,6 +60,7 @@
                 }
                 @include media(">425px", "<=tablet") {
                     margin-left: 2.55%;
+                    font-size: 5rem;
                 }
                 @include media(">tablet", "<desktop") {
                 }
