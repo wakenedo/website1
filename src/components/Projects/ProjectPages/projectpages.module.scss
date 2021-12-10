@@ -1,4 +1,4 @@
-@import '../../../../node_modules/include-media';
+@import "../../../../node_modules/include-media";
 
 .content {
     margin: 0 auto 25px;
@@ -14,6 +14,7 @@
             width: 100%;
         }
         @include media(">425px", "<=tablet") {
+            width: 250%;
         }
         @include media(">tablet", "<desktop") {
         }
@@ -40,6 +41,8 @@
                 font-weight: 500;
             }
             @include media(">425px", "<=tablet") {
+                font-size: 4.5rem;
+                font-weight: 500;
             }
             @include media(">tablet", "<desktop") {
             }
@@ -53,9 +56,10 @@
                 }
                 @include media(">phone", "<=425px") {
                     margin-right: 0.25rem;
-                    margin-left: 0.25rem
+                    margin-left: 0.25rem;
                 }
                 @include media(">425px", "<=tablet") {
+                    margin-left: 2.55%;
                 }
                 @include media(">tablet", "<desktop") {
                 }

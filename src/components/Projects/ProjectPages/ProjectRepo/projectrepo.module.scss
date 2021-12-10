@@ -18,6 +18,7 @@
         height: 125px;
     }
     @include media(">425px", "<=tablet") {
+        width: 100%;
     }
     @include media(">tablet", "<desktop") {
     }
