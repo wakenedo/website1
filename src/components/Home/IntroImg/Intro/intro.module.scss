@@ -3,6 +3,7 @@
 
 .intro {
     color: var(--gray100) !important;
+    margin-top: 1rem;
 
     @include media("<=phone") {
         width: 100%;
@@ -51,12 +52,15 @@
     }
 
     h3 {
-        font-size: 3.2rem;
+        font-size: 3.5rem !important;
         line-height: 3.2rem;
         font-weight: 900;
         font-weight: lighter;
         margin-bottom: 0.5rem;
         margin-top: 0.5rem;
+        border: none;
+        color: var(--primary);
+        font-weight: 500 !important;
 
         @include media("<=phone") {
             width: 90%;
