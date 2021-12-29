@@ -1,6 +1,6 @@
 @import "../../../../node_modules/include-media";
 
-.contentResume {
+.content {
     padding: 0 2rem;
     font-size: 1.6rem;
     background: var(--gray100);
@@ -165,7 +165,7 @@
     }
 }
 
-.sectionResume {
+.section {
     padding: 2rem;
     display: flex;
     flex-direction: column;

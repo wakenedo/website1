@@ -10,39 +10,22 @@
   --white: #ffffff;
   --gray100: #f4f6fc;
   --gray300: #a8a8b3;
+  --gray500: #6f6f79;
   --gray700: #323238;
   --gray800: #29292e;
   --gray850: #1f2729;
   --gray900: #121214;
   --secondary: #67e0e0;
-  --primary: #ab45f0;
+  --primary: #4548f0;
   --primary-dark: #7a36a8;
 }
 
-.image-gallery-left-nav .image-gallery-svg,
-.image-gallery-right-nav .image-gallery-svg {
-  height: 60px !important;
-  width: 30px !important;
-  color: var(--gray100) !important;
-}
-
-.image-gallery-bullets .image-gallery-bullet {
-  -webkit-appearance: none;
-  appearance: none;
-  background-color: transparent;
-  border: 1px solid var(--primary) !important;
-  border-radius: 50%;
-  box-shadow: 0 2px 2px #1a1a1a;
-  cursor: pointer;
-  display: inline-block;
-  margin: 0 5px;
-  outline: none;
-  padding: 5px;
-  transition: all 0.2s ease-out;
-}
-
 body {
-  background: linear-gradient(rgb(77, 107, 189), rgb(196, 194, 194));
+  background-color: #2f5dff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg %3E%3Cpolygon fill='%234a6ff1' points='800 100 0 200 0 800 1600 800 1600 200'/%3E%3Cpolygon fill='%236380e5' points='800 200 0 400 0 800 1600 800 1600 400'/%3E%3Cpolygon fill='%237b90db' points='800 300 0 600 0 800 1600 800 1600 600'/%3E%3Cpolygon fill='%23909fd3' points='1600 800 800 400 0 800'/%3E%3Cpolygon fill='%23a4adcc' points='1280 800 800 500 320 800'/%3E%3Cpolygon fill='%23b5b9c8' points='533.3 800 1066.7 800 800 600'/%3E%3Cpolygon fill='%23C5C5C5' points='684.1 800 914.3 800 800 700'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  /* background by SVGBackgrounds.com */
   color: var(--gray700);
 }
 
@@ -78,7 +61,10 @@ p {
   cursor: default;
 }
 
+// React Skillbars Styles and Media Queries
 .skillbar-title {
+  color: var(--gray100) !important;
+  background: var(--primary) !important;
   @include media("<=phone") {
     font-size: 15px !important;
     width: 100px !important;
@@ -148,3 +134,27 @@ p {
     line-height: 35px !important;
   }
 }
+//---------------------------------------------//
+//React Image Gallery styles and Media Queries
+.image-gallery-left-nav .image-gallery-svg,
+.image-gallery-right-nav .image-gallery-svg {
+  height: 60px !important;
+  width: 30px !important;
+  color: var(--gray100) !important;
+}
+
+.image-gallery-bullets .image-gallery-bullet {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid var(--primary) !important;
+  border-radius: 50%;
+  box-shadow: 0 2px 2px #1a1a1a;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 5px;
+  outline: none;
+  padding: 5px;
+  transition: all 0.2s ease-out;
+}
+//---------------------------------------------//

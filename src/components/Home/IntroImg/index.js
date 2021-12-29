@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import SkillBar from 'react-skillbars';
 import PhotoPessoal from '../../../Assets/photo_pessoal.jpg'
 import Intro from './Intro'
@@ -13,18 +14,30 @@ const skills = [
 
 export default function IntroImg() {
     return (
-        <div className={styles.contentImage}>
+        <div className={styles.content}>
+            <div className={styles.contentTitle}>
+                <h3>Alexandre Alvarenga </h3>
+                <div className={styles.contentSubTitle}>
+                <span>Frontend Web Developer | React.JS</span>
+                </div>
+            </div>
             <div className={styles.contentRow}>
-                <img src={PhotoPessoal} alt="" />
+                <div className={styles.contentRowColumn}>
+                    <img src={PhotoPessoal} alt="" />
+                    <>
+                        <SkillBar
+                            skills={skills}
+                            height={15}
+                        />
+                    </>
+                    <Link to='/Projects'>
+                        <button className={styles.button}>
+                            PROJECTS
+                        </button>
+                    </Link>
+                </div>
                 <Intro />
             </div>
-            
-
-
-            <SkillBar
-                skills={skills}
-                height={15}
-            />
         </div>
     )
 }

@@ -26,14 +26,8 @@ function ProjectsPage() {
                 <section className={styles.section}>
                     <div className={styles.title}>
                         <FaProjectDiagram />
-                        <h3>Projects :</h3>
+                        <h3>Projects </h3>
                     </div>
-                    <span>
-                        Aqui estão alguns dos meus projetos com mais detalhes
-                        listando as tecnologias e ferramentas usadas, descrevendo minha participação
-                        nos projetos e minhas conclusões sobre os aprendizados que adquiri
-                        no curso de cada um.
-                    </span>
                 </section>
 
             </main>

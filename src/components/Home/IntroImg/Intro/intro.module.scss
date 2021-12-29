@@ -10,6 +10,7 @@
     }
     @include media(">phone", "<=425px") {
         width: 100%;
+        margin-top: 0.15rem;
     }
     @include media(">425px", "<=tablet") {
         width: 100%;
@@ -93,41 +94,6 @@
             margin-bottom: 1.5rem;
         }
     }
-
-    p {
-        margin-top: 1.5rem;
-        font-size: 1.105rem;
-        line-height: 2.25rem;
-        font-weight: lighter;
-        text-align: justify;
-        width: 890px;
-        padding: 0.5rem;
-
-        @include media("<=phone") {
-            width: 92%;
-            font-size: 0.95rem;
-        }
-        @include media(">phone", "<=425px") {
-            width: 100%;
-            font-size: 0.75rem;
-            font-weight: 100;
-        }
-        @include media(">425px", "<=tablet") {
-            width: 100%;
-            font-size: 2.25rem;
-            font-weight: 100;
-        }
-        @include media(">tablet", "<desktop") {
-            width: 100%;
-            font-size: 2.05rem;
-            font-weight: 100;
-        }
-        @include media(">=desktop") {
-            width: 84.5%;
-            font-size: 1.05rem;
-            font-weight: 100;
-        }
-    }
 }
 
 .section {
@@ -147,5 +113,57 @@
     }
     @include media(">=desktop") {
         width: 100%;
+    }
+}
+
+.container {
+    background: var(--gray100);
+    width: 620px;
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+
+    @include media("<=phone") {
+        width: 108%;
+    }
+    @include media(">phone", "<=425px") {
+        width: 105%;
+    }
+    @include media(">425px", "<=tablet") {
+        width: 100%;
+    }
+    @include media(">tablet", "<desktop") {
+        width: 100%;
+    }
+    
+    p {
+        margin: 1.5rem;
+        font-size: 1rem;
+        line-height: 2.25rem;
+        font-weight: 300;
+        text-align: justify;
+        color: var(--gray700);
+        padding: 1rem;     
+
+        @include media("<=phone") {
+            width: 92%;
+            font-size: 0.95rem;
+        }
+        @include media(">phone", "<=425px") {
+            width: 90%;
+            font-size: 0.75rem;
+            font-weight: 100;
+            
+        }
+        @include media(">425px", "<=tablet") {
+            width: 100%;
+            font-size: 2.25rem;
+            font-weight: 100;
+        }
+        @include media(">tablet", "<desktop") {
+            width: 100%;
+            font-size: 2.05rem;
+            font-weight: 100;
+        }
     }
 }

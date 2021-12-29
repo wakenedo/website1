@@ -5,10 +5,10 @@ import { GiDiploma } from 'react-icons/gi';
 
 export default function Experience() {
     return (
-        <main className={styles.contentExperience}>
-            <section className={styles.sectionExperience}>
+        <main className={styles.content}>
+            <section className={styles.section}>
                 <h3><GiDiploma />Experience</h3>
-                <div className="intro">
+                <div>
                     <br />
                     <h4>Frontend Web Developer</h4>
                     <>
@@ -21,16 +21,16 @@ export default function Experience() {
                         </span>
                     </>
                 </div>
-                <div className="intro">
+                <div>
                     <h4>Ferramentas & Tecnologias</h4>
-                    <section className={styles.section}>
+                    <section >
                         <span>- Figma (Prototipação) </span>
                         <span>- Agile</span>
                         <span>- Kanban e Scrum</span>
                         <span>- GitHub(Versionamento)</span>
                     </section>
                     <h4>Frontend</h4>
-                    <section className={styles.section}>
+                    <section >
                         <span>- HTML </span>
                         <span>- React.js</span>
                         <span>- Redux</span>
@@ -42,7 +42,7 @@ export default function Experience() {
                         <span>- SASS</span>
                     </section>
                     <h4>Backend</h4>
-                    <section className={styles.section}>
+                    <section >
                         <span>- Node.js </span>
                         <span>- Express </span>
                         <span>- MongoDb </span>

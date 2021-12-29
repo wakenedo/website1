@@ -6,8 +6,8 @@ import { SiBookstack } from 'react-icons/si';
 
 export default function Resume() {
        return (
-              <main className={styles.contentResume}>
-                     <section className={styles.sectionResume}>
+              <main className={styles.content}>
+                     <section className={styles.section}>
                             <h3><SiBookstack />Education</h3>
                             <div className="intro">
                                    <br />
@@ -17,7 +17,7 @@ export default function Resume() {
                                    </>
                             </div>
 
-                            <section className={styles.section}>
+                            <section>
                                    <span>- HTML Fundamentals</span>
                                    <span>- Web Design Fundamentals</span>
                             </section>
@@ -30,7 +30,7 @@ export default function Resume() {
                                    </>
                             </div>
 
-                            <section className={styles.section}>
+                            <section>
                                    <span>- Web & Mobile</span>
                                    <span>- Frontend: React</span>
                                    <span>- Backend: Mongodb</span>
@@ -48,7 +48,7 @@ export default function Resume() {
                                    </>
                             </div>
 
-                            <section className={styles.section}>
+                            <section >
                                    <span>- Scratch</span>
                                    <span>- C</span>
                                    <span>- Arrays</span>
@@ -61,7 +61,7 @@ export default function Resume() {
                                           <p>04/2021 to 06/2021</p>
                                    </>
                             </div>
-                            <section className={styles.section}>
+                            <section >
                                    <span>- Node.js (Native, Modules)</span>
                                    <span>- Express</span>
                                    <span>- Upload system</span>
@@ -84,7 +84,7 @@ export default function Resume() {
                                           <p>09/2021 to 10/2021</p>
                                    </>
                             </div>
-                            <section className={styles.section}>
+                            <section >
                                    <span>- React</span>
                                    <span>- Next.js</span>
                                    <span>- TypeScript</span>
@@ -105,7 +105,7 @@ export default function Resume() {
                                           <p>10/2021 to 10/2021</p>
                                    </>
                             </div>
-                            <section className={styles.section}>
+                            <section>
                                    <span>- Prisma</span>
                                    <span>- Node.js</span>
                                    <span>- Express</span>
