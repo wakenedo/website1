@@ -2,7 +2,7 @@ import styles from './intro.module.scss'
 
 export default function Intro() {
     return (
-        <main className={styles.intro}>
+        <section className={styles.intro}>
             <section className={styles.section}>
                 <section className={styles.container}>
                     <p>
@@ -25,7 +25,7 @@ export default function Intro() {
                     </p>
                 </section>
             </section>
-        </main>
+        </section>
 
     )
 

@@ -71,37 +71,37 @@ const projects = [
                 "projectRepo": "https://github.com/wakenedo/courses-project",
                 "Technologies": {
                         "tool1": {
-                                "Badge": <SiJavascript/>,
-                                "Text":  "JavaScript",
+                                "Badge": <SiJavascript />,
+                                "Text": "JavaScript",
                                 "Link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
-                        },              
+                        },
                         "tool2": {
-                                "Badge" : <SiHtml5 />,
-                                "Text"  : "HTML 5",
+                                "Badge": <SiHtml5 />,
+                                "Text": "HTML 5",
                                 "Link": "https://developer.mozilla.org/pt-BR/docs/Web/HTML",
                         },
                         "tool3": {
-                                "Badge" : <DiCss3 />,
-                                "Text"  : "CSS 3",
+                                "Badge": <DiCss3 />,
+                                "Text": "CSS 3",
                                 "Link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS",
                         },
                         "tool4": {
-                                "Badge" : <DiReact />,
-                                "Text"  : "React JS",
+                                "Badge": <DiReact />,
+                                "Text": "React JS",
                                 "Link": "https://pt-br.reactjs.org/",
 
                         },
-                        "tool5":{
-                                "Badge" : <SiRedux />,
-                                "Text"  : "Redux",
+                        "tool5": {
+                                "Badge": <SiRedux />,
+                                "Text": "Redux",
                                 "Link": "https://redux.js.org/",
                         },
                         "tool6": {
-                                "Badge" : <DiGithubBadge />,
-                                "Text"  : "GitHub",
+                                "Badge": <DiGithubBadge />,
+                                "Text": "GitHub",
                                 "Link": "https://github.com/",
                         }
-                         
+
                 },
         },
         {
@@ -151,7 +151,41 @@ const projects = [
                 "projectLearn": "teste",
                 "projectDayToDay": "teste",
                 "projectMyRole": "teste MyRole",
-                "Technologies": {},
+                "projectRepo": "https://github.com/wakenedo/courses-project",
+                "Technologies": {
+                        "tool1": {
+                                "Badge": <SiJavascript />,
+                                "Text": "JavaScript",
+                                "Link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
+                        },
+                        "tool2": {
+                                "Badge": <SiHtml5 />,
+                                "Text": "HTML 5",
+                                "Link": "https://developer.mozilla.org/pt-BR/docs/Web/HTML",
+                        },
+                        "tool3": {
+                                "Badge": <DiCss3 />,
+                                "Text": "CSS 3",
+                                "Link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS",
+                        },
+                        "tool4": {
+                                "Badge": <DiReact />,
+                                "Text": "React JS",
+                                "Link": "https://pt-br.reactjs.org/",
+
+                        },
+                        "tool5": {
+                                "Badge": <SiRedux />,
+                                "Text": "Redux",
+                                "Link": "https://redux.js.org/",
+                        },
+                        "tool6": {
+                                "Badge": <DiGithubBadge />,
+                                "Text": "GitHub",
+                                "Link": "https://github.com/",
+                        }
+
+                },
         },
         {
                 "Id": "3",
@@ -200,7 +234,41 @@ const projects = [
                 "projectLearn": "teste",
                 "projectDayToDay": "teste",
                 "projectMyRole": "teste MyRole",
-                "Technologies": {},
+                "projectRepo": "https://github.com/wakenedo/courses-project",
+                "Technologies": {
+                        "tool1": {
+                                "Badge": <SiJavascript/>,
+                                "Text":  "JavaScript",
+                                "Link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
+                        },              
+                        "tool2": {
+                                "Badge" : <SiHtml5 />,
+                                "Text"  : "HTML 5",
+                                "Link": "https://developer.mozilla.org/pt-BR/docs/Web/HTML",
+                        },
+                        "tool3": {
+                                "Badge" : <DiCss3 />,
+                                "Text"  : "CSS 3",
+                                "Link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS",
+                        },
+                        "tool4": {
+                                "Badge" : <DiReact />,
+                                "Text"  : "React JS",
+                                "Link": "https://pt-br.reactjs.org/",
+
+                        },
+                        "tool5":{
+                                "Badge" : <SiRedux />,
+                                "Text"  : "Redux",
+                                "Link": "https://redux.js.org/",
+                        },
+                        "tool6": {
+                                "Badge" : <DiGithubBadge />,
+                                "Text"  : "GitHub",
+                                "Link": "https://github.com/",
+                        }
+                         
+                },
         }
 ]
 

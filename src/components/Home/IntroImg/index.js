@@ -18,25 +18,27 @@ export default function IntroImg() {
             <div className={styles.contentTitle}>
                 <h3>Alexandre Alvarenga </h3>
                 <div className={styles.contentSubTitle}>
-                <span>Frontend Web Developer | React.JS</span>
+                    <span>Frontend Web Developer | React.JS</span>
                 </div>
             </div>
-            <div className={styles.contentRow}>
-                <div className={styles.contentRowColumn}>
-                    <img src={PhotoPessoal} alt="" />
-                    <>
-                        <SkillBar
-                            skills={skills}
-                            height={15}
-                        />
-                    </>
-                    <Link to='/Projects'>
-                        <button className={styles.button}>
-                            PROJECTS
-                        </button>
-                    </Link>
+            <div className={styles.section}>
+                <div className={styles.sectionContent}>
+                    <div className={styles.sectionColumn}>
+                        <img src={PhotoPessoal} alt="" />
+                        <>
+                            <SkillBar
+                                skills={skills}
+                                height={15}
+                            />
+                        </>
+                        <Link to='/Projects'>
+                            <button className={styles.button}>
+                               🚀 PROJECTS 🚀 
+                            </button>
+                        </Link>
+                    </div>
+                    <Intro />
                 </div>
-                <Intro />
             </div>
         </div>
     )
