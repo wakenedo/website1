@@ -10,11 +10,11 @@ import Course4 from '../Assets/Projects/Project1/Courses4.PNG'
 import Course5 from '../Assets/Projects/Project1/Courses5.png'
 
 //Project 2 Assets
-import Pizza1 from '../Assets/Projects/Project2/Pizza1.PNG'
-import Pizza2 from '../Assets/Projects/Project2/Pizza2.PNG'
-import Pizza3 from '../Assets/Projects/Project2/Pizza3.PNG'
-import Pizza4 from '../Assets/Projects/Project2/Pizza4.PNG'
-import Pizza5 from '../Assets/Projects/Project2/mern.jpeg'
+//import Pizza1 from '../Assets/Projects/Project2/Pizza1.PNG'
+//import Pizza2 from '../Assets/Projects/Project2/Pizza2.PNG'
+//import Pizza3 from '../Assets/Projects/Project2/Pizza3.PNG'
+//import Pizza4 from '../Assets/Projects/Project2/Pizza4.PNG'
+//import Pizza5 from '../Assets/Projects/Project2/mern.jpeg'
 
 // Project Technologies icons
 import { DiCss3, DiGithubBadge, DiReact } from 'react-icons/di'
@@ -46,23 +46,23 @@ const projects = [
                                 "thumbnail": Course5
                         },
                 },
-                "Name": "React.js Project | Courses.edu",
+                "Name": "ReactJS & TypeScript Project | StarWars Fan-site",
                 "Icon": <FaReact />,
-                "Date": "02/2018 to 05/2018",
-                "shortDescription": "Criação e update de conteúdo para site de educação. Desenvolvimento de páginas e novas rotas com conteúdo e estilo atualizado.",
+                "Date": "11/2021 to 04/2022",
+                "shortDescription": "Development of a Fansite project using the www.swapi.dev api. For this project I wanted to use TypeScript, ReactJS and Axios to showcase my knowledge, skills and practices with the tools chosen. Modern syntax and practices for better maintainability, readability and scalability of the code. This experience has been great from the start, since I've done from the prototype to deploy. I liked the result, but still working on some components designs since the results didn't resonate with my idea of a great UX. It's been a long and fruitious journey to put in practice many of concepts that I've learned in the past years of development, also peeking into prototyping concepts and tools that until now I've only had been on the other end side of the process, expanding my whole understanding of the process of development as o whole.",
                 "Description": "Desenvolvimento de frontend para site de educação ou Courses.edu (MockUp), utilizando ReactJS, CSS e HTML com aspectos de e-commerce que ofertava cursos de diferentes parceiros além de oferecer o próprio catálago de cursos. Desenvolvimento de páginas e rotas. Entrega via GitHub com código testado pelo cliente. Eu fiz parte do time de kanban. Tasks diários e reuniões semanais para alinhar os objetivos e times durante todo o curso do projeto.",
                 "projectTech": {
                         "tech1": "Design | Figma",
-                        "tech2": "Database | Node.js - Express",
-                        "tech3": "Scope | React.js - Frontend "
+                        "tech2": "Database | www.swapi.dev",
+                        "tech3": "Scope | TypeScript - React.js - Frontend "
                 },
                 "projectTools": {
-                        "tool1": " CSS - Styling",
+                        "tool1": " Styled Components - Styling",
                         "tool2": " React Hooks - UseState | UseEffect",
-                        "tool3": " Redux - Storage",
-                        "tool4": " Axios - API fetching",
-                        "tool5": " Postman - Testing",
-                        "tool6": " GitHub - Versioning"
+                        "tool3": " Axios - API fetching",
+                        "tool4": " Vite - Bundling",
+                        "tool5": " GitHub - Versioning",
+                        
                 },
 
                 "projectLearn": "O que eu aprendi com esse projeto, foi principalmente a habilidade de trabalhar em equipe utilizando metodologias agile além de aprender na prática as qualidades da biblioteca Axios em chamadas HTTP para APIs, e sua integração com o ReactJS, além de desenvolver um sitema de autenticação utilizando o JWT token, que me permitiu entender na prática as vantagens e desafios da técnologia em questão, com esse projeto pude aprimorar minhas habilidades de frontend e programação além de softskills, como organização pessoal e trabalho em equipe.",
@@ -104,172 +104,7 @@ const projects = [
 
                 },
         },
-        {
-                "Id": "2",
-                "Image": Pizza5,
-                "Images": {
-                        "img1": {
-                                "original": Pizza1,
-                                "thumbnail": Pizza1
-                        },
-                        "img2": {
-                                "original": Pizza2,
-                                "thumbnail": Pizza2
-                        },
-                        "img3": {
-                                "original": Pizza3,
-                                "thumbnail": Pizza3
-                        },
-                        "img4": {
-                                "original": Pizza4,
-                                "thumbnail": Pizza4
-                        },
-                        "img5": {
-                                "original": Pizza5,
-                                "thumbnail": Pizza5
-                        },
-                },
-                "Name": "Mern Stack Project | Pizza.com",
-                "Icon": <><SiMongodb /> <FaNodeJs /> <FaReact /></>,
-                "Date": "02/2018 to 05/2018",
-                "shortDescription": "(EM DESENVOLVIMENTO)",
-                "Description": "Update de conteúdo para site institucional, de venda de cursos.Desenvolvimento de algumas páginas e rotas com o conteúdo atualizado.Sem a necessidade de deploy, apenas desenvolvimento.Entrega via BitBucket com código testado. Entregas  semanais a partir dos designs providos.",
-                "projectTech": {
-                        "tech1": "Design | Figma",
-                        "tech2": "Database | Node.js - Express",
-                        "tech3": "Scope | React.js - Frontend "
-                },
-                "projectTools": {
-                        "tool1": " CSS - Styling",
-                        "tool2": " React Hooks - UseState | UseEffect",
-                        "tool3": " Redux - Storage",
-                        "tool4": " Axios - API fetching",
-                        "tool5": " Postman - Testing",
-                        "tool6": " BitBucket - Versioning"
-                },
 
-                "projectLearn": "teste",
-                "projectDayToDay": "teste",
-                "projectMyRole": "teste MyRole",
-                "projectRepo": "https://github.com/wakenedo/courses-project",
-                "Technologies": {
-                        "tool1": {
-                                "Badge": <SiJavascript />,
-                                "Text": "JavaScript",
-                                "Link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
-                        },
-                        "tool2": {
-                                "Badge": <SiHtml5 />,
-                                "Text": "HTML 5",
-                                "Link": "https://developer.mozilla.org/pt-BR/docs/Web/HTML",
-                        },
-                        "tool3": {
-                                "Badge": <DiCss3 />,
-                                "Text": "CSS 3",
-                                "Link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS",
-                        },
-                        "tool4": {
-                                "Badge": <DiReact />,
-                                "Text": "React JS",
-                                "Link": "https://pt-br.reactjs.org/",
-
-                        },
-                        "tool5": {
-                                "Badge": <SiRedux />,
-                                "Text": "Redux",
-                                "Link": "https://redux.js.org/",
-                        },
-                        "tool6": {
-                                "Badge": <DiGithubBadge />,
-                                "Text": "GitHub",
-                                "Link": "https://github.com/",
-                        }
-
-                },
-        },
-        {
-                "Id": "3",
-                "Image": Pizza5,
-                "Images": {
-                        "img1": {
-                                "original": Pizza1,
-                                "thumbnail": Pizza1
-                        },
-                        "img2": {
-                                "original": Pizza2,
-                                "thumbnail": Pizza2
-                        },
-                        "img3": {
-                                "original": Pizza3,
-                                "thumbnail": Pizza3
-                        },
-                        "img4": {
-                                "original": Pizza4,
-                                "thumbnail": Pizza4
-                        },
-                        "img5": {
-                                "original": Pizza5,
-                                "thumbnail": Pizza5
-                        },
-                },
-                "Name": "TypeScript Project | StarWars Fan Site",
-                "Icon": <><SiMongodb /> <FaNodeJs /> <FaReact /></>,
-                "Date": "02/2018 to 05/2018",
-                "shortDescription": "(EM DESENVOLVIMENTO)",
-                "Description": "Update de conteúdo para site institucional, de venda de cursos.Desenvolvimento de algumas páginas e rotas com o conteúdo atualizado.Sem a necessidade de deploy, apenas desenvolvimento.Entrega via BitBucket com código testado. Entregas  semanais a partir dos designs providos.",
-                "projectTech": {
-                        "tech1": "Design | Figma",
-                        "tech2": "Database | Node.js - Express",
-                        "tech3": "Scope | React.js - Frontend "
-                },
-                "projectTools": {
-                        "tool1": " CSS - Styling",
-                        "tool2": " React Hooks - UseState | UseEffect",
-                        "tool3": " Redux - Storage",
-                        "tool4": " Axios - API fetching",
-                        "tool5": " Postman - Testing",
-                        "tool6": " BitBucket - Versioning"
-                },
-
-                "projectLearn": "teste",
-                "projectDayToDay": "teste",
-                "projectMyRole": "teste MyRole",
-                "projectRepo": "https://github.com/wakenedo/courses-project",
-                "Technologies": {
-                        "tool1": {
-                                "Badge": <SiJavascript/>,
-                                "Text":  "JavaScript",
-                                "Link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
-                        },              
-                        "tool2": {
-                                "Badge" : <SiHtml5 />,
-                                "Text"  : "HTML 5",
-                                "Link": "https://developer.mozilla.org/pt-BR/docs/Web/HTML",
-                        },
-                        "tool3": {
-                                "Badge" : <DiCss3 />,
-                                "Text"  : "CSS 3",
-                                "Link": "https://developer.mozilla.org/pt-BR/docs/Web/CSS",
-                        },
-                        "tool4": {
-                                "Badge" : <DiReact />,
-                                "Text"  : "React JS",
-                                "Link": "https://pt-br.reactjs.org/",
-
-                        },
-                        "tool5":{
-                                "Badge" : <SiRedux />,
-                                "Text"  : "Redux",
-                                "Link": "https://redux.js.org/",
-                        },
-                        "tool6": {
-                                "Badge" : <DiGithubBadge />,
-                                "Text"  : "GitHub",
-                                "Link": "https://github.com/",
-                        }
-                         
-                },
-        }
 ]
 
 export default projects

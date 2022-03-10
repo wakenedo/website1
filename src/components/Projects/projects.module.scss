@@ -1,7 +1,7 @@
 @import "../../../node_modules/include-media";
 
 .content {
-    margin: 0 auto 25px;
+    margin: 0 auto 21.5px;
     color: var(--gray100);
 
     .section {
@@ -96,6 +96,10 @@
             font-weight: lighter;
             text-align: justify;
             color: var(--gray100);
+
+            &:last-child {
+                margin-bottom: 1.5rem;
+            }
 
             @include media("<=phone") {
                 font-size: 0.85rem;

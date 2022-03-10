@@ -26,14 +26,14 @@ function ProjectsPage() {
                 <section className={styles.section}>
                     <div className={styles.title}>
                         <FaProjectDiagram />
-                        <h3>Projects </h3>
+                        <h3>Project </h3>
                     </div>
                 </section>
 
+                <div key={projects.Id}>
+                    {renderProjects()}
+                </div>
             </main>
-            <div key={projects.Id}>
-                {renderProjects()}
-            </div>
             <Contact />
         </>
     )

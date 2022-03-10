@@ -33,7 +33,7 @@ export default function IntroImg() {
                         </>
                         <Link to='/Projects'>
                             <button className={styles.button}>
-                               🚀 PROJECTS 🚀 
+                               🚀 PROJECT 🚀 
                             </button>
                         </Link>
                     </div>
