@@ -50,7 +50,7 @@ const projects = [
                 "Icon": <FaReact />,
                 "Date": "11/2021 to 04/2022",
                 "shortDescription": "Development of a Fansite project using the www.swapi.dev api. For this project I wanted to use TypeScript, ReactJS and Axios to showcase my knowledge, skills and practices with the tools chosen. Modern syntax and practices for better maintainability, readability and scalability of the code. This experience has been great from the start, since I've done from the prototype to deploy. I liked the result, but still working on some components designs since the results didn't resonate with my idea of a great UX. It's been a long and fruitious journey to put in practice many of concepts that I've learned in the past years of development, also peeking into prototyping concepts and tools that until now I've only had been on the other end side of the process, expanding my whole understanding of the process of development as o whole.",
-                "Description": "Desenvolvimento de frontend para site de educação ou Courses.edu (MockUp), utilizando ReactJS, CSS e HTML com aspectos de e-commerce que ofertava cursos de diferentes parceiros além de oferecer o próprio catálago de cursos. Desenvolvimento de páginas e rotas. Entrega via GitHub com código testado pelo cliente. Eu fiz parte do time de kanban. Tasks diários e reuniões semanais para alinhar os objetivos e times durante todo o curso do projeto.",
+                "Description": "",
                 "projectTech": {
                         "tech1": "Design | Figma",
                         "tech2": "Database | www.swapi.dev",
