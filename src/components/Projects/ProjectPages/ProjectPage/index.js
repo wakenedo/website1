@@ -5,6 +5,7 @@ import ProjectImage from '../ProjectImage'
 import ProjectLearn from '../ProjectLearn'
 import ProjectMyRole from '../ProjectMyRole'
 import ProjectRepo from '../ProjectRepo'
+import ProjectDeploy from '../ProjectSite'
 import ProjectTechnologies from '../ProjectTechnologies'
 import styles from './projectpage.module.scss'
 
@@ -26,6 +27,9 @@ function ProjectPage({ data, index }) {
                 </section>
                 <section className={styles.section4}>
                     <ProjectRepo index={index} />
+                </section>
+                <section className={styles.section5}>
+                    <ProjectDeploy index={index} />
                 </section>
             </section>
 
