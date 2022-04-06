@@ -47,13 +47,13 @@
             svg {
                 font-size: 4rem;
                 margin-right: 0.75rem;
-                color: var(--primary-light);
+                color: var(--gray100);
 
                 @include media("<=phone") {
                     font-size: 2rem;
                 }
                 @include media(">phone", "<=425px") {
-                    font-size: 1.5rem;
+                    font-size: 0.9rem;
                 }
                 @include media(">425px", "<=tablet") {
                     font-size: 5.5rem;
@@ -71,7 +71,7 @@
             margin-bottom: 25px;
             display: flex;
             margin-top: 1.5rem;
-            color: var(--primary-light) !important;
+            color: var(--gray100) !important;
             border: none;
 
             @include media("<=phone") {
@@ -79,7 +79,7 @@
                 margin-top: 1.5rem;
             }
             @include media(">phone", "<=425px") {
-                font-size: 2.5rem;
+                font-size: 0.9rem;
             }
             @include media(">425px", "<=tablet") {
                 font-size: 5.5rem;

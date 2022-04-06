@@ -18,7 +18,7 @@
         }
         @include media(">phone", "<=425px") {
             width: 100%;
-            padding: 0.5rem;
+            padding: 1rem;
         }
         @include media(">425px", "<=tablet") {
             width: 250%;
@@ -37,14 +37,14 @@
             margin-bottom: 25px;
             display: flex;
             align-items: center;
-            color: var(--primary-light) !important;
+            color: var(--gray100) !important;
             border: none;
             font-weight: 300;
 
             @include media("<=phone") {
             }
             @include media(">phone", "<=425px") {
-                font-size: 1.15rem;
+                font-size: 0.9rem;
                 font-weight: 500;
             }
             @include media(">425px", "<=tablet") {

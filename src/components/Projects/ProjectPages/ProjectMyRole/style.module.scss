@@ -17,9 +17,8 @@
    }
    @include media(">phone", "<=425px") {
       width: 40%;
-      height: 250px;
-      max-height: 270px;
-      
+      height: 350px;
+      max-height: 350px;
    }
    @include media(">425px", "<=tablet") {
       width: 100%;
