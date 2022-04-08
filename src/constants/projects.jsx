@@ -1,6 +1,6 @@
 // header icons
-import { FaReact, FaNodeJs } from 'react-icons/fa';
-import { SiMongodb } from 'react-icons/si'
+import { FaReact } from 'react-icons/fa';
+
 
 //Project 1 Assets
 import Course1 from '../Assets/StarWars/star-wars-home.PNG'
