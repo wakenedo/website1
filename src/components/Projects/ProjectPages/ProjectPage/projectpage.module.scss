@@ -10,7 +10,8 @@
     }
     @include media(">phone", "<=425px") {
         flex-direction: column;
-        width: 96%;
+        width: 98%;
+        margin-left: 0.65rem;
     }
     @include media(">425px", "<=tablet") {
         width: 250%;
@@ -25,13 +26,11 @@
         margin-top: 1.5rem;
         flex-direction: column;
         
-        @include media("<=phone") {
-            width: 127%;
+        @include media("<=phone") { 
             margin-left: 1%;
         }
         @include media(">phone", "<=425px") {
             margin-left: 0.25%;
-            width: 250%;
         }
         @include media(">425px", "<=tablet") {
         }
@@ -55,7 +54,7 @@
                 width: 96%;
             }
             @include media(">425px", "<=tablet") {
-                width: 250%;
+                width: 90%;
                 margin-left: 2.55%;
             }
             @include media(">tablet", "<desktop") {
@@ -74,7 +73,7 @@
                 width: 96%;
             }
             @include media(">425px", "<=tablet") {
-                width: 250%;
+                width: 90%;
                 margin-left: 2.55%;
             }
             @include media(">tablet", "<desktop") {

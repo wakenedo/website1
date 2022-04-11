@@ -1,11 +1,16 @@
 @import "../../../node_modules/include-media";
 
 .content {
-    margin: 0 auto 21.5px;
+    margin: 0 auto 52.5px;
     color: var(--gray100);
 
+    @include media(">phone", "<=425px") {
+        flex-direction: column;
+        width: 104%;
+        margin: 0 auto;
+    }
+
     .section {
-        max-width: 1220px;
         margin: 1rem auto;
         align-items: center;
         justify-content: space-between;
@@ -41,19 +46,20 @@
             background-size: cover;
             /* background by SVGBackgrounds.com */
             border-radius: 5px;
-            padding: 1rem;
             margin-top: 1rem;
 
             svg {
-                font-size: 4rem;
+                font-size: 2rem;
                 margin-right: 0.75rem;
                 color: var(--gray100);
+                margin-left: 26%;
 
                 @include media("<=phone") {
                     font-size: 2rem;
                 }
                 @include media(">phone", "<=425px") {
-                    font-size: 0.9rem;
+                    font-size: 1.5rem;
+                    margin-left: 1rem;
                 }
                 @include media(">425px", "<=tablet") {
                     font-size: 5.5rem;
@@ -65,7 +71,7 @@
             }
         }
         h3 {
-            font-size: 3.2rem;
+            font-size: 2rem;
             line-height: 3.2rem;
             font-weight: 500;
             margin-bottom: 25px;
@@ -79,7 +85,7 @@
                 margin-top: 1.5rem;
             }
             @include media(">phone", "<=425px") {
-                font-size: 0.9rem;
+                font-size: 1.5rem;
             }
             @include media(">425px", "<=tablet") {
                 font-size: 5.5rem;

@@ -23,14 +23,14 @@ function Project({ data, index }) {
                         {data.shortDescription}
                     </p>
 
-                    <div >
+                    {/*<div >
                         <span >{data.projectTools.tool1}</span>
                         <span >{data.projectTools.tool2}</span>
                         <span >{data.projectTools.tool3}</span>
                         <span >{data.projectTools.tool4}</span>
                         <span >{data.projectTools.tool5}</span>
                         <span >{data.projectTools.tool6}</span>
-                    </div>
+    </div>*/}
 
                     <h4 key={data.Id}>
                         {data.projectTech.tech3}

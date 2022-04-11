@@ -7,8 +7,12 @@
     z-index: 100;
     width: 100%;
 
+    
+
     section {
         padding: 0.75rem;
+
+        
         p {
             color: var(--gray300);
             cursor: default;
@@ -63,7 +67,7 @@
         width: 129%;
     }
     @include media(">phone", "<=425px") {
-        width: 100%;
+        width: 103.5%;
     }
     @include media(">425px", "<=tablet") {
         width: 254.5%;
