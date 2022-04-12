@@ -55,7 +55,7 @@
                 margin-left: 26%;
 
                 @include media("<=phone") {
-                    font-size: 2rem;
+                    
                 }
                 @include media(">phone", "<=425px") {
                     font-size: 1.5rem;
