@@ -23,7 +23,7 @@ import { SiStyledcomponents, SiJavascript, SiTypescript, SiVite } from 'react-ic
 const projects = [
         {
                 "Id": "1",
-                "Image": Course5,
+                "Image": Course1,
                 "Images": {
                         "img1": {
                                 "original": Course1,
