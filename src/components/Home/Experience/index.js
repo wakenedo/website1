@@ -26,31 +26,31 @@ export default function Experience() {
                 <div>
                     <h4>Tools & Techs</h4>
                     <section >
-                        <span>- Figma (Prototyping) </span>
-                        <span>- Agile</span>
-                        <span>- Kanban and Scrum</span>
-                        <span>- GitHub(Versioning)</span>
+                        <span> Figma (Prototyping) </span>
+                        <span> Agile</span>
+                        <span> Kanban and Scrum</span>
+                        <span> GitHub(Versioning)</span>
                     </section>
                     <h4>Frontend</h4>
                     <section >
-                        <span>- HTML </span>
-                        <span>- React.js</span>
-                        <span>- Redux</span>
-                        <span>- Socket.io</span>
-                        <span>- Axios</span>
-                        <span>- TypeScript</span>
-                        <span>- CSS</span>
-                        <span>- Styled-Components</span>
-                        <span>- SASS</span>
+                        <span> HTML </span>
+                        <span> React.js</span>
+                        <span> Redux</span>
+                        <span> Socket.io</span>
+                        <span> Axios</span>
+                        <span> TypeScript</span>
+                        <span> CSS</span>
+                        <span> Styled-Components</span>
+                        <span> SASS</span>
                     </section>
                     <h4>Backend</h4>
                     <section >
-                        <span>- Node.js </span>
-                        <span>- Express </span>
-                        <span>- MongoDb </span>
-                        <span>- Firestore </span>
+                        <span> Node.js </span>
+                        <span> Express </span>
+                        <span> MongoDb </span>
+                        <span> Firestore </span>
                     </section>
-                    <h4>Freelancer | June 2017 until Date</h4>
+                    <h4>Freelancer | May 2019 until Date</h4>
                 </div>
 
             </section>

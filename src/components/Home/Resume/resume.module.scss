@@ -1,7 +1,7 @@
 @import "../../../../node_modules/include-media";
 
 .content {
-    padding: 0 2rem;
+    padding: 0 2rem 0 2rem;
     font-size: 1.6rem;
     background: var(--gray100);
     border-radius: 5px;
@@ -10,6 +10,7 @@
     flex-direction: column;
     width: 1180px;
     margin: 0 auto 1.5rem;
+    padding: 1rem;
 
     @include media("<=phone") {
         width: 127%;
@@ -39,6 +40,7 @@
         font-weight: lighter;
         border-bottom: 1px solid;
         color: var(--primary);
+        padding: 1rem;
 
         @include media("<=phone") {
             font-size: 2.55rem;
@@ -117,8 +119,7 @@
 
     div {
         margin-bottom: 1.5rem;
-        display: flex;
-        flex-direction: column;
+        
 
         a {
             align-items: center;
@@ -165,37 +166,3 @@
     }
 }
 
-.section {
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-
-    span {
-        font-size: 1.4rem;
-        font-weight: 300;
-        display: flex;
-
-        &:last-child {
-            margin-bottom: 1.5rem;
-        }
-
-        @include media("<=phone") {
-            font-size: 1rem;
-            font-weight: 400;
-        }
-        @include media(">phone", "<=425px") {
-            font-weight: 400;
-            font-size: 0.75rem
-        }
-        @include media(">425px", "<=tablet") {
-            font-weight: 400;
-            font-size: 2.15rem;
-        }
-        @include media(">tablet", "<desktop") {
-            
-        }
-        @include media(">=desktop") {
-    
-        }
-    }
-}
