@@ -3,7 +3,12 @@
 .section {
     padding: 2rem;
     max-width: 570px;
-    min-width: 570px;
+    width: 570px;
+
+    @include media(">phone", "<=425px") {
+        width: 100%;
+        padding: 0;
+    }
 
     span {
         font-size: 1.4rem;
@@ -20,7 +25,7 @@
         }
         @include media(">phone", "<=425px") {
             font-weight: 400;
-            font-size: 1.25rem
+            font-size: 1rem
         }
         @include media(">425px", "<=tablet") {
             font-weight: 400;
@@ -42,5 +47,6 @@
 .resumeLinks {
     display: flex;
     flex-direction: column;
+    
     
 }

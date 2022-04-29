@@ -67,7 +67,7 @@
         width: 129%;
     }
     @include media(">phone", "<=425px") {
-        width: 156.5%;
+        width: 100%;
     }
     @include media(">425px", "<=tablet") {
         width: 254.5%;

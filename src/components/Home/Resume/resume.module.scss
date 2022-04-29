@@ -17,7 +17,7 @@
         margin-left: 1%;
     }
     @include media(">phone", "<=425px") {
-        width: 156.5%;
+        width: 100%;
         margin: 0.5rem auto;
     }
     @include media(">425px", "<=tablet") {
@@ -131,7 +131,7 @@
                 font-size: 1.15rem;
             }
             @include media(">phone", "<=425px") {
-                font-size: 1.45rem;
+                font-size: 1.25rem;
             }
             @include media(">425px", "<=tablet") {
                 font-size: 3.15rem;
@@ -150,7 +150,7 @@
                     font-size: 1.15rem;
                 }
                 @include media(">phone", "<=425px") {
-                    font-size: 1.45rem;
+                    font-size: 1.25rem;
                 }
                 @include media(">425px", "<=tablet") {
                     font-size: 3.15rem;

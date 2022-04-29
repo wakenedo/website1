@@ -146,9 +146,9 @@
         }
         @include media(">phone", "<=425px") {
             width: 90%;
-            font-size: 1.55rem;
+            font-size: 0.95rem;
             font-weight: 300;
-            line-height: 2rem;
+            line-height: 1.25rem;
             margin: 14px;
         }
         @include media(">425px", "<=tablet") {
