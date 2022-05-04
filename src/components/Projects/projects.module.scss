@@ -6,7 +6,7 @@
 
     @include media(">phone", "<=425px") {
         flex-direction: column;
-        width: 104%;
+        width: 100%;
         margin: 0 auto;
     }
 
