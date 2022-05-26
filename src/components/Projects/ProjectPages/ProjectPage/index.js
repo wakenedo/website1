@@ -18,12 +18,12 @@ function ProjectPage({ data, index }) {
                     <ProjectDescription index={index} />
                     <ProjectMyRole index={index} />
                 </section>
-                <section className={styles.section2}>
-                    <ProjectLearn index={index} />
-                    <ProjectDayToDay index={index} />
-                </section>
                 <section className={styles.section3}>
                     <ProjectTechnologies index={index} />
+                </section>
+                <section className={styles.section2}>
+                    <ProjectDayToDay index={index} />
+                    <ProjectLearn index={index} />
                 </section>
                 <section className={styles.section4}>
                     <ProjectRepo index={index} />

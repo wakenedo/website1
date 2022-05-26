@@ -6,20 +6,16 @@
     margin-top: 1rem;
 
     @include media("<=phone") {
-        width: 100%;
     }
     @include media(">phone", "<=425px") {
         width: 100%;
         margin-top: 0.15rem;
     }
     @include media(">425px", "<=tablet") {
-        width: 100%;
     }
     @include media(">tablet", "<desktop") {
-        width: 100%;
     }
     @include media(">=desktop") {
-       
     }
 
     span {
@@ -27,8 +23,6 @@
         padding: 0.5rem;
 
         @include media("<=phone") {
-            width: 90%;
-            font-size: 0.95rem;
         }
         @include media(">phone", "<=425px") {
             width: 80%;
@@ -36,19 +30,10 @@
             font-weight: 100;
         }
         @include media(">425px", "<=tablet") {
-            width: 50%;
-            font-size: 1.85rem;
-            font-weight: 100;
         }
         @include media(">tablet", "<desktop") {
-            width: 50%;
-            font-size: 1.85rem;
-            font-weight: 100;
         }
         @include media(">=desktop") {
-            width: 50%;
-            font-size: 1.85rem;
-            font-weight: 100;
         }
     }
 
@@ -64,10 +49,6 @@
         font-weight: 500 !important;
 
         @include media("<=phone") {
-            width: 90%;
-            font-size: 2.15rem;
-            font-weight: 300;
-            margin-bottom: 0.5rem;
         }
         @include media(">phone", "<=425px") {
             width: 90%;
@@ -76,40 +57,25 @@
             margin-bottom: 0.25rem;
         }
         @include media(">425px", "<=tablet") {
-            width: 70%;
-            font-size: 3.85rem;
-            font-weight: 100;
-            margin-bottom: 1.5rem;
         }
         @include media(">tablet", "<desktop") {
-            width: 70%;
-            font-size: 3.85rem;
-            font-weight: 100;
-            margin-bottom: 1.5rem;
         }
         @include media(">=desktop") {
-           
         }
     }
 }
 
 .section {
-    
-
     @include media("<=phone") {
-        width: 108%;
     }
     @include media(">phone", "<=425px") {
         width: 100%;
     }
     @include media(">425px", "<=tablet") {
-        width: 100%;
     }
     @include media(">tablet", "<desktop") {
-        width: 100%;
     }
     @include media(">=desktop") {
-       
     }
 }
 
@@ -120,17 +86,15 @@
     text-align: center;
 
     @include media("<=phone") {
-        width: 108%;
     }
     @include media(">phone", "<=425px") {
         width: 105%;
     }
     @include media(">425px", "<=tablet") {
-        width: 100%;
     }
     @include media(">tablet", "<desktop") {
     }
-    
+
     p {
         margin-bottom: 1.5rem;
         font-size: 1rem;
@@ -138,11 +102,9 @@
         font-weight: 300;
         text-align: justify;
         color: var(--gray700);
-        padding: 1.5rem;     
+        padding: 1.5rem;
 
         @include media("<=phone") {
-            width: 92%;
-            font-size: 0.95rem;
         }
         @include media(">phone", "<=425px") {
             width: 90%;
@@ -152,12 +114,8 @@
             margin: 14px;
         }
         @include media(">425px", "<=tablet") {
-            width: 100%;
-            font-size: 2.25rem;
-            font-weight: 100;
         }
         @include media(">tablet", "<desktop") {
-           
         }
     }
 }

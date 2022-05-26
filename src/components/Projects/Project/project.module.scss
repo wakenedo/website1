@@ -1,4 +1,4 @@
-@import '../../../../node_modules/include-media';
+@import "../../../../node_modules/include-media";
 
 .content {
     margin: 0 auto;
@@ -10,24 +10,14 @@
     color: var(--gray700);
 
     @include media("<=phone") {
-        flex-direction: column;
-        width: 112%;
-        margin-left: 2.5%;
     }
     @include media(">phone", "<=425px") {
         flex-direction: column;
         width: 100%;
-        
     }
     @include media(">425px", "<=tablet") {
-        flex-direction: column;
-        width: 200%;
-        margin-left: 47.75%;
     }
     @include media(">tablet", "<desktop") {
-        flex-direction: column;
-        width: 200%;
-        margin-left: 47.75%;
     }
     @include media(">=desktop") {
     }
@@ -39,9 +29,6 @@
         margin: 0 auto 0.75rem;
 
         @include media("<=phone") {
-            width: 100%;
-            height: 100%;
-            margin-bottom: 0.5rem;
         }
         @include media(">phone", "<=425px") {
             width: 100%;
@@ -49,9 +36,6 @@
             margin-bottom: 0.25rem;
         }
         @include media(">425px", "<=tablet") {
-            width: 100%;
-            height: 100%;
-            margin-bottom: 0.75rem;
         }
         @include media(">tablet", "<desktop") {
         }
@@ -61,13 +45,10 @@
 
     div {
         margin-top: 0.5rem;
-        
 
         @include media("<=phone") {
-            
         }
         @include media(">phone", "<=425px") {
-            
         }
         @include media(">425px", "<=tablet") {
         }
@@ -85,10 +66,8 @@
         flex-direction: column;
         background: var(--gray100);
         border-radius: 5px;
-        
 
         @include media("<=phone") {
-            width: 100%;
         }
         @include media(">phone", "<=425px") {
             width: 98%;
@@ -97,7 +76,6 @@
             margin: 0 auto 1.5rem;
         }
         @include media(">425px", "<=tablet") {
-            width: 100%;
         }
         @include media(">tablet", "<desktop") {
         }
@@ -107,19 +85,15 @@
         span {
             text-align: justify;
             display: flex;
-            flex-direction: column;      
+            flex-direction: column;
 
             @include media("<=phone") {
-                font-size: 0.95rem;
-                margin-bottom: 0.25rem;
             }
             @include media(">phone", "<=425px") {
                 font-size: 1rem;
                 margin-bottom: 0.25rem;
-                
             }
             @include media(">425px", "<=tablet") {
-                font-size: 1.85rem;
             }
             @include media(">tablet", "<desktop") {
             }
@@ -136,9 +110,6 @@
             width: 805px;
 
             @include media("<=phone") {
-                font-size: 1.15rem;
-                width: 100%;
-                margin-top: 0.5rem;
             }
             @include media(">phone", "<=425px") {
                 width: 95.5%;
@@ -146,9 +117,6 @@
                 margin-left: 0;
             }
             @include media(">425px", "<=tablet") {
-                font-size: 2rem;
-                width: 90%;
-                margin-top: 0.5rem;
             }
             @include media(">tablet", "<desktop") {
             }
@@ -160,13 +128,11 @@
                 margin-left: 5px;
 
                 @include media("<=phone") {
-                    font-size: 1.25rem;
                 }
                 @include media(">phone", "<=425px") {
                     font-size: 1.25rem;
                 }
                 @include media(">425px", "<=tablet") {
-                    font-size: 2.25rem;
                 }
                 @include media(">tablet", "<desktop") {
                 }
@@ -182,14 +148,11 @@
             margin-top: auto;
 
             @include media("<=phone") {
-                font-size: 1rem;
             }
             @include media(">phone", "<=425px") {
                 font-size: 1rem;
             }
             @include media(">425px", "<=tablet") {
-                font-size: 2.25rem;
-                margin-top: 0.75rem;
             }
             @include media(">tablet", "<desktop") {
             }
@@ -205,9 +168,6 @@
             font-size: 1.25rem;
 
             @include media("<=phone") {
-                font-size: 1.2rem;
-                width: 100%;
-                display: flex !important;
             }
             @include media(">phone", "<=425px") {
                 font-size: 0.85rem;
@@ -216,8 +176,6 @@
                 flex-direction: column;
             }
             @include media(">425px", "<=tablet") {
-                font-size: 2.75rem;
-                width: 100%;
             }
             @include media(">tablet", "<desktop") {
             }
@@ -232,13 +190,11 @@
                 cursor: pointer;
 
                 @include media("<=phone") {
-                    font-size: 1rem;
                 }
                 @include media(">phone", "<=425px") {
-                    font-size: 0.80rem !important;
+                    font-size: 0.8rem !important;
                 }
                 @include media(">425px", "<=tablet") {
-                    font-size: 2.75rem;
                 }
                 @include media(">tablet", "<desktop") {
                 }
@@ -251,13 +207,11 @@
                 margin-right: 5px;
                 font-size: 1.25rem;
                 @include media("<=phone") {
-                    font-size: 1rem;
                 }
                 @include media(">phone", "<=425px") {
                     font-size: 0.95rem;
                 }
                 @include media(">425px", "<=tablet") {
-                    font-size: 2.75rem;
                 }
                 @include media(">tablet", "<desktop") {
                 }
@@ -271,13 +225,11 @@
         max-width: 1180px;
 
         @include media("<=phone") {
-            width: 100%;
         }
         @include media(">phone", "<=425px") {
             width: 100%;
         }
         @include media(">425px", "<=tablet") {
-            width: 100%;
         }
         @include media(">tablet", "<desktop") {
         }

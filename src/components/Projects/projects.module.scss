@@ -17,23 +17,14 @@
         text-align: justify;
 
         @include media("<=phone") {
-            flex-direction: column;
-            width: 100%;
-            margin-left: 1.5%;
         }
         @include media(">phone", "<=425px") {
             flex-direction: column;
             width: 100%;
         }
         @include media(">425px", "<=tablet") {
-            flex-direction: column;
-            width: 200%;
-            margin-left: 43.5%;
         }
         @include media(">tablet", "<desktop") {
-            flex-direction: column;
-            width: 200%;
-            margin-left: 43.5%;
         }
         @include media(">=desktop") {
         }
@@ -56,14 +47,12 @@
                 margin-left: 26%;
 
                 @include media("<=phone") {
-                    
                 }
                 @include media(">phone", "<=425px") {
                     font-size: 1.5rem;
                     margin-left: 1rem;
                 }
                 @include media(">425px", "<=tablet") {
-                    font-size: 5.5rem;
                 }
                 @include media(">tablet", "<desktop") {
                 }
@@ -82,15 +71,11 @@
             border: none;
 
             @include media("<=phone") {
-                font-size: 2rem;
-                margin-top: 1.5rem;
             }
             @include media(">phone", "<=425px") {
                 font-size: 1.5rem;
             }
             @include media(">425px", "<=tablet") {
-                font-size: 5.5rem;
-                margin-top: 1.5rem;
             }
             @include media(">tablet", "<desktop") {
             }
@@ -109,16 +94,12 @@
             }
 
             @include media("<=phone") {
-                font-size: 0.85rem;
-                text-align: justify;
             }
             @include media(">phone", "<=425px") {
                 font-size: 0.95rem;
                 text-align: justify;
             }
             @include media(">425px", "<=tablet") {
-                font-size: 2.95rem;
-                text-align: justify;
             }
             @include media(">tablet", "<desktop") {
             }

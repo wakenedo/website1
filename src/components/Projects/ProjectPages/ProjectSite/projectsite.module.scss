@@ -7,10 +7,9 @@
     border-radius: 5px;
     color: var(--gray100);
     font-size: 12px;
-    height: 175px;
+    height: 135px;
     max-height: 265px;
     width: 1220px;
-    margin-top: 1.5rem;
 
     @include media("<=phone") {
     }
@@ -37,15 +36,11 @@
     display: flex;
 
     @include media("<=phone") {
-        width: 127%;
-        margin-left: 1%;
      }
      @include media(">phone", "<=425px") {
         font-size: 1.15rem;
      }
      @include media(">425px", "<=tablet") {
-        font-size: 4.25rem;
-        font-weight: 500;
      }
      @include media(">tablet", "<desktop") {
      }
@@ -79,7 +74,7 @@
     }
 
     a {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         display: flex;
         align-items: center;
         margin-top: 1.5rem;
@@ -90,8 +85,6 @@
             font-size:0.85rem;
         }
         @include media(">425px", "<=tablet") {
-            font-weight: 400;
-            font-size: 2.55rem;
         }
         @include media(">tablet", "<desktop") {
         }

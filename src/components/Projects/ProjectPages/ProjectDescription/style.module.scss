@@ -2,26 +2,23 @@
 
 .content {
     text-align: justify;
-    margin: 0rem 0 1.5rem 0;
+    margin: 0rem 0.25rem 1rem 0;
     background: var(--primary);
     padding: 0.75rem;
     border-radius: 5px;
     color: var(--gray100);
-    font-size: 12px;
-    height: 205px;
-    max-height: 205px;
+    /* font-size: 12px; */
+    height: 265px;
+    max-height: 265px;
 
     @include media("<=phone") {
-        margin-left: 1%;
     }
     @include media(">phone", "<=425px") {
         height: 350px;
         max-height: 350px;
+        margin: 0 auto 0.5rem;
     }
     @include media(">425px", "<=tablet") {
-        width: 100%;
-        height: 320px;
-        max-height: 450px;
     }
     @include media(">tablet", "<desktop") {
     }
@@ -41,8 +38,6 @@
             font-size: 1.15rem;
         }
         @include media(">425px", "<=tablet") {
-            font-size: 4.25rem;
-            font-weight: 500;
         }
         @include media(">tablet", "<desktop") {
         }
@@ -56,6 +51,7 @@
 
     span {
         font-size: 1.05rem;
+        font-weight: 100;
 
         @include media("<=phone") {
         }
@@ -63,8 +59,6 @@
             font-size: 0.9rem;
         }
         @include media(">425px", "<=tablet") {
-            font-weight: 400;
-            font-size: 2.15rem;
         }
         @include media(">tablet", "<desktop") {
         }
