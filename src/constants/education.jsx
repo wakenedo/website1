@@ -129,7 +129,7 @@ const education = [
     {
         "Id": "5",
         "name": "RocketSeat | Ignite ReactJS",
-        "date": "08/2021 to 04/2021",
+        "date": "08/2021 to 05/2022",
         "learned": {
             "id1": "ReactJS",
             "id2": "NextJs",
