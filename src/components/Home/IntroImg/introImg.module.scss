@@ -209,6 +209,11 @@
             color: var(--gray100);
             align-self: center;
             font-weight: 700;
+            border: none;
+
+            &:hover {
+                background-color: var(--primary-light);
+            }
 
             @include media("<=phone") {
                 font-size: 15px !important;
