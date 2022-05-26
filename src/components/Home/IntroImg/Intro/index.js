@@ -18,7 +18,7 @@ of our lives I was naturaly draw to it. Currently Im lookign to switch from free
 software developer, I'm not afraid of starting from the bottom, and working my way up. As I've stated before, 
 I love learning, and I realise that the skills of being a freelancer might not be as usefull or alingned with 
 what I'm looking for. So im open to join a team and learn as much as I can, and bringing to table my experience, skills and undivided
-attention to the project. If you wanna have a talk, and thinks my profile fits you're position lets have chat.  
+attention to the project. If you wanna have a talk, and thinks my profile fits you're position lets have a chat.  
                     </p>
                 </section>
             </section>
