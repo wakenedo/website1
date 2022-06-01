@@ -7,7 +7,6 @@
     border-radius: 5px;
     color: var(--gray700);
     display: flex;
-    flex-direction: column;
     width: 1180px;
     margin: 0 auto 1.5rem;
     padding: 1rem;
@@ -29,7 +28,7 @@
         font-size: 3.2rem;
         line-height: 3.2rem;
         font-weight: 300 !important;
-        
+
         font-weight: lighter;
         border-bottom: 1px solid;
         color: var(--primary);
@@ -52,55 +51,210 @@
         svg {
             margin-right: 5px;
         }
+
+        h4 {
+            color: var(--primary);
+            font-weight: 500;
+
+            @include media("<=phone") {
+            }
+            @include media(">phone", "<=425px") {
+                font-size: 1.65rem;
+                font-weight: 700;
+            }
+            @include media(">425px", "<=tablet") {
+            }
+            @include media(">tablet", "<desktop") {
+            }
+            @include media(">=desktop") {
+            }
+        }
     }
 
-    h4 {
-        color: var(--primary);
-        font-weight: 500;
-
-        @include media("<=phone") {
-        }
-        @include media(">phone", "<=425px") {
-            font-size: 1.65rem;
-            font-weight: 700;
-        }
-        @include media(">425px", "<=tablet") {
-        }
-        @include media(">tablet", "<desktop") {
-        }
-        @include media(">=desktop") {
-        }
-    }
-}
-
-.section {
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-
-    @include media(">phone", "<=425px") {
-        padding: 0;
-    }
-
-    span {
-        font-size: 1.4rem;
-        font-weight: 300;
+    .section {
+        padding: 2rem 2rem 0;
         display: flex;
-        margin-top: 1rem;
-        text-align: justify;
+        flex-direction: column;
 
-        &:first-child {
-            margin-top: 0.5rem;
+        @include media(">phone", "<=425px") {
+            padding: 0;
         }
-        &:last-child {
-            margin-bottom: 1.5rem;
+
+        span {
+            font-size: 1.4rem;
+            font-weight: 300;
+            display: flex;
+            margin-top: 1rem;
+            text-align: justify;
+
+            &:first-child {
+                margin-top: 0.5rem;
+            }
+            &:last-child {
+                margin-bottom: 1.5rem;
+            }
+
+            @include media("<=phone") {
+            }
+            @include media(">phone", "<=425px") {
+                font-weight: 400;
+                font-size: 1rem;
+            }
+            @include media(">425px", "<=tablet") {
+            }
+            @include media(">tablet", "<desktop") {
+            }
+            @include media(">=desktop") {
+            }
         }
+    }
+    .resumeItem {
+        padding: 1rem;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+        max-width: 505px;
+        border-radius: 5px;
+        background-color: var(--primary);
+
+        @include media(">phone", "<=425px") {
+            width: 98%;
+        }
+
+        h4 {
+            font-size: 0.8rem;
+            margin-bottom: 0.25rem;
+            margin-top: 0.25rem;
+            color: var(--gray100);
+            font-weight: 700;
+
+            @include media("<=phone") {
+            }
+            @include media(">phone", "<=425px") {
+                font-size: 0.9rem;
+            }
+            @include media(">425px", "<=tablet") {
+            }
+            @include media(">tablet", "<desktop") {
+            }
+            @include media(">=desktop") {
+            }
+        }
+
+        span {
+            font-size: 0.65rem;
+            max-width: 550px;
+
+            &:first-child {
+                margin-top: 0.5rem;
+            }
+            &:last-child {
+                margin-bottom: 1.5rem;
+            }
+
+            @include media("<=phone") {
+            }
+            @include media(">phone", "<=425px") {
+                font-weight: 400;
+                font-size: 1rem;
+            }
+            @include media(">425px", "<=tablet") {
+            }
+            @include media(">tablet", "<desktop") {
+            }
+            @include media(">=desktop") {
+            }
+        }
+
+        p {
+            font-size: 0.7rem;
+            margin-left: 0.25rem;
+            color: var(--gray100);
+
+            @include media("<=phone") {
+            }
+            @include media(">phone", "<=425px") {
+                font-size: 0.9rem;
+            }
+            @include media(">425px", "<=tablet") {
+            }
+            @include media(">tablet", "<desktop") {
+            }
+            @include media(">=desktop") {
+            }
+        }
+
+        .resumeItemPosition {
+            height: 120px;
+
+            @include media("<=phone") {
+            }
+            @include media(">phone", "<=425px") {
+                width: 98%;
+                height: auto;
+            }
+            @include media(">425px", "<=tablet") {
+            }
+            @include media(">tablet", "<desktop") {
+            }
+            @include media(">=desktop") {
+            }
+
+            span {
+                color: var(--gray100);
+
+                @include media("<=phone") {
+                }
+                @include media(">phone", "<=425px") {
+                    font-size: 0.7rem;
+                    width: 98%;
+                }
+                @include media(">425px", "<=tablet") {
+                }
+                @include media(">tablet", "<desktop") {
+                }
+                @include media(">=desktop") {
+                }
+            }
+        }
+
+        .resumeItemTools,
+        .resumeItemFront,
+        .resumeItemBack {
+            display: flex;
+            flex-wrap: wrap;
+
+            p {
+                @include media("<=phone") {
+                }
+                @include media(">phone", "<=425px") {
+                    width: 98%;
+                    font-size: 0.7rem;
+                    margin: 0;
+                }
+                @include media(">425px", "<=tablet") {
+                }
+                @include media(">tablet", "<desktop") {
+                }
+                @include media(">=desktop") {
+                }
+            }
+
+            :first-child {
+                margin-left: 0;
+            }
+        }
+    }
+    .resumeItems {
+        width: 1080px;
+        display: flex;
+        flex-wrap: wrap;
 
         @include media("<=phone") {
         }
         @include media(">phone", "<=425px") {
-            font-weight: 400;
-            font-size: 1rem;
+            width: 98%;
+            font-size: 0.7rem;
         }
         @include media(">425px", "<=tablet") {
         }
