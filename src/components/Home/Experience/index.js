@@ -20,7 +20,7 @@ export default function Experience() {
                                 <span>
                                     Frontend web development, working with JavaScript and ReactJS with typing using TypeScript.
                                     Developing intuitive and responsive interfaces, using modern ReactJS syntax and patterns.
-                                    Developed projects from prototypes made by the designers(Figma & AdobeXD), and sometimes myself when needed mainly using Figma.
+                                    Developed projects from prototypes made by designers(Figma & AdobeXD), and sometimes myself when needed mainly using Figma.
                                     Hierarchical CSS,SASS and Styled-Components CMS(Prismic.io), declarative interfaces, depending on the project rules of business and goals,
                                     or my role in the project. State-management using Redux and or Context API, for more complex applications.
                                     Working sometimes in an agile environment where tasks are solicited as a chain of tasks or a single in a timeline accordingly to each developer
@@ -60,15 +60,15 @@ export default function Experience() {
                         <div>
                             <h4>BunniesHole | Jan 2022 until Date</h4>
                             <br />
-                            <h4>Frontend Web Dev.</h4>
+                            <h4>Frontend Jr. Web Dev.</h4>
                             <section className={styles.resumeItemPosition}>
                                 <span>
                                     Frontend web development, working with JavaScript and ReactJS using TypeScript.
                                     Developing intuitive and responsive interfaces, using modern ReactJS syntax and patterns.
-                                    Developed interfaces, e-mail and components from prototypes made by the designers(Figma).
-                                    or my role in the project. State-management using Redux and or Context API, for more complex applications.
-                                    Working sometimes in an agile environment where tasks are solicited as a chain of tasks or a single in a timeline accordingly to each developer
-                                    role and responsibilities in the project.
+                                    Developed interfaces, e-mail and components from prototypes made by designers(Figma).
+                                    State-management using Redux , Axios for API fetching and consumption. Static and dynamic
+                                    code. 
+                                    
                                 </span>
                             </section>
                         </div>
