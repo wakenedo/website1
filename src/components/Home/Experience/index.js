@@ -7,9 +7,9 @@ export default function Experience() {
     return (
         <main className={styles.content}>
             <section className={styles.section}>
-                <div>
-                <h3><GiDiploma />Experience</h3>
-                </div>
+                
+                <h3><div><GiDiploma /></div>Experience</h3>
+               
                 <section className={styles.resumeItems}>
                     <section className={styles.resumeItem}>
                         <div>
