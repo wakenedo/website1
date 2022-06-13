@@ -56,11 +56,6 @@ export default function Experience() {
                             <p> React.js,</p>
                             <p> CSS</p>
                         </section>
-                        <h4>Backend</h4>
-                        <section className={styles.resumeItemBack}>
-                            <p> Node.js, </p>
-                            <p> MongoDb </p>
-                        </section>
                         <div />
                     </section >
                     <section className={styles.resumeItem}>
