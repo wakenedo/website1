@@ -7,13 +7,65 @@ export default function Experience() {
     return (
         <main className={styles.content}>
             <section className={styles.section}>
-                
+
                 <h3><div><GiDiploma /></div>Experience</h3>
-               
+
                 <section className={styles.resumeItems}>
                     <section className={styles.resumeItem}>
                         <div>
-                            <h4>Freelancer | May 2019 until Date</h4>
+                            <h4>Freelancer | Jan. 2017 until Mar. 2018</h4>
+                            <br />
+                            <h4>HTML Dev.</h4>
+                            <section className={styles.resumeItemPosition}>
+                                <span>
+                                    Developing, maintaining, updating and deploying static HTML pages, landing pages, web design using HTML5 fixing tags or interface issues, bugs and developing interfaces from the clients design, or re-working already existing ones.
+                                </span>
+                            </section>
+                        </div>
+                        <h4>Tools & Techs</h4>
+                        <section className={styles.resumeItemTools}>
+                            <p> GitHub(Versioning)</p>
+                        </section>
+                        <h4>Frontend</h4>
+                        <section className={styles.resumeItemFront}>
+                            <p> HTML </p>
+                        </section>
+                        <div />
+                    </section >
+                    <section className={styles.resumeItem}>
+                        <div>
+                            <h4>Freelancer | May 2018 until May of 2019</h4>
+                            <br />
+                            <h4>JavaScript Web Dev.</h4>
+                            <section className={styles.resumeItemPosition}>
+                                <span>
+                                    Frontend web development, working with pure JavaScript, HTML and CSS.
+                                    Developing, maintaining and updating web sites, web apps and web services, with pure JavaScript. Implementing new features to already existing projects, improving performance working with other developers. 
+                                    
+                                </span>
+                            </section>
+                        </div>
+                        <h4>Tools & Techs</h4>
+                        <section className={styles.resumeItemTools}>
+                            <p> GitHub(Versioning)</p>
+                        </section>
+                        <h4>Frontend</h4>
+                        <section className={styles.resumeItemFront}>
+                            <p> HTML, </p>
+                            <p> JavaScript, </p>
+                            <p> React.js,</p>
+                            <p> CSS</p>
+                        </section>
+                        <h4>Backend</h4>
+                        <section className={styles.resumeItemBack}>
+                            <p> Node.js, </p>
+                            <p> MongoDb </p>
+                        </section>
+                        <div />
+                    </section >
+                    <section className={styles.resumeItem}>
+                        <div>
+                            <h4>Freelancer | May 2019 until Jan. of 2022</h4>
                             <br />
                             <h4>Frontend Web Dev.</h4>
                             <section className={styles.resumeItemPosition}>
@@ -58,7 +110,7 @@ export default function Experience() {
                     </section >
                     <section className={styles.resumeItem}>
                         <div>
-                            <h4>BunniesHole | Jan 2022 until Date</h4>
+                            <h4>BunniesHole | Jan. 2022 until Date</h4>
                             <br />
                             <h4>Frontend Jr. Web Dev.</h4>
                             <section className={styles.resumeItemPosition}>
@@ -67,8 +119,8 @@ export default function Experience() {
                                     Developing intuitive and responsive interfaces, using modern ReactJS syntax and patterns.
                                     Developed interfaces, e-mail and components from prototypes made by designers(Figma).
                                     State-management using Redux , Axios for API fetching and consumption. Static and dynamic
-                                    code. 
-                                    
+                                    code.
+
                                 </span>
                             </section>
                         </div>
@@ -94,7 +146,7 @@ export default function Experience() {
                             <p> Express </p>
                         </section>
                         <div />
-                    </section> 
+                    </section>
                 </section>
             </section>
         </main >
