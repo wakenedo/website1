@@ -18,7 +18,7 @@ export default function Experience() {
                             <h4>HTML Dev.</h4>
                             <section className={styles.resumeItemPosition}>
                                 <span>
-                                    Developing, maintaining, updating and deploying static HTML pages, landing pages, web design using HTML5 fixing tags or interface issues, bugs and developing interfaces from the clients design, or re-working already existing ones.
+                                    Developing, maintaining, updating and deploying static HTML pages, landing pages, web design using HTML5 fixing tags, adding styles  or interface issues, bugs and developing interfaces from the clients design, or re-working already existing ones.
                                 </span>
                             </section>
                         </div>
