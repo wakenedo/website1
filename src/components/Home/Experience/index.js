@@ -15,7 +15,7 @@ export default function Experience() {
                         <div>
                             <h4>Freelancer | Jan. 2017 until Mar. 2018</h4>
                             <br />
-                            <h4>HTML Dev.</h4>
+                            <h4>HTML Developer</h4>
                             <section className={styles.resumeItemPosition}>
                                 <span>
                                     Developing, maintaining, updating and deploying static HTML pages, landing pages, web design using HTML5 fixing tags, adding styles  or interface issues, bugs and developing interfaces from the clients design, or re-working already existing ones.
@@ -36,7 +36,7 @@ export default function Experience() {
                         <div>
                             <h4>Freelancer | May 2018 until May of 2019</h4>
                             <br />
-                            <h4>JavaScript Web Dev.</h4>
+                            <h4>JavaScript Web Developer</h4>
                             <section className={styles.resumeItemPosition}>
                                 <span>
                                     Frontend web development, working with pure JavaScript, HTML and CSS.
@@ -62,14 +62,14 @@ export default function Experience() {
                         <div>
                             <h4>Freelancer | May 2019 until Jan. of 2022</h4>
                             <br />
-                            <h4>Frontend Web Dev.</h4>
+                            <h4>Frontend React Developer</h4>
                             <section className={styles.resumeItemPosition}>
                                 <span>
                                     Frontend web development, working with JavaScript and ReactJS with typing using TypeScript.
                                     Developing intuitive and responsive interfaces, using modern ReactJS syntax and patterns.
                                     Developed projects from prototypes made by designers(Figma & AdobeXD), and sometimes myself when needed mainly using Figma.
                                     Hierarchical CSS,SASS and Styled-Components CMS(Prismic.io), declarative interfaces, depending on the project rules of business and goals,
-                                    or my role in the project. State-management using Redux and or Context API, for more complex applications.
+                                    or my role in the project. State-management using Redux and Context API, for more complex applications.
                                     Working sometimes in an agile environment where tasks are solicited as a chain of tasks or a single in a timeline accordingly to each developer
                                     role and responsibilities in the project.
                                 </span>
