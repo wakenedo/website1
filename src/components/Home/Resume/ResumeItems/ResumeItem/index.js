@@ -6,7 +6,7 @@ import styles from './resumeItem.module.scss'
 function ResumeItem({ data, index }) {
     
     return (
-        <main>
+        <main className={styles.main}>
             <section key={index} className={styles.section}>
                 <div className="intro">
                     <h4>{data.name}</h4>

@@ -96,13 +96,13 @@
     }
 
     p {
-        margin-bottom: 1.5rem;
-        font-size: 1.2rem;
-        line-height: 2.2rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.05rem;
+        line-height: 2.25rem;
         font-weight: 300;
         text-align: justify;
         color: var(--gray700);
-        padding: 1.5rem;
+        padding: 1rem 2.5rem;
 
         @include media("<=phone") {
         }
@@ -118,4 +118,5 @@
         @include media(">tablet", "<desktop") {
         }
     }
+   
 }

@@ -17,9 +17,7 @@ export default function Home() {
             </main>
             <Resume />
             <Experience />
-            <>
-                <Contact/>
-            </>
+            <Contact/>
         </>
     )
 }

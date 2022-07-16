@@ -1,5 +1,10 @@
 @import "../../../../../../node_modules/include-media";
 
+.main:hover {
+        background-color: var(--secondary);
+        transition: 0.3s ease-in-out 
+}
+
 .section {
     padding: 2rem;
     max-width: 570px;
@@ -17,7 +22,10 @@
     }
     @include media(">=desktop") {
     }
-
+    main {
+        background-color: red
+    }
+    
     span {
         font-size: 1.4rem;
         font-weight: 300;
