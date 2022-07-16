@@ -28,7 +28,7 @@ export default function IntroImg() {
                         <>
                             <SkillBar
                                 skills={skills}
-                                height={15}
+                                height={25}
                             />
                         </>
                         <Link to='/Projects'>

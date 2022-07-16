@@ -9,6 +9,7 @@ import IntroImg from './IntroImg';
 
 
 export default function Home() {
+    
     return (
         <>
             <main className={styles.content}>
@@ -17,7 +18,7 @@ export default function Home() {
             <Resume />
             <Experience />
             <>
-                <Contact />
+                <Contact/>
             </>
         </>
     )
