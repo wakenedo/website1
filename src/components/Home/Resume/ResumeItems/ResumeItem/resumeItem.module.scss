@@ -2,7 +2,8 @@
 
 .main:hover {
         background-color: var(--secondary);
-        transition: 0.3s ease-in-out 
+        transition: 0.3s ease-in-out; 
+        border-radius: 5px;
 }
 
 .section {
