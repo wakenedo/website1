@@ -19,9 +19,9 @@ function Project({ data, index }) {
                         </Link>
                     </h3>
                     <p>{data.Date} <DateRangeIcon /></p>
-                    <p>
+                    <span className={styles.shortDescription}>
                         {data.shortDescription}
-                    </p>
+                    </span>
 
                     {/*<div >
                         <span >{data.projectTools.tool1}</span>
