@@ -7,9 +7,11 @@ function ProjectDayToDay({ index }) {
     return (
         <main className={styles.content}>
             <h3><MdOutlineToday />Day To Day </h3>
-            <span>
-                {projects[index].projectDayToDay}
-            </span>
+            <div>
+                <span>
+                    {projects[index].projectDayToDay}
+                </span>
+            </div>
         </main>
     )
 }

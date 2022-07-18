@@ -23,7 +23,7 @@
         margin-top: 1.5rem;
         /* flex-direction: column; */
         display: flex;
-        
+        flex-direction: column;
         @include media("<=phone") {       
         }
         @include media(">phone", "<=425px") {
@@ -44,6 +44,7 @@
     }
     .section2 {
         display: flex;
+        flex-direction: column;
         
         @include media("<=phone") {
         }
@@ -61,6 +62,7 @@
     
     .section3 {
         display: flex;
+       
         
         @include media("<=phone") {
         }

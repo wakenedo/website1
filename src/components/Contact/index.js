@@ -3,14 +3,41 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
-import styles from './contact.module.scss'
 
-function Contact() {
+import styles from './contact.module.scss'
+import { AccountTreeOutlined, HomeOutlined, KeyboardArrowDownOutlined } from '@material-ui/icons';
+
+function Contact({isOpen,toggle}) {
 
     return (
         <>
-            <main className={styles.contact}>
+            <main className={styles.contact} isOpen={isOpen} style={{
+                bottom: ({ isOpen }) => (isOpen ? '0' : '-1000px')     
+            }}>
+                <div className={styles.contactMenu}>
+                    <a href='https://alexandre-alvarenga-developer.netlify.app/'>
+                        <HomeOutlined />
+                        <p>
+                            Home
+                        </p>
+                    </a>
+                    <a href='https://alexandre-alvarenga-developer.netlify.app/Projects'>
+                        <AccountTreeOutlined />
+                        <p>
+                            Projects
+                        </p>
+                    </a>
+                    <div className={styles.contactMenuNav} >
+                        <a  onClick={toggle}>
+                            <span>
+                                Contact
+                            </span>
+                            <KeyboardArrowDownOutlined />
+                        </a>
+                    </div>
+                </div>
                 <section>
+
 
                     <p><a href="https://www.linkedin.com/in/alexandre-alvarenga-86841b1b8/"><LinkedInIcon /> <span>LinkedIn : @alexandre-alvarenga</span></a></p>
 

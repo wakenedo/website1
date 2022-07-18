@@ -10,9 +10,12 @@ function ProjectMyRole({ index }) {
     return (
         <main className={styles.content}>
             <h3><ImUser />My Role</h3>
-            <span>
-                {projects[index].projectMyRole}
-            </span>
+            <div>
+                <span>
+                    {projects[index].projectMyRole}
+                </span>
+
+            </div>
         </main>
     )
 }

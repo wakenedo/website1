@@ -2,10 +2,8 @@
 
 .content {
     text-align: justify;
-    background: var(--gray100);
-    margin-bottom: 1rem;
+    background: var(--secondary);
     padding: 0.75rem;
-    border-radius: 5px;
     color: var(--primary);
     font-size: 12px;
     height: 135px;
@@ -81,6 +79,7 @@ h3 {
         @include media("<=phone") {
         }
         @include media(">phone", "<=425px") {
+            font-size:0.85rem;
         }
         @include media(">425px", "<=tablet") {
             font-weight: 400;

@@ -4,12 +4,12 @@
     text-align: justify;
     background: var(--primary);
     padding: 0.75rem;
-    border-radius: 5px;
-    color: var(--gray100);
+    //border-radius: 5px;
+    color: var(--secondary);
     font-size: 12px;
     max-height: 295px;
     width: 1220px;
-    margin-bottom: 1rem;
+    
 
     @include media("<=phone") {
     }
@@ -26,7 +26,7 @@
     }
 
     h3 {
-        color: var(--gray100) !important;
+        color: var(--secondary) !important;
         margin-bottom: 0.5rem;
         font-size: 24px;
         border-bottom: 1px solid;
@@ -46,6 +46,7 @@
 
         svg {
             margin-right: 0.5rem;
+            color: var(--secondary) !important;
         }
     }
 

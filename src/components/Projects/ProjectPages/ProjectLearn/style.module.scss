@@ -3,10 +3,8 @@
 .content {
     text-align: justify;
     background: var(--primary);
-    margin: 0rem 0 1rem 0.25rem;
     padding: 0.75rem;
-    border-radius: 5px;
-    color: var(--gray100);
+    color: var(--gray850);
     font-size: 12px;
     height: 345px;
     max-height: 345px;
@@ -15,8 +13,8 @@
     }
     @include media(">phone", "<=425px") {
         width: 100%;
-        height: 500px;
-        max-height: 550px;
+        height: 540px;
+        max-height: 555px;
         margin: 0 auto 0.5rem;
     }
     @include media(">425px", "<=tablet") {
@@ -27,7 +25,7 @@
     }
 
     h3 {
-        color: var(--gray100) !important;
+        color: var(--secondary) !important;
         margin-bottom: 1rem;
         font-size: 24px;
         border-bottom: 1px solid;
@@ -50,9 +48,24 @@
         }
     }
 
+    div{
+        background-color: var(--secondary);
+        height: 270px;
+        border-radius: 5px;
+        padding: 2rem;
+
+        @include media("<=phone") {
+        }
+        @include media(">phone", "<=425px") {
+            font-size: 0.9rem;
+            height: 470px;
+            padding: 1.15rem
+        }
+    }
+
     span {
-        font-size: 1.05rem;
-        font-weight: 100;
+        font-size: 1.15rem;
+        
 
         @include media("<=phone") {
         }

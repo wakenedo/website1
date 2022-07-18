@@ -8,9 +8,11 @@ function ProjectDescription({ index }) {
     return (
         <main className={styles.content}>
             <h3><MdOutlineDescription />Description</h3>
-            <span>
-                {projects[index].Description}
-            </span>
+            <div>
+                <span>
+                    {projects[index].Description}
+                </span>
+            </div>
         </main>
     )
 }

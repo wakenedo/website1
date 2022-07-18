@@ -26,7 +26,7 @@ function ProjectsPage() {
                 <section className={styles.section}>
                     <div className={styles.title}>
                         <FaProjectDiagram />
-                        <h3>Project </h3>
+                        <h3>Projects</h3>
                     </div>
                 </section>
 
