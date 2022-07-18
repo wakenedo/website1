@@ -5,15 +5,13 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import PhoneAndroidIcon from '@material-ui/icons/PhoneAndroid';
 
 import styles from './contact.module.scss'
-import {  HomeOutlined, KeyboardArrowDownOutlined } from '@material-ui/icons';
+import { HomeOutlined, KeyboardArrowDownOutlined } from '@material-ui/icons';
 //AccountTreeOutlined
-function Contact({isOpen,toggle}) {
-
+function Contact({ isOpen, toggle }) {
+    console.log('contact','toggle log', toggle , isOpen)
     return (
         <>
-            <main className={styles.contact} isOpen={isOpen} style={{
-                bottom: ({ isOpen }) => (isOpen ? '0' : '-1000px')     
-            }}>
+            <main className={styles.contact}>
                 <div className={styles.contactMenu}>
                     <a href='https://alexandre-alvarenga-developer.netlify.app/'>
                         <HomeOutlined />
@@ -28,13 +26,14 @@ function Contact({isOpen,toggle}) {
                         </p>
                     </a>*/}
                     <div className={styles.contactMenuNav} >
-                        <button  onClick={toggle}>
+                        <button onClick={toggle}>
                             <span>
                                 Contact
                             </span>
                             <KeyboardArrowDownOutlined />
                         </button>
                     </div>
+                            
                 </div>
                 <section>
 
