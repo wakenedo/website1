@@ -124,6 +124,15 @@
     @include media(">phone", "<=425px") {
         
     }
+    button{
+        display: flex;
+        align-items: center;
+        border: none;
+        background-color: var(--gray700);
+        color: var(--gray300);
+        text-transform: uppercase;
+        font-weight: 700
+    }
     span{
         margin-left: 0.95rem;
         margin-right: 0rem !important;

@@ -28,12 +28,12 @@ function Contact({isOpen,toggle}) {
                         </p>
                     </a>
                     <div className={styles.contactMenuNav} >
-                        <a  onClick={toggle}>
+                        <button  onClick={toggle}>
                             <span>
                                 Contact
                             </span>
                             <KeyboardArrowDownOutlined />
-                        </a>
+                        </button>
                     </div>
                 </div>
                 <section>
