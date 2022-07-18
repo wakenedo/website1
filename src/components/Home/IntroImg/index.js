@@ -18,7 +18,7 @@ export default function IntroImg() {
             <div className={styles.contentTitle}>
                 <h3>Alexandre Alvarenga </h3>
                 <div className={styles.contentSubTitle}>
-                    <span>Frontend Web Developer | React.JS</span>
+                    <span>Frontend Web Developer | JavaScript | React.JS | TypeScript</span>
                 </div>
             </div>
             <div className={styles.section}>
