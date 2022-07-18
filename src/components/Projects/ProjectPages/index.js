@@ -7,8 +7,9 @@ import ProjectPage from './ProjectPage'
 import { useParams } from 'react-router'
 
 
-function ProjectPages(data) {
-    const {project} = useParams()
+function ProjectPages({ data, isOpen, toggle }) {
+    const { project } = useParams()
+
 
     const renderProject = () => {
         let arr = []
@@ -38,7 +39,7 @@ function ProjectPages(data) {
             <div key={projects.Id}>
                 {renderProject(data)}
             </div>
-            <Contact />
+            <Contact isOpen={isOpen} toggle={toggle} />
         </>
     )
 }

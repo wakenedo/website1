@@ -7,7 +7,7 @@ import { FaProjectDiagram } from 'react-icons/fa';
 
 
 
-function ProjectsPage() {
+function ProjectsPage({ isOpen, toggle }) {
     const renderProjects = () => {
         let arr = []
         let projectsArr = projects
@@ -34,7 +34,7 @@ function ProjectsPage() {
                     {renderProjects()}
                 </div>
             </main>
-            <Contact />
+            <Contact isOpen={isOpen} toggle={toggle}/>
         </>
     )
 }
