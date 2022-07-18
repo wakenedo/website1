@@ -7,14 +7,14 @@ import StarWars1 from '../Assets/StarWars/star-wars-home.PNG'
 import StarWars2 from '../Assets/StarWars/star-wars-1.PNG'
 import StarWars3 from '../Assets/StarWars/star-wars-2.PNG'
 import StarWars4 from '../Assets/StarWars/star-wars-3.PNG'
-import StarWars5 from '../Assets/Projects/Project1/React.png'
+import React from '../Assets/TechnologiesImages/React.png'
 
 //Project 2 Assets
-//import Pizza1 from '../Assets/Projects/Project2/Pizza1.PNG'
-//import Pizza2 from '../Assets/Projects/Project2/Pizza2.PNG'
-//import Pizza3 from '../Assets/Projects/Project2/Pizza3.PNG'
-//import Pizza4 from '../Assets/Projects/Project2/Pizza4.PNG'
-//import Pizza5 from '../Assets/Projects/Project2/mern.jpeg'
+import Fitness1 from '../Assets/Fitness/Fitness1.PNG'
+import Fitness2 from '../Assets/Fitness/Fitness2.PNG'
+import Fitness3 from '../Assets/Fitness/Fitness3.PNG'
+import Fitness4 from '../Assets/Fitness/Fitness4.PNG'
+//import MaterialUI from '../Assets/TechnologiesImages/materialUI.png'
 
 // Project Technologies icons
 import { DiGithubBadge, DiReact } from 'react-icons/di'
@@ -42,8 +42,8 @@ const projects = [
                                 "thumbnail": StarWars4
                         },
                         "img5": {
-                                "original": StarWars5,
-                                "thumbnail": StarWars5
+                                "original": React,
+                                "thumbnail": React
                         },
                 },
                 "Name": "ReactJS & TypeScript Project | StarWars Fan-site",
@@ -107,32 +107,32 @@ const projects = [
         },
         {
                 "Id": "2",
-                "Image": 'Course1',
+                "Image": Fitness1,
                 "Images": {
                         "img1": {
-                                "original": 'Course1',
-                                "thumbnail": 'Course1'
+                                "original": Fitness1,
+                                "thumbnail": Fitness1
                         },
                         "img2": {
-                                "original": 'Course2',
-                                "thumbnail": 'Course2'
+                                "original": Fitness2,
+                                "thumbnail": Fitness2
                         },
                         "img3": {
-                                "original": 'Course3',
-                                "thumbnail": 'Course3'
+                                "original": Fitness3,
+                                "thumbnail": Fitness3
                         },
                         "img4": {
-                                "original": 'Course4',
-                                "thumbnail": 'Course4'
+                                "original": Fitness4,
+                                "thumbnail": Fitness4
                         },
                         "img5": {
-                                "original": 'Course5',
-                                "thumbnail": 'Course5'
+                                "original": React,
+                                "thumbnail": React
                         },
                 },
                 "Name": "ReactJS & MaterialUI Project | Fitness-App",
                 "Icon": <SiMaterialui />,
-                "Date": "11/2021 to 04/2022",
+                "Date": "07/2021 to 07/2022",
                 "shortDescription": "In this project I wanted to use RapidAPI  which is a database of APIs, easy to setup and clear to understand, to develop a fitness app with modern ReactJS synthax, file and folder structure, and for the styling I wanted to check out MateriaUI to study its best practices and synthaxs to better understand the tool and it's uses, and the result is a clean and beautiful website connected to two apis, and data fetching to provide the experience of a clean and intuitive web site to surf on. ",
                 "Description": "This project, is a for learning porposes, been a while since I've wanted to do a project with all the power of MaterialUI with ReactJS to develop a clean responsive app, and the results are above what I was expecting. Also other tool I was interested about using in a project was RapidAPI, which is basically a database of API where you can subscribe to them and use during development process, there is a test subscription that allows you to test the ones you find interesting, I chose ExerciseDB and Youtube Search and Download both with impressive content,data structure and documentation.",
                 "projectTech": {
@@ -150,10 +150,10 @@ const projects = [
                 },
 
                 "projectLearn": "What I've learned during the development process of this project, there were many things, but one that was the biggest , was the necessity of a really clear communication between the backend team and the frontend team, defining a data structure that will suit both environments is the optimal way in terms of productivity.  Since I had a stack previously set to develop the site, I did not know I would need to research and learn a lot about Axios and React hooks methods to deal with the data structure of the , which was great. Also with this project I was able to grasp more of TypeScript uses and how important a clear typing pattern in modern applications really are, even notable for a single developer project. Folder Structure, Component Structure, responsiveness , React hooks especially useEffect and Typing were both topics where I felt I've greatly improved in the course of this project by the hours i had to read into the documentation of both.  I am very happy for how the version '1.0.0' of the site turned out to  and for all the knowledge that this experience has added to my stack and skill set.",
-                "projectDayToDay": "My day to day consisted In implementing the interfaces, component functionability, design , fetching data and manipulate it to work as expected,  StackOverflow , Google, ReactDocs, AxiosDocs  were key elements to making the whole project to work. They helped me understand errors  and fix bugs in the app. After implemented all the visuals for all the pages,and components  the dynamic fetching of the data and how to render was the next step to implement, where I've found a lot of difficulties related to the data structure defined in the API. After that milestone was resolved, the next issue was a badly defined structure for the Pages components, that was returning a JSX.Element or Undefined, making TypeScript to point an error for all Pages components when called from app.tsx. All the development process is registered via commits in the GitHub repository.",
+                "projectDayToDay": "My day to day for this project, was like a sprint since its so smooth to work with MaterialUI the process of translating the prototype to a fully working and responsive web application. The componentization powers of ReactJS aligned with a powerful tool such as MaterialUI works together almost perfectly, even though you have your files much longer, you get used quickly to how to navigate through it, since my development process was implementing the components and interfaces for lg and xs once it was finished and working properly they could be re-used, speeding up the process by a lot, I had to deal with some bugs from the asynchronous calls but other than that it sailed smoothly.",
                 "projectMyRole": "My role in this project was deciding the technologies required, the UI and UX. Since this project was developed only by me I was in charge of everything from the scratch, from prototyping to developing each page and component, setting up a scalable folder structure pattern and style pattern. Except from the api which is free api with data related to Star Wars. So I had total freedom to decide methods and patterns, which I choose the best as I could based on the principles of readability, maintainability and scalability and good code practices. ",
-                "projectRepo": "https://github.com/wakenedo/star-wars-site",
-                "projectDeploy": "https://starwarsfansite.netlify.app/",
+                "projectRepo": "https://github.com/wakenedo/gym_exercises",
+                "projectDeploy": "https://goldsgymexercise.netlify.app",
                 "Technologies": {
                         "tool1": {
                                 "Badge": <SiJavascript />,
@@ -163,7 +163,7 @@ const projects = [
                         "tool2": {
                                 "Badge": <SiMaterialui />,
                                 "Text": "Material UI",
-                                "Link": "https://vitejs.dev/",
+                                "Link": "https://mui.com/pt/",
                         },
                         "tool3": { 
                                 
