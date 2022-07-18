@@ -15,7 +15,8 @@
   --gray800: #29292e;
   --gray850: #1f2729;
   --gray900: #121214;
-  --secondary: #f3e8c7;
+  --secondary: #fff6d8;
+  --tertiary: #fede7e;
   --primary: #4548f0;
   --primary-light: #4e69ff;
 }
@@ -63,7 +64,7 @@ p {
 
 // React Skillbars Styles and Media Queries
 .skillbar-title {
-  color: var(--gray100) !important;
+  color: var(--secondary) !important;
   background: var(--primary) !important;
   @include media("<=phone") {
     font-size: 15px !important;
@@ -102,7 +103,7 @@ p {
   }
 }
 .skillbar-bar {
-  background: var(--gray300) !important;
+  background: var(--tertiary) !important;
   @include media("<=phone") {
     left: 100px !important;
   }
@@ -117,6 +118,7 @@ p {
   }
 }
 .skillbar {
+  background: var(--secondary) !important;
   @include media("<=phone") {
     height: 25px !important;
     line-height: 25px !important;

@@ -49,9 +49,11 @@
         }
         @include media(">phone", "<=425px") {
             width: 90%;
-            font-size: 2.65rem !important;
+            font-size: 1.75rem !important;
             font-weight: 500 !important;
             margin-bottom: 0.25rem;
+            line-height: none;
+            margin-left: 1rem;
         }
         @include media(">425px", "<=tablet") {
         }
@@ -64,7 +66,7 @@
     .contentSubTitle {
         padding: 0.5rem;
         background: var(--primary);
-        color: var(--gray100);
+        color: var(--secondary);
         span {
             font-size: 1.25rem;
             font-weight: 100;
@@ -72,7 +74,7 @@
             }
             @include media(">phone", "<=425px") {
                 width: 80%;
-                font-size: 1.75rem;
+                font-size: 1.15rem;
                 font-weight: 100;
             }
             @include media(">425px", "<=tablet") {
@@ -148,7 +150,7 @@
             @include media("<=phone") {
             }
             @include media(">phone", "<=425px") {
-                height: 325px;
+                height: 225px;
                 margin-left: 6%;
                 padding: 0.5rem;
             }
@@ -170,7 +172,7 @@
             padding: 2rem;
             width: 445px;
             background-color: var(--primary);
-            color: var(--gray100);
+            color: var(--secondary);
             align-self: center;
             font-weight: 700;
             border: none;
@@ -182,10 +184,11 @@
             @include media("<=phone") {
             }
             @include media(">phone", "<=425px") {
-                font-size: 22px !important;
+                font-size: 1rem !important;
                 width: 260px !important;
-                font-weight: 300 !important;
+                font-weight: 400 !important;
                 align-self: center;
+                padding: 1.5rem;
             }
             @include media(">425px", "<=tablet") {
             }

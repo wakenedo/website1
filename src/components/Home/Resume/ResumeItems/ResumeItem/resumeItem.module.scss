@@ -1,9 +1,21 @@
 @import "../../../../../../node_modules/include-media";
 
 .main:hover {
-        background-color: var(--secondary);
+        background-color: var(--tertiary);
         transition: 0.3s ease-in-out; 
         border-radius: 5px;
+}
+
+.main {
+    @include media("<=phone") {
+    }
+    @include media(">phone", "<=425px") {
+        background-color: var(--tertiary);
+        border-radius: 5px;
+        margin-top: 1.5rem;
+        width: 100%;
+        padding: 1rem;
+    }
 }
 
 .section {
@@ -58,4 +70,11 @@
 .resumeLinks {
     display: flex;
     flex-direction: column;
+
+    @include media("<=phone") {
+    }
+    @include media(">phone", "<=425px") {
+        font-weight: 400;
+        font-size: 1rem;
+    }
 }

@@ -3,7 +3,7 @@
 .content {
     padding: 0 2rem 0 2rem;
     font-size: 1.6rem;
-    background: var(--gray100);
+    background: var(--secondary);
     border-radius: 5px;
     color: var(--gray700);
     display: flex;
@@ -100,11 +100,13 @@
             margin-top: 0.5rem;
             font-size: 1.5rem;
             color: var(--primary);
+            text-decoration: none;
 
             @include media("<=phone") {
             }
             @include media(">phone", "<=425px") {
-                font-size: 1.25rem;
+                font-size: 1.15rem;
+                
             }
             @include media(">425px", "<=tablet") {
             }

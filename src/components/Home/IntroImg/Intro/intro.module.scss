@@ -80,7 +80,7 @@
 }
 
 .container {
-    background: var(--gray100);
+    background: var(--secondary);
     border-radius: 5px;
     align-items: center;
     text-align: center;
@@ -97,7 +97,7 @@
 
     p {
         margin-bottom: 0.5rem;
-        font-size: 1.05rem;
+        font-size: 0.85rem;
         line-height: 2.25rem;
         font-weight: 300;
         text-align: justify;
@@ -107,11 +107,45 @@
         @include media("<=phone") {
         }
         @include media(">phone", "<=425px") {
-            width: 90%;
-            font-size: 0.95rem;
-            font-weight: 300;
+            width: 100%;
+            font-size: 0.85rem;
+            //font-weight: 300;
             line-height: 1.25rem;
-            margin: 14px;
+            //margin: 0.25rem;
+            //margin-bottom: 1.5rem;
+            //text-align: left;
+            
+        }
+        @include media(">425px", "<=tablet") {
+        }
+        @include media(">tablet", "<desktop") {
+        }
+    }
+
+    span {
+        margin-bottom: 0.25rem;
+        font-size: 0.85rem;
+        line-height: 2.25rem;
+        font-weight: 300;
+        text-align: justify;
+        color: var(--gray700);
+        padding: 1rem 2.5rem;
+        margin-top: 1rem;
+        
+         
+
+        @include media("<=phone") {
+        }
+        @include media(">phone", "<=425px") {
+            width: 100%;
+            font-size: 0.85rem;
+            //font-weight: 300;
+            line-height: 1.25rem;
+            //margin: 0.25rem;
+            margin-top: 1.5rem;
+            
+            
+            
         }
         @include media(">425px", "<=tablet") {
         }
