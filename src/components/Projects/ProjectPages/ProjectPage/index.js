@@ -10,6 +10,8 @@ import ProjectTechnologies from '../ProjectTechnologies'
 import styles from './projectpage.module.scss'
 
 function ProjectPage({ data, index }) {
+
+    window.scrollTo({ top: 0, left: 100, behavior: 'smooth' });
     return (
         <main className={styles.main}>
             <section className={styles.content}>

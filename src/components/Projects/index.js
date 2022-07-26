@@ -8,6 +8,7 @@ import { FaProjectDiagram } from 'react-icons/fa';
 
 
 function ProjectsPage({ isOpen, toggle }) {
+    window.scrollTo({ top: 0, left: 100, behavior: 'smooth' });
     const renderProjects = () => {
         let arr = []
         let projectsArr = projects
@@ -18,6 +19,8 @@ function ProjectsPage({ isOpen, toggle }) {
             }
         )
         return arr
+
+        
     }
 
     return (
