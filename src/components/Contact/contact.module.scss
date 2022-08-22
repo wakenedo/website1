@@ -7,7 +7,7 @@
     bottom: 0;
     z-index: 999;
     width: 338px;
-    transition: 0.3s ease-in-out;
+    transition: ease-in-out 0.6s;
 
     @include media("<=phone") {
     }
@@ -96,9 +96,8 @@
         align-items: center;
         text-transform: uppercase;
         text-decoration: none;
-        
 
-        p{
+        p {
             margin-right: 7.52rem;
             margin-left: 0.25rem;
             font-weight: 700;
@@ -107,9 +106,8 @@
             @include media(">phone", "<=425px") {
                 margin-left: 0.5rem;
             }
-            
         }
-        
+
         color: var(--gray300);
         svg {
             color: var(--gray300);
@@ -122,28 +120,26 @@
     @include media("<=phone") {
     }
     @include media(">phone", "<=425px") {
-        
     }
-    button{
+    button {
         display: flex;
         align-items: center;
         border: none;
         background-color: var(--gray700);
         color: var(--gray300);
         text-transform: uppercase;
-        font-weight: 700
+        font-weight: 700;
     }
-    span{
+    span {
         margin-left: 0.95rem;
         margin-right: 0rem !important;
         @include media("<=phone") {
         }
         @include media(">phone", "<=425px") {
-           margin-left: 1.75rem;
-        
+            margin-left: 1.75rem;
         }
     }
-    svg { 
-        margin-left: 0.55rem;
+    svg {
+        margin-left: 0.45rem;
     }
 }
