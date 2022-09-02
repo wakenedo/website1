@@ -16,9 +16,16 @@ import Fitness3 from '../Assets/Fitness/Fitness3.PNG'
 import Fitness4 from '../Assets/Fitness/Fitness4.PNG'
 //import MaterialUI from '../Assets/TechnologiesImages/materialUI.png'
 
+
+//Project 3 Assets
+import Marketplace1 from '../Assets/CgtMarketplace/Marketplace1.PNG'
+import Marketplace2 from '../Assets/CgtMarketplace/Marketplace2.PNG'
+import Marketplace3 from '../Assets/CgtMarketplace/Marketplace3.PNG'
+import Marketplace4 from '../Assets/CgtMarketplace/Marketplace4.PNG'
+
 // Project Technologies icons
 import { DiGithubBadge, DiReact } from 'react-icons/di'
-import { SiStyledcomponents, SiJavascript, SiTypescript, SiVite, SiMaterialui } from 'react-icons/si'
+import { SiStyledcomponents, SiJavascript, SiTypescript, SiVite, SiMaterialui, SiRedux } from 'react-icons/si'
 
 const projects = [
         {
@@ -165,8 +172,8 @@ const projects = [
                                 "Text": "Material UI",
                                 "Link": "https://mui.com/pt/",
                         },
-                        "tool3": { 
-                                
+                        "tool3": {
+
                         },
                         "tool4": {
                                 "Badge": <DiReact />,
@@ -175,7 +182,89 @@ const projects = [
 
                         },
                         "tool5": {
-                                
+
+                        },
+                        "tool6": {
+                                "Badge": <DiGithubBadge />,
+                                "Text": "GitHub",
+                                "Link": "https://github.com/",
+                        }
+
+                },
+        },
+        {
+                "Id": "3",
+                "Image": Marketplace1,
+                "Images": {
+                        "img1": {
+                                "original": Marketplace1,
+                                "thumbnail": Marketplace1,
+                        },
+                        "img2": {
+                                "original": Marketplace2,
+                                "thumbnail": Marketplace2
+                        },
+                        "img3": {
+                                "original": Marketplace3,
+                                "thumbnail": Marketplace3
+                        },
+                        "img4": {
+                                "original": Marketplace4,
+                                "thumbnail": Marketplace4
+                        },
+                        "img5": {
+                                "original": React,
+                                "thumbnail": React
+                        },
+                },
+                "Name": "ReactJS & MaterialUI | Cgt Marketplace",
+                "Icon": <SiMaterialui />,
+                "Date": "08/2021 to 08/2022",
+                "shortDescription": "In this project I wanted to use RapidAPI  which is a database of APIs, easy to setup and clear to understand, to develop a fitness app with modern ReactJS synthax, file and folder structure, and for the styling I wanted to check out MateriaUI to study its best practices and synthaxs to better understand the tool and it's uses, and the result is a clean and beautiful website connected to two apis, and data fetching to provide the experience of a clean and intuitive web site to surf on. ",
+                "Description": "This project, is a for learning purposes, been a while since I've wanted to do a project with all the power of MaterialUI with ReactJS to develop a clean responsive app, and the results are above what I was expecting. Also other tool I was interested about using in a project was RapidAPI, which is basically a database of API where you can subscribe to them and use during development process, there is a test subscription that allows you to test the ones you find interesting, I chose ExerciseDB and Youtube Search and Download both with impressive content,data structure and documentation.",
+                "projectTech": {
+                        "tech1": "Design | Figma",
+                        "tech2": "Database | Mocko",
+                        "tech3": "Scope | MaterialUI - React.js - Frontend "
+                },
+                "projectTools": {
+                        "tool1": " MaterialUI - Styling",
+                        "tool2": " React Hooks - UseState | UseEffect | useContext",
+                        "tool3": " Redux - Redux-Persist ",
+                        "tool4": null,
+                        "tool5": " GitHub - Versioning",
+
+                },
+
+                "projectLearn": "What I've learned during the development process of this project, there were many things, but one that was the biggest , was the necessity of a really clear communication between the backend team and the frontend team, defining a data structure that will suit both environments is the optimal way in terms of productivity.  Since I had a stack previously set to develop the site, I did not know I would need to research and learn a lot about Axios and React hooks methods to deal with the data structure of the , which was great. Also with this project I was able to grasp more of TypeScript uses and how important a clear typing pattern in modern applications really are, even notable for a single developer project. Folder Structure, Component Structure, responsiveness , React hooks especially useEffect and Typing were both topics where I felt I've greatly improved in the course of this project by the hours i had to read into the documentation of both.  I am very happy for how the version '1.0.0' of the site turned out to  and for all the knowledge that this experience has added to my stack and skill set.",
+                "projectDayToDay": "My day to day for this project, was like a sprint since its so smooth to work with MaterialUI the process of translating the prototype to a fully working and responsive web application. The componentization powers of ReactJS aligned with a powerful tool such as MaterialUI works together almost perfectly, even though you have your files much longer, you get used quickly to how to navigate through it, since my development process was implementing the components and interfaces for lg and xs once it was finished and working properly they could be re-used, speeding up the process by a lot, I had to deal with some bugs from the asynchronous calls but other than that it sailed smoothly.",
+                "projectMyRole": "My role in this project was deciding the technologies required, the UI and UX. Since this project was developed only by me I was in charge of everything from the scratch, from prototyping to developing each page and component, setting up a scalable folder structure pattern and style pattern. Except from the api which is free api with data related to Star Wars. So I had total freedom to decide methods and patterns, which I choose the best as I could based on the principles of readability, maintainability and scalability and good code practices. ",
+                "projectRepo": "https://github.com/wakenedo/cgt-test-fe-marketplace",
+                "projectDeploy": "https://thats90sshop.netlify.app/",
+                "Technologies": {
+                        "tool1": {
+                                "Badge": <SiJavascript />,
+                                "Text": "JavaScript",
+                                "Link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
+                        },
+                        "tool2": {
+                                "Badge": <SiMaterialui />,
+                                "Text": "Material UI",
+                                "Link": "https://mui.com/pt/",
+                        },
+                        "tool3": {
+                                "Badge": <SiRedux />,
+                                "Text": "React JS",
+                                "Link": "https://redux.js.org/",
+                        },
+                        "tool4": {
+                                "Badge": <DiReact />,
+                                "Text": "React JS",
+                                "Link": "https://pt-br.reactjs.org/",
+
+                        },
+                        "tool5": {
+
                         },
                         "tool6": {
                                 "Badge": <DiGithubBadge />,
