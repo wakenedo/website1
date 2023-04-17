@@ -23,9 +23,15 @@ import Marketplace2 from '../Assets/CgtMarketplace/Marketplace2.PNG'
 import Marketplace3 from '../Assets/CgtMarketplace/Marketplace3.PNG'
 import Marketplace4 from '../Assets/CgtMarketplace/Marketplace4.PNG'
 
+//Project 4 Assets
+import sadAlien1 from '../Assets/sadAlien/sadAlien1.PNG'
+import sadAlien2 from '../Assets/sadAlien/sadAlien2.PNG'
+import sadAlien3 from '../Assets/sadAlien/sadAlien3.PNG'
+import sadAlien4 from '../Assets/sadAlien/sadAlien4.PNG'
+
 // Project Technologies icons
 import { DiGithubBadge, DiReact } from 'react-icons/di'
-import { SiStyledcomponents, SiJavascript, SiTypescript, SiVite, SiMaterialui, SiRedux } from 'react-icons/si'
+import { SiStyledcomponents, SiJavascript, SiTypescript, SiVite, SiMaterialui, SiRedux, SiTailwindcss, SiNextdotjs } from 'react-icons/si'
 
 const projects = [
         {
@@ -261,6 +267,88 @@ const projects = [
                                 "Badge": <DiReact />,
                                 "Text": "React JS",
                                 "Link": "https://pt-br.reactjs.org/",
+
+                        },
+                        "tool5": {
+
+                        },
+                        "tool6": {
+                                "Badge": <DiGithubBadge />,
+                                "Text": "GitHub",
+                                "Link": "https://github.com/",
+                        }
+
+                },
+        },
+        {
+                "Id": "4",
+                "Image": sadAlien1,
+                "Images": {
+                        "img1": {
+                                "original": sadAlien1,
+                                "thumbnail": sadAlien1,
+                        },
+                        "img2": {
+                                "original": sadAlien2,
+                                "thumbnail": sadAlien2
+                        },
+                        "img3": {
+                                "original": sadAlien3,
+                                "thumbnail": sadAlien3
+                        },
+                        "img4": {
+                                "original": sadAlien4,
+                                "thumbnail": sadAlien4
+                        },
+                        "img5": {
+                                "original": React,
+                                "thumbnail": React
+                        },
+                },
+                "Name": "NextJS & SanityIO | sadAlien",
+                "Icon": <SiMaterialui />,
+                "Date": "02/2023 to 04/2023",
+                "shortDescription": "This project is in it's pre-alpha built, it's a free template with authoritative native content.",
+                "Description": "sadAlien is a solution for a quick jump start of a web application, it's integrated with NextJs and SanityIO CMS, and using TailwindCSS. There is two structures, Clear and Full.",
+                "projectTech": {
+                        "tech1": "Design | Figma",
+                        "tech2": "CMS | SanityIO",
+                        "tech3": "Scope | NextJs - React.js - Frontend "
+                },
+                "projectTools": {
+                        "tool1": " TailwindCSS - Styling",
+                        "tool2": " NextJs - ",
+                        "tool3": " SanityIO - CMS ",
+                        "tool4": null,
+                        "tool5": " GitHub - Versioning",
+
+                },
+
+                "projectLearn": "I've learned, from NextJs project structure to GraphQl while writing and learning about Sanity queries, also this project was created to explore sanity functionalities and generally im still learning as im pushing new updates to the",
+                "projectDayToDay": "My day to day for this project, was like a sprint since its short spam of time, with MaterialUI the process of translating the prototype to a fully working and responsive web application is comfortable. The componentization powers of ReactJS aligned with a powerful tool such as MaterialUI works together almost perfectly, even though you have your files much longer, you get used quickly to how to navigate through it. I started with the view, defined roughly all components and visual interface and then went to implement the logic, after the logic was implemented I took my time implementing updates to components and the responsiveness.",
+                "projectMyRole": "My role in this project was deciding the technologies required, the UI and UX. Since this project was developed only by me I was in charge of everything from the scratch, from prototyping to developing each page and component, setting up a scalable folder structure pattern and style pattern. For the dynamic data we're using SanityIo CMS. So I had total freedom to decide methods and patterns, which I choose the best as I could based on the principles of readability, maintainability and scalability and good code practices. ",
+                "projectRepo": "https://github.com/wakenedo/sadAlienBlog_Projects",
+                "projectDeploy": "https://sad-alien.vercel.app/",
+                "Technologies": {
+                        "tool1": {
+                                "Badge": <SiJavascript />,
+                                "Text": "JavaScript",
+                                "Link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript",
+                        },
+                        "tool2": {
+                                "Badge": <SiTailwindcss />,
+                                "Text": "TailwindCSS",
+                                "Link": "https://tailwindui.com/"
+                        },
+                        "tool3": {
+                                "Badge": <DiReact />,
+                                "Text": "React JS",
+                                "Link": "https://pt-br.reactjs.org/",
+                        },
+                        "tool4": {
+                                "Badge": <SiNextdotjs />,
+                                "Text": "Next JS",
+                                "Link": "https://nextjs.org/",
 
                         },
                         "tool5": {

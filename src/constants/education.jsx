@@ -61,7 +61,7 @@ const education = [
                 "gitHref": null,
                 "gitHub": null,
             },
-        }, 
+        },
     },
     {
         "Id": "3",
@@ -155,6 +155,38 @@ const education = [
                 "gitName": "wakenedo/dtmoney",
                 "gitHref": "https://github.com/wakenedo/dtmoney",
                 "gitHub": <GitHubIcon />
+            },
+        },
+    },
+    {
+        "Id": "6",
+        "name": "FATEC Cotia | Desenvolvimento Software Multiplataforma",
+        "date": "02/2023 to date",
+        "learned": {
+            "id1": "HTML",
+            "id2": "JavaScript",
+            "id3": "CSS",
+            "id4": "Python, Java",
+            "id5": "WinServer, SQL, Apache",
+            "id6": "Software Design & Engineer",
+            "id7": "Algorithm & Logic",
+        },
+        "urls": {
+            "git1": {
+                "gitName": "wakenedo/Desenvolvimento-web-main",
+                "gitHref": "https://github.com/wakenedo/Desenvolvimento-web-main",
+                "gitHub": <GitHubIcon />
+
+            },
+            "git2": {
+                "gitName": null,
+                "gitHref": null,
+                "gitHub": null
+            },
+            "git3": {
+                "gitName": null,
+                "gitHref": null,
+                "gitHub": null
             },
         },
     },
